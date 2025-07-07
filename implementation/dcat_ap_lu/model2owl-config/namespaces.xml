@@ -35,7 +35,8 @@
     <prefix name="dul" value="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"/>
     <prefix name="person" value="http://www.w3.org/ns/person#" importURI="http://www.w3.org/ns/person"/>
     <prefix name="at-voc-new" value="http://publications.europa.eu/resource/authority/new/" />
+    <prefix name="eli" value="http://data.europa.eu/eli/ontology#" />
     <prefix name="adms" value="http://www.w3.org/ns/adms#" importURI="http://www.w3.org/ns/adms"/>
-<!--    <prefix name="bibo" value="http://purl.org/ontology/bibo/" importURI="http://purl.org/ontology/bibo/"/>-->
-<!--    <prefix name="vann" value="	http://purl.org/vocab/vann/" importURI="http://purl.org/vocab/vann/"/>-->
+    <prefix name="bibo" value="http://purl.org/ontology/bibo/" importURI="http://purl.org/ontology/bibo/"/>
+    <prefix name="vann" value="	http://purl.org/vocab/vann/" importURI="http://purl.org/vocab/vann/"/>
 </prefixes>
