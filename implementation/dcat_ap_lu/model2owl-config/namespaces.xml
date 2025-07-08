@@ -42,5 +42,13 @@
     <prefix name="eli" value="http://data.europa.eu/eli/ontology#" />
     <prefix name="adms" value="http://www.w3.org/ns/adms#" importURI="http://www.w3.org/ns/adms"/>
     <prefix name="bibo" value="http://purl.org/ontology/bibo/" importURI="http://purl.org/ontology/bibo/"/>
+    <prefix name="dcat" value="http://www.w3.org/ns/dcat#" importURI="http://www.w3.org/ns/dcat"/>
+    <prefix name="odrl" value="http://www.w3.org/ns/odrl/2/" importURI="http://www.w3.org/ns/odrl/2/"/>
+    <prefix name="dcatap" value="http://data.europa.eu/r5r/" importURI="http://data.europa.eu/r5r/"/>
+    <prefix name="prov" value="http://www.w3.org/ns/prov#" importURI="http://www.w3.org/ns/prov#"/>
+    <prefix name="spdx" value="http://spdx.org/rdf/terms#" importURI="http://spdx.org/rdf/terms#"/>
+    <prefix name="dctype" value="http://purl.org/dc/dcmitype/" importURI="http://purl.org/dc/dcmitype/"/>
+    <prefix name="dpv" value="https://w3id.org/dpv" importURI="https://w3id.org/dpv#"/>
+
 <!--    <prefix name="vann" value="	http://purl.org/vocab/vann/" importURI="http://purl.org/vocab/vann/"/>-->
 </prefixes>

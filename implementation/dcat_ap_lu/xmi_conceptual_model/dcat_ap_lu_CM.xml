@@ -1605,14 +1605,6 @@
 				</ownedAttribute>
 			</packagedElement>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0" name="spdx:Checksum">
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_A212F170_19B1_452c_B99D_995C7526BE4B" name="spdx:algorithm" visibility="private">
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000319_19B1_452c_B99D_995C7526BE4B" value="1"/>
-					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000320_19B1_452c_B99D_995C7526BE4B" value="1"/>
-				</ownedAttribute>
-				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_B0E52B89_84C3_4d1f_AF61_9B15F54B4C93" name="spdx:checksumValue" visibility="private">
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000321_84C3_4d1f_AF61_9B15F54B4C93" value="1"/>
-					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000322_84C3_4d1f_AF61_9B15F54B4C93" value="1"/>
-				</ownedAttribute>
 				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dstEEC5B0_31B1_4f4c_B33C_1324DD00F5C9" association="EAID_06EEC5B0_31B1_4f4c_B33C_1324DD00F5C9">
 					<type xmi:idref="EAID_17970E26_7349_4dbd_AD06_447580A3BE3D"/>
 				</ownedAttribute>
@@ -3585,7 +3577,7 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_92AD94DD_C812_4de0_AD1F_DDA8188C8B98" modelElement="EAID_EDCE4188_25DE_4254_AD1F_DDA8188C8B98">
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_C812_4de0_AD1F_DDA8188C8B98" text="odrl:Policy"/>
-				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_C812_4de0_AD1F_DDA8188C8B98" x="2357" y="585" width="93" height="76"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_C812_4de0_AD1F_DDA8188C8B98" x="2365" y="580" width="93" height="76"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_92AD94DD_C812_4de0_9D3D_EF3EFF5EA613" modelElement="EAID_33B34066_9F72_4c3b_9D3D_EF3EFF5EA613">
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_C812_4de0_9D3D_EF3EFF5EA613" text="prov:Activity"/>
@@ -3647,12 +3639,12 @@
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_92AD94DD_C812_4de0_B267_CE382B4B1EB0" modelElement="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_B267_CE382B4B1EB0" text="optional"/>
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_C812_4de0_B267_CE382B4B1EB0" text="spdx:Checksum"/>
-				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_C812_4de0_B267_CE382B4B1EB0" x="2378" y="702" width="106" height="87"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_C812_4de0_B267_CE382B4B1EB0" x="2366" y="696" width="92" height="81"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_92AD94DD_C812_4de0_B4E4_690472DF6E18" modelElement="EAID_12898C99_0858_457b_B4E4_690472DF6E18">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_B4E4_690472DF6E18" text="optional"/>
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_C812_4de0_B4E4_690472DF6E18" text="dct:MediaType"/>
-				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_C812_4de0_B4E4_690472DF6E18" x="2357" y="811" width="115" height="60"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_C812_4de0_B4E4_690472DF6E18" x="2356" y="806" width="115" height="60"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_92AD94DD_C812_4de0_896D_1FADB3BD18A4" modelElement="EAID_D60766FA_AEB6_46f9_896D_1FADB3BD18A4">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_896D_1FADB3BD18A4" text="recommended"/>
@@ -3748,18 +3740,18 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_B685_8A988B3CEC5D" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_12898C99_0858_457b_B4E4_690472DF6E18" modelElement="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_B685_8A988B3CEC5D" text="optional">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_B685_8A988B3CEC5D" x="2271" y="1100" width="43" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_B685_8A988B3CEC5D" x="2297" y="1100" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_B685_8A988B3CEC5D" text="+dcat:mediaType" modelElement="EAID_dst0A70FB_E433_45d8_B685_8A988B3CEC5D">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_B685_8A988B3CEC5D" x="2319" y="879" width="71" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_B685_8A988B3CEC5D" x="2391" y="905" width="71" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_B685_8A988B3CEC5D" text="0..1" modelElement="EAID_dst0A70FB_E433_45d8_B685_8A988B3CEC5D">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_B685_8A988B3CEC5D" x="2403" y="876" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_B685_8A988B3CEC5D" x="2455" y="871" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_B685_8A988B3CEC5D" x="2231" y="966"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_B685_8A988B3CEC5D" x="2231" y="1089"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_B685_8A988B3CEC5D" x="2391" y="1089"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_C812_4de0_B685_8A988B3CEC5D" x="2391" y="871"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_B685_8A988B3CEC5D" x="2443" y="1089"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_C812_4de0_B685_8A988B3CEC5D" x="2443" y="866"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_BFBE_F9EE7D494D48" source="EAID_4BAD0A56_89A2_40fe_8A22_FD9F4A8E5244" target="EAID_099EA70F_67E1_4815_912E_14E694FC443E" modelElement="EAID_1FAA03D8_7B97_48f9_BFBE_F9EE7D494D48">
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_C812_4de0_BFBE_F9EE7D494D48" text="dcat:landingPage">
@@ -4073,24 +4065,24 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_BBA3_528F0C031210" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_EDCE4188_25DE_4254_AD1F_DDA8188C8B98" modelElement="EAID_338F4C46_88B3_4093_BBA3_528F0C031210">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_BBA3_528F0C031210" text="+odrl:hasPolicy" modelElement="EAID_dst8F4C46_88B3_4093_BBA3_528F0C031210">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_BBA3_528F0C031210" x="2267" y="619" width="61" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_BBA3_528F0C031210" x="2275" y="614" width="61" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_BBA3_528F0C031210" text="0..1" modelElement="EAID_dst8F4C46_88B3_4093_BBA3_528F0C031210">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_BBA3_528F0C031210" x="2338" y="638" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_BBA3_528F0C031210" x="2346" y="633" width="17" height="14"/>
 				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_BBA3_528F0C031210" x="2231" y="633"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_BBA3_528F0C031210" x="2357" y="633"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_BBA3_528F0C031210" x="2231" y="628"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_BBA3_528F0C031210" x="2365" y="628"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_B8AE_4B8A2B14F70F" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_12898C99_0858_457b_B4E4_690472DF6E18" modelElement="EAID_F8A87022_98E2_4e47_B8AE_4B8A2B14F70F">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_B8AE_4B8A2B14F70F" text="+dcat:compressFormat" modelElement="EAID_dstA87022_98E2_4e47_B8AE_4B8A2B14F70F">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_B8AE_4B8A2B14F70F" x="2246" y="878" width="93" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_B8AE_4B8A2B14F70F" x="2302" y="893" width="93" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_B8AE_4B8A2B14F70F" text="0..1" modelElement="EAID_dstA87022_98E2_4e47_B8AE_4B8A2B14F70F">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_B8AE_4B8A2B14F70F" x="2371" y="876" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_B8AE_4B8A2B14F70F" x="2370" y="871" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_B8AE_4B8A2B14F70F" x="2231" y="961"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_B8AE_4B8A2B14F70F" x="2359" y="961"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_B8AE_4B8A2B14F70F" x="2359" y="871"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_B8AE_4B8A2B14F70F" x="2358" y="961"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_B8AE_4B8A2B14F70F" x="2358" y="866"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A68B_981A4D7A97A9" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_41268AD9_BF73_4c6c_BD5C_C1CA089F6CE4" modelElement="EAID_A3AEB985_983F_478b_A68B_981A4D7A97A9">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A68B_981A4D7A97A9" text="+dcatap:applicablelegislation" modelElement="EAID_dstAEB985_983F_478b_A68B_981A4D7A97A9">
@@ -4125,16 +4117,16 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_AFC3_BCC3D4A255E1" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0" modelElement="EAID_64A4543E_B011_4288_AFC3_BCC3D4A255E1">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_AFC3_BCC3D4A255E1" text="optional">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_AFC3_BCC3D4A255E1" x="2277" y="752" width="43" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_AFC3_BCC3D4A255E1" x="2271" y="744" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_AFC3_BCC3D4A255E1" text="+spdx:checksum" modelElement="EAID_dstA4543E_B011_4288_AFC3_BCC3D4A255E1">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_AFC3_BCC3D4A255E1" x="2303" y="725" width="67" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_AFC3_BCC3D4A255E1" x="2291" y="717" width="67" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_AFC3_BCC3D4A255E1" text="0..1" modelElement="EAID_dstA4543E_B011_4288_AFC3_BCC3D4A255E1">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_AFC3_BCC3D4A255E1" x="2359" y="754" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_AFC3_BCC3D4A255E1" x="2347" y="746" width="17" height="14"/>
 				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_AFC3_BCC3D4A255E1" x="2231" y="749"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_AFC3_BCC3D4A255E1" x="2378" y="749"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_AFC3_BCC3D4A255E1" x="2231" y="741"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_AFC3_BCC3D4A255E1" x="2366" y="741"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A3F9_D6B12EE7E7F8" source="EAID_40327841_E4D5_4dbd_8E35_E96CA161E597" target="EAID_6E8C6E5E_633B_4e5a_AE1F_30E8719AC6FE" modelElement="EAID_E7CA8E6D_CF4B_46cb_A3F9_D6B12EE7E7F8">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A3F9_D6B12EE7E7F8" text="+dct:temporal" modelElement="EAID_dstCA8E6D_CF4B_46cb_A3F9_D6B12EE7E7F8">
@@ -4217,16 +4209,16 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A3E6_FC32072143B8" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_12898C99_0858_457b_B4E4_690472DF6E18" modelElement="EAID_2479E901_0E23_4e8d_A3E6_FC32072143B8">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_A3E6_FC32072143B8" text="optional">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A3E6_FC32072143B8" x="2273" y="847" width="43" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A3E6_FC32072143B8" x="2272" y="843" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A3E6_FC32072143B8" text="+dcat:packageFormat" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A3E6_FC32072143B8" x="2251" y="832" width="89" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A3E6_FC32072143B8" x="2250" y="828" width="89" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_A3E6_FC32072143B8" text="1" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A3E6_FC32072143B8" x="2349" y="849" width="6" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A3E6_FC32072143B8" x="2348" y="845" width="6" height="14"/>
 				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A3E6_FC32072143B8" x="2231" y="844"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A3E6_FC32072143B8" x="2357" y="844"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A3E6_FC32072143B8" x="2231" y="840"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A3E6_FC32072143B8" x="2356" y="840"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A292_BAE7331004C1" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_D60766FA_AEB6_46f9_896D_1FADB3BD18A4" modelElement="EAID_4DE2801C_646F_45d5_A292_BAE7331004C1">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_A292_BAE7331004C1" text="optional">
@@ -6730,38 +6722,6 @@
 				<tags/>
 				<xrefs value="$XREFPROP=$XID={D8E032A0-28BF-4353-BE6F-5F7635878165}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={5EE2FF00-48F4-45dd-BAE6-B4BB065F46DD};FQName=SysML1.1::optional;@ENDSTEREO;$DES;$CLT={4C2B4A8C-4764-41ff-B267-CE382B4B1EB0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Domain Model"/>
-				<attributes>
-					<attribute xmi:idref="EAID_A212F170_19B1_452c_B99D_995C7526BE4B" name="spdx:algorithm" scope="Private">
-						<initial/>
-						<documentation/>
-						<model ea_localid="60" ea_guid="{A212F170-19B1-452c-B99D-995C7526BE4B}"/>
-						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
-						<coords ordered="0"/>
-						<containment containment="Not Specified" position="1"/>
-						<stereotype stereotype="mandatory"/>
-						<bounds lower="1" upper="1"/>
-						<options/>
-						<style/>
-						<styleex value="volatile=0;"/>
-						<tags/>
-						<xrefs value="$XREFPROP=$XID={20244DEE-6BBA-413b-B6AC-8EB66A49EC3A}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mandatory;GUID={0FA4270B-EC11-4c32-B6D4-5E6FEAC3D7AA};@ENDSTEREO;$DES;$CLT={A212F170-19B1-452c-B99D-995C7526BE4B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-					</attribute>
-					<attribute xmi:idref="EAID_B0E52B89_84C3_4d1f_AF61_9B15F54B4C93" name="spdx:checksumValue" scope="Private">
-						<initial/>
-						<documentation/>
-						<model ea_localid="59" ea_guid="{B0E52B89-84C3-4d1f-AF61-9B15F54B4C93}"/>
-						<properties collection="false" static="0" duplicates="0" changeability="changeable"/>
-						<coords ordered="0"/>
-						<containment containment="Not Specified" position="0"/>
-						<stereotype stereotype="mandatory"/>
-						<bounds lower="1" upper="1"/>
-						<options/>
-						<style/>
-						<styleex value="volatile=0;"/>
-						<tags/>
-						<xrefs value="$XREFPROP=$XID={BC12B1D5-F942-4742-9A66-35085524FEBD}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mandatory;GUID={0FA4270B-EC11-4c32-B6D4-5E6FEAC3D7AA};@ENDSTEREO;$DES;$CLT={B0E52B89-84C3-4d1f-AF61-9B15F54B4C93}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-					</attribute>
-				</attributes>
 				<links>
 					<Association xmi:id="EAID_06EEC5B0_31B1_4f4c_B33C_1324DD00F5C9" start="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0" end="EAID_17970E26_7349_4dbd_AD06_447580A3BE3D"/>
 					<Association xmi:id="EAID_64A4543E_B011_4288_AFC3_BCC3D4A255E1" start="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" end="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0"/>
@@ -10824,16 +10784,16 @@
 			<diagram xmi:id="EAID_92AD94DD_C812_4de0_B5C4_E96A2540D545">
 				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" localID="8" owner="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1"/>
 				<properties name="DCAT-AP-LU" type="Logical" documentation="Usage: DCAT-AP-LU recommends the use of DatasetSeries, with additional guidance provided."/>
-				<project author="janaa" version="1.0" created="2025-06-24 09:56:08" modified="2025-07-08 13:33:16"/>
+				<project author="janaa" version="1.0" created="2025-06-24 09:56:08" modified="2025-07-08 16:09:09"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=3;PPgs.cy=2;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=46ABF786;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=D360A28F;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
 				<elements>
 					<element geometry="Left=1762;Top=190;Right=1933;Bottom=283;" subject="EAID_D60766FA_AEB6_46f9_896D_1FADB3BD18A4" seqno="1" style="NSL=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LCol=-1;BCol=-1;BFol=-1;fontsz=0;DUID=348C0FF8;"/>
-					<element geometry="Left=2357;Top=811;Right=2472;Bottom=871;" subject="EAID_12898C99_0858_457b_B4E4_690472DF6E18" seqno="2" style="BCol=16777215;DUID=0D33DB15;NSL=0;"/>
-					<element geometry="Left=2378;Top=702;Right=2484;Bottom=789;" subject="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0" seqno="3" style="BCol=16777215;DUID=12174E91;NSL=0;"/>
+					<element geometry="Left=2356;Top=806;Right=2471;Bottom=866;" subject="EAID_12898C99_0858_457b_B4E4_690472DF6E18" seqno="2" style="BCol=16777215;DUID=0D33DB15;NSL=0;"/>
+					<element geometry="Left=2366;Top=696;Right=2458;Bottom=777;" subject="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0" seqno="3" style="BCol=16777215;DUID=12174E91;NSL=0;"/>
 					<element geometry="Left=1042;Top=423;Right=1194;Bottom=499;" subject="EAID_0AF7745E_596D_4c48_AE1F_C611231C587B" seqno="4" style="BCol=16777215;DUID=F71F1C1A;NSL=0;"/>
 					<element geometry="Left=1038;Top=528;Right=1146;Bottom=614;" subject="EAID_4B8C2DD2_4456_4f83_82DB_8EFF65AB9725" seqno="5" style="BCol=16777215;DUID=D395D104;NSL=0;"/>
 					<element geometry="Left=1737;Top=896;Right=1827;Bottom=966;" subject="EAID_2F29B82D_2CDA_4aa1_96CA_5179648AE9AC" seqno="6" style="BCol=16777215;DUID=C8D8C5CE;NSL=0;"/>
@@ -10846,7 +10806,7 @@
 					<element geometry="Left=872;Top=643;Right=962;Bottom=713;" subject="EAID_A9FC867E_F61A_4c47_98E0_A4390304001D" seqno="13" style="DUID=656917E6;"/>
 					<element geometry="Left=2107;Top=1039;Right=2203;Bottom=1117;" subject="EAID_997E23F2_B3A1_40c6_9CED_216EA28700E2" seqno="14" style="DUID=05BBD888;"/>
 					<element geometry="Left=1801;Top=1025;Right=1900;Bottom=1075;" subject="EAID_33B34066_9F72_4c3b_9D3D_EF3EFF5EA613" seqno="15" style="DUID=0AD47FDC;"/>
-					<element geometry="Left=2357;Top=585;Right=2450;Bottom=661;" subject="EAID_EDCE4188_25DE_4254_AD1F_DDA8188C8B98" seqno="16" style="DUID=1184DA36;"/>
+					<element geometry="Left=2365;Top=580;Right=2458;Bottom=656;" subject="EAID_EDCE4188_25DE_4254_AD1F_DDA8188C8B98" seqno="16" style="DUID=1184DA36;"/>
 					<element geometry="Left=1948;Top=1177;Right=2047;Bottom=1227;" subject="EAID_41268AD9_BF73_4c6c_BD5C_C1CA089F6CE4" seqno="17" style="DUID=8FFAF548;"/>
 					<element geometry="Left=1472;Top=346;Right=1571;Bottom=396;" subject="EAID_12E34CDF_0F68_439f_A539_EE079BB32F0B" seqno="18" style="DUID=847B0D34;"/>
 					<element geometry="Left=1036;Top=708;Right=1141;Bottom=757;" subject="EAID_212CCFF0_393B_4819_9A86_FCD24A0C295F" seqno="19" style="DUID=C6767081;"/>
@@ -10864,7 +10824,7 @@
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=1144;SCTR.TOP=-809;SCTR.RIGHT=1290;SCTR.BOTTOM=-780;$LLB=;LLT=;LMT=CX=43:CY=14:OX=23:OY=-23:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=85:CY=14:OX=0:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1289:-780$1144:-780$1144:-809$1289:-809$;" subject="EAID_456D0A6B_0836_4fca_8350_3A0DA9FDF578" style="Mode=3;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=1149;SCTR.TOP=-878;SCTR.RIGHT=1327;SCTR.BOTTOM=-850;$LLB=;LLT=;LMT=CX=43:CY=14:OX=35:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=83:CY=14:OX=-7:OY=6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1289:-850$1149:-850$1149:-878$1289:-878$;" subject="EAID_08968CE7_DEC0_4fb5_A4A8_D083A10A4EC1" style="Mode=3;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=-38;SY=0;EX=0;EY=2;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=-20:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=39:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=11:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2079:-234$;" subject="EAID_2ECBDFF6_1A48_40d9_A342_7D7155F9479B" style="Mode=3;EOID=348C0FF8;SOID=DC200438;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=156;SY=0;EX=-23;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-19:OY=8:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=71:CY=14:OX=6:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2231:-1089$2391:-1089$;" subject="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
+					<element geometry="SX=156;SY=0;EX=30;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-19:OY=8:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=71:CY=14:OX=26:OY=34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2231:-1089$2443:-1089$;" subject="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
 					<element geometry="SX=56;SY=170;EX=45;EY=35;EDGE=2;$LLB=;LLT=;LMT=CX=70:CY=14:OX=4:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_1FAA03D8_7B97_48f9_BFBE_F9EE7D494D48" style="Mode=3;EOID=7B6A559B;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=8;SY=-186;EX=8;EY=50;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=13:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=7:OY=-7:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A8051298_BB13_4ffb_A8FA_1AD8C0F53A3B" style="Mode=3;EOID=798054EF;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=24;SY=0;EX=16;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-1:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=90:CY=14:OX=60:OY=-34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_E790B201_35E0_486c_A713_69FE4B6F159F" style="Mode=3;EOID=1BDBAD4F;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
@@ -10891,7 +10851,7 @@
 					<element geometry="SX=59;SY=0;EX=0;EY=26;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=48:CY=14:OX=7:OY=-20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B31A10BE_2B3B_4299_9157_7AF4A917372F" style="Mode=3;EOID=05BBD888;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=15;SY=-232;EX=-9;EY=11;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=95:CY=14:OX=-8:OY=32:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_7E5CBF10_24F4_4f67_B8D9_E398AEFE5C1F" style="Mode=3;EOID=0AD47FDC;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=122;EX=0;EY=-10;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=61:CY=14:OX=-27:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_338F4C46_88B3_4093_BBA3_528F0C031210" style="Mode=3;EOID=1184DA36;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=0;SY=-206;EX=-55;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=93:CY=14:OX=-13:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=2359:-961$;" subject="EAID_F8A87022_98E2_4e47_B8AE_4B8A2B14F70F" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=0;SY=-206;EX=-55;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=93:CY=14:OX=44:OY=22:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=2358:-961$;" subject="EAID_F8A87022_98E2_4e47_B8AE_4B8A2B14F70F" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-37;SY=17;EX=49;EY=17;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=116:CY=14:OX=63:OY=-23:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A3AEB985_983F_478b_A68B_981A4D7A97A9" style="Mode=3;EOID=8FFAF548;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-171;EX=-49;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=116:CY=14:OX=39:OY=-20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1948:-983$;" subject="EAID_EE000E49_EA61_40a2_A93A_9919A90171C9" style="Mode=3;EOID=8FFAF548;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=152;SY=5;EX=4;EY=5;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=CX=57:CY=14:OX=35:OY=16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_1DA111B4_52B3_4199_9AFA_B520C4A57DFD" style="Mode=3;EOID=847B0D34;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
@@ -11140,8 +11100,6 @@
 	<thecustomprofile:recommended base_Class="EAID_88F4A7DD_24DF_4ec6_BC0C_FE357A727633"/>
 	<thecustomprofile:mandatory base_Property="EAID_B499AE6F_A69E_43c1_9B66_CE77577B9EA6"/>
 	<thecustomprofile:SysML1.1__optional base_Class="EAID_4C2B4A8C_4764_41ff_B267_CE382B4B1EB0" __EAStereoName="SysML1.1::optional"/>
-	<thecustomprofile:mandatory base_Property="EAID_A212F170_19B1_452c_B99D_995C7526BE4B"/>
-	<thecustomprofile:mandatory base_Property="EAID_B0E52B89_84C3_4d1f_AF61_9B15F54B4C93"/>
 	<thecustomprofile:mandatory base_Association="EAID_06EEC5B0_31B1_4f4c_B33C_1324DD00F5C9"/>
 	<thecustomprofile:SysML1.1__optional base_Class="EAID_652931BB_29A1_4824_A5C5_8068F0DF7A71" __EAStereoName="SysML1.1::optional"/>
 	<thecustomprofile:SysML1.1__optional base_Class="EAID_96AC4CBE_B0F2_4a5d_987F_1CC446ED5D02" __EAStereoName="SysML1.1::optional"/>
