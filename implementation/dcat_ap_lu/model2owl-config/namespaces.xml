@@ -48,7 +48,9 @@
     <prefix name="prov" value="http://www.w3.org/ns/prov#" importURI="http://www.w3.org/ns/prov#"/>
     <prefix name="spdx" value="http://spdx.org/rdf/terms#" importURI="http://spdx.org/rdf/terms#"/>
     <prefix name="dctype" value="http://purl.org/dc/dcmitype/" importURI="http://purl.org/dc/dcmitype/"/>
-    <prefix name="dpv" value="https://w3id.org/dpv" importURI="https://w3id.org/dpv#"/>
+    <prefix name="dpv" value="https://w3id.org/dpv#" importURI="https://w3id.org/dpv"/>
+    <prefix name="vcard" value="http://www.w3.org/2006/vcard/ns#" importURI="http://www.w3.org/2006/vcard/ns"/>
+
 
 <!--    <prefix name="vann" value="	http://purl.org/vocab/vann/" importURI="http://purl.org/vocab/vann/"/>-->
 </prefixes>
