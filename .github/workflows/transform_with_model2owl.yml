@@ -122,7 +122,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
   respec:
-    needs: report_and_glossary
+    needs: transform
     runs-on: ubuntu-latest
     env:
       OUTPUT_GLOSSARY_PATH: glossary/
@@ -205,7 +205,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
   transform:
-    needs: respec
+    needs: report_and_glossary
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
