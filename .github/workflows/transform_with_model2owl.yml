@@ -205,7 +205,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
   transform:
-    needs: report_and_glossary
+    needs: respec
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
