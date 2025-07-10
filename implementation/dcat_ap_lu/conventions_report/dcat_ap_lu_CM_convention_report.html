@@ -19,7 +19,7 @@
    <body>
       <header class="counter-skip">
          <h1 class="title">UML Conventions Comformance Report</h1>
-         <h2>[ 09/07/2025 ]</h2>
+         <h2>[ 10/07/2025 ]</h2>
          <div class="authors col-span">
             <div class="author">
                <div>Publications Office of the European Union</div>
@@ -56,7 +56,7 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>dcat_ap_lu_CM.xml</em> 
-               was tested at 15:35 on July 9, 2025.</p>
+               was tested at 07:41 on July 10, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
@@ -172,7 +172,6 @@
                      <li>dcat:Distribution (rdfs:Literal) [0..*]</li>
                      <li>skos:ConceptScheme () [1..*]</li></em></ul>
             </li>
-            <li><a href="#attribute-foaf:documentation">foaf:documentation</a></li>
             <li><a href="#attribute-foaf:homepage">foaf:homepage</a></li>
             <li><a href="#attribute-foaf:name">foaf:name</a></li>
             <li><a href="#attribute-owl:versionInfo">owl:versionInfo</a></li>
@@ -220,8 +219,10 @@
             </li>
             <li>dcatap:availability</li>
             <li>dct:accessRights</li>
-            <li>dct:accrualPeriodicity</li>
-            <li> dct:accrualPeriodicity</li>
+            <li><a href="#connector-dct:accrualPeriodicity">dct:accrualPeriodicity (2)</a><ul><em>
+                     <li>dcat:Dataset -&gt; dct:Frequency [0..1]</li>
+                     <li>dcat:DatasetSeries -&gt; dct:Frequency [0..1]</li></em></ul>
+            </li>
             <li><a href="#connector-dct:conformsTo">dct:conformsTo (3)</a><ul><em>
                      <li>dcat:Dataset -&gt; dct:Standard [0..*]</li>
                      <li>dcat:Distribution -&gt; dct:Standard [0..*]</li></em></ul>
@@ -683,13 +684,6 @@
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The mandatory stareotype is applied to dct:title. Stereotypes are discouraged in the
                   current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to dct:titleis not known and will be ignored. </dd>
-            </dl>
-            <dl id="attribute-foaf:documentation">
-               <dt>foaf:documentation</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>foaf:documentation is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type foaf:Document type is invalid. Attributes must use types that are
-                  either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
             </dl>
          </section>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dcat:Dataset">dcat:Dataset</h2>
@@ -1712,15 +1706,9 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
          </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:DatasetSeries -&gt; dct:Frequency (+ dct:accrualPeriodicity)</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:DatasetSeries -&gt; dct:Frequency (+dct:accrualPeriodicity)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  dct:accrualPeriodicity does not match the pattern. The name
-               should respect the syntax prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  dct:accrualPeriodicity , is invalid. Please provide a short
-               prefix name containing only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  dct:accrualPeriodicity is not defined. A prefix must be associated
-               to a namespace URI.</dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
          </dl>
@@ -2520,6 +2508,18 @@
                   (dcat:Distribution -&gt; eli:LegalResource (+dcatap:applicablelegislation)) </li>
             </ul>
          </dd>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:accrualPeriodicity">
+            <dt>dct:accrualPeriodicity</dt>
+         </dl>
+         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
+            is expected to be the same. In this case, multiple definitions are found: 
+            <ul>
+               <li>The frequency at which the Dataset is updated.
+                  
+                  (dcat:Dataset -&gt; dct:Frequency (+dct:accrualPeriodicity)) </li>
+               <li>... (dcat:DatasetSeries -&gt; dct:Frequency (+dct:accrualPeriodicity)) </li>
+            </ul>
+         </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:conformsTo">
             <dt>dct:conformsTo</dt>
          </dl>
@@ -2835,12 +2835,6 @@
             </dd>
          </dl>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="generalConventions">General conventions</h1>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Not all prefixes  are defined. All used namespaces shall be defined (prefix = base
-            URI), including the default one. Here is the list of undefined prefixes
-            <ul>
-               <li> dct</li>
-            </ul>
-         </dd>
       </main>
       <footer class="text-center"><br><br><p> This document is generated automatically by the <a href="https://github.com/costezki/model2owl" target="_blank">model2owl tool</a>
             developed in the context of <a href="https://joinup.ec.europa.eu/solution/eprocurement-ontology">the
