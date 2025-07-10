@@ -56,7 +56,7 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>dcat_ap_lu_CM.xml</em> 
-               was tested at 08:32 on July 10, 2025.</p>
+               was tested at 08:55 on July 10, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
@@ -157,17 +157,13 @@
          <ul xmlns:f="http://https://github.com/costezki/model2owl#">
             <li>adms:identifier</li>
             <li>adms:sample</li>
-            <li><a href="#connector-adms:status">adms:status (2)</a><ul><em>
-                     <li>dcat:Distribution -&gt; skos:Concept [0..1]</li>
-                     <li> -&gt; skos:Concept [0..1]</li></em></ul>
-            </li>
+            <li>adms:status</li>
             <li>dcat:accessService</li>
             <li>dcat:compressFormat</li>
             <li><a href="#connector-dcat:contactPoint">dcat:contactPoint (2)</a><ul><em>
                      <li>dcat:Dataset -&gt; vcard:Kind [0..*]</li>
                      <li>dcat:DatasetSeries -&gt; vcard:Kind [0..*]</li></em></ul>
             </li>
-            <li>dcat:dataset</li>
             <li>dcat:distribution</li>
             <li>dcat:inSeries</li>
             <li>dcat:landingPage</li>
@@ -177,7 +173,6 @@
                      <li>dcat:DataService -&gt; dcat:Dataset [0..*]</li>
                      <li>dcat:DataService -&gt; dcat:Dataset [0..*]</li></em></ul>
             </li>
-            <li>dcat:service</li>
             <li>dcat:theme</li>
             <li><a href="#connector-dcatap:applicablelegislation">dcatap:applicablelegislation (3)</a><ul><em>
                      <li>dcat:Dataset -&gt; eli:LegalResource [0..*]</li>
@@ -194,51 +189,35 @@
                      <li>dcat:Dataset -&gt; dct:Standard [0..*]</li>
                      <li>dcat:Distribution -&gt; dct:Standard [0..*]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:creator">dct:creator (2)</a><ul><em>
-                     <li>dcat:Dataset -&gt; foaf:Agent [0..1]</li>
-                     <li> -&gt; foaf:Agent [0..1]</li></em></ul>
-            </li>
+            <li>dct:creator</li>
             <li>dct:format</li>
-            <li>dct:hadRole</li>
             <li>dct:hasVersion</li>
             <li>dct:isVersionOf</li>
-            <li><a href="#connector-dct:language">dct:language (4)</a><ul><em>
+            <li><a href="#connector-dct:language">dct:language (2)</a><ul><em>
                      <li>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]</li>
-                     <li>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]</li>
-                     <li> -&gt; dct:LinguisticSystem [0..*]</li>
-                     <li> -&gt; dct:LinguisticSystem [0..*]</li></em></ul>
+                     <li>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:license">dct:license (3)</a><ul><em>
+            <li><a href="#connector-dct:license">dct:license (2)</a><ul><em>
                      <li>dcat:DataService -&gt; dct:LicenseDocument [0..1]</li>
-                     <li>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</li>
-                     <li> -&gt; dct:LicenseDocument [0..1]</li></em></ul>
+                     <li>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</li></em></ul>
             </li>
             <li>dct:provenance</li>
-            <li><a href="#connector-dct:publisher">dct:publisher (4)</a><ul><em>
+            <li><a href="#connector-dct:publisher">dct:publisher (3)</a><ul><em>
                      <li>dcat:DataService -&gt; foaf:Agent [0..1]</li>
                      <li>dcat:Dataset -&gt; foaf:Agent [0..1]</li>
-                     <li>dcat:DatasetSeries -&gt; foaf:Agent [0..1]</li>
-                     <li> -&gt; foaf:Agent [1..1]</li></em></ul>
+                     <li>dcat:DatasetSeries -&gt; foaf:Agent [0..1]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:relation">dct:relation (2)</a><ul><em>
-                     <li>dcat:Relationship -&gt; dcat:Dataset []</li>
-                     <li>dcat:Relationship -&gt;  []</li></em></ul>
-            </li>
-            <li><a href="#connector-dct:rights">dct:rights (2)</a><ul><em>
-                     <li>dcat:Distribution -&gt; dct:RightsStatement [0..1]</li>
-                     <li> -&gt; dct:RightsStatement [0..1]</li></em></ul>
-            </li>
+            <li>dct:relation</li>
+            <li>dct:rights</li>
             <li>dct:source</li>
-            <li><a href="#connector-dct:spatial">dct:spatial (4)</a><ul><em>
+            <li><a href="#connector-dct:spatial">dct:spatial (3)</a><ul><em>
                      <li>dcat:DataService -&gt; dct:Location [0..*]</li>
                      <li>dcat:Dataset -&gt; dct:Location [0..*]</li>
-                     <li>dcat:DatasetSeries -&gt; dct:Location [0..*]</li>
-                     <li> -&gt; dct:Location [0..*]</li></em></ul>
+                     <li>dcat:DatasetSeries -&gt; dct:Location [0..*]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:temporal">dct:temporal (4)</a><ul><em>
+            <li><a href="#connector-dct:temporal">dct:temporal (3)</a><ul><em>
                      <li>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]</li>
-                     <li>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]</li>
-                     <li> -&gt; dct:PeriodOfTime [0..*]</li></em></ul>
+                     <li>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]</li></em></ul>
             </li>
             <li><a href="#connector-dct:type">dct:type (3)</a><ul><em>
                      <li>dcat:Dataset -&gt; skos:Concept [0..1]</li>
@@ -246,22 +225,16 @@
                      <li>foaf:Agent -&gt; skos:Concept [0..1]</li></em></ul>
             </li>
             <li>dpv:hasData</li>
-            <li>foaf:homepage</li>
             <li><a href="#connector-foaf:page">foaf:page (2)</a><ul><em>
                      <li>dcat:Dataset -&gt; foaf:Document [0..*]</li>
                      <li>dcat:Distribution -&gt; foaf:Document [0..*]</li></em></ul>
             </li>
-            <li>foaf:primaryTopic</li>
             <li>locn:geometry</li>
             <li>odrl:hasPolicy</li>
             <li>prov:qualifiedAttribution</li>
-            <li><a href="#connector-prov:qualifiedRelation">prov:qualifiedRelation (2)</a><ul><em>
-                     <li>dcat:Dataset -&gt; dcat:Relationship []</li>
-                     <li> -&gt; dcat:Relationship []</li></em></ul>
-            </li>
+            <li>prov:qualifiedRelation</li>
             <li>prov:wasGeneratedBy</li>
             <li>spdx:checksum</li>
-            <li>spdx:checksumValue</li>
          </ul>
          <h1 class="selector-heading" id="classes">Classes</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="adms:Identifier">adms:Identifier</h2>
@@ -1542,17 +1515,6 @@
                <li>... (dcat:Distribution -&gt; dct:Standard (+dct:conformsTo)) </li>
             </ul>
          </dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:creator">
-            <dt>dct:creator</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
-            is expected to be the same. In this case, multiple definitions are found: 
-            <ul>
-               <li>An entity responsible for producing the dataset. (dcat:Dataset -&gt; foaf:Agent (+dct:creator))
-                  </li>
-               <li>... (dcat:Catalog -&gt; foaf:Agent (+dct:creator)) </li>
-            </ul>
-         </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:language">
             <dt>dct:language</dt>
          </dl>
@@ -1563,15 +1525,11 @@
                   (dcat:Dataset -&gt; dct:LinguisticSystem (+dct:language)) </li>
                <li>A language used in the Distribution.
                   (dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language)) </li>
-               <li>... (dcat:CatalogRecord -&gt; dct:LinguisticSystem (+dct:language)) </li>
-               <li>... (dcat:Catalog -&gt; dct:LinguisticSystem (+dct:language)) </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:publisher">
             <dt>dct:publisher</dt>
          </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
@@ -1580,14 +1538,8 @@
                   Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers
                   (dcat:Dataset -&gt; foaf:Agent (+dct:publisher)) </li>
                <li>... (dcat:DatasetSeries -&gt; foaf:Agent (+dct:publisher)) </li>
-               <li>... (dcat:Catalog -&gt; foaf:Agent (+dct:publisher)) </li>
             </ul>
          </dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:relation">
-            <dt>dct:relation</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:spatial">
             <dt>dct:spatial</dt>
          </dl>
@@ -1599,7 +1551,6 @@
                   (+dct:spatial)) </li>
                <li>A geographic region that is covered by the Dataset Series
                   (dcat:DatasetSeries -&gt; dct:Location (+dct:spatial)) </li>
-               <li>... (dcat:Catalog -&gt; dct:Location (+dct:spatial)) </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:temporal">
@@ -1637,20 +1588,6 @@
                   (dcat:Dataset -&gt; foaf:Document (+foaf:page)) </li>
                <li>A page or document about this Distribution.
                   (dcat:Distribution -&gt; foaf:Document (+foaf:page)) </li>
-            </ul>
-         </dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-prov:qualifiedRelation">
-            <dt>prov:qualifiedRelation</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
-            is expected to be the same. In this case, multiple definitions are found: 
-            <ul>
-               <li>A description of a relationship with another resource.
-                  
-                  (dcat:Dataset -&gt; dcat:Relationship (+prov:qualifiedRelation)) </li>
-               <li>... (dcat:Catalog -&gt; dcat:Relationship (+prov:qualifiedRelation)) </li>
             </ul>
          </dd>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="classAttributesUsage">Class attributes with multiple usages</h1>

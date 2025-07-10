@@ -434,8 +434,8 @@
                   </tr>
                   <tr>
                      <td>adms:status</td>
-                     <td> </td>
-                     <td>dcat:Distribution -&gt; skos:Concept [0..1]<br>dcat:CatalogRecord (external) -&gt; skos:Concept [0..1]<br></td>
+                     <td></td>
+                     <td>dcat:Distribution -&gt; skos:Concept [0..1]</td>
                   </tr>
                   <tr>
                      <td>dcat:accessService</td>
@@ -458,11 +458,6 @@
                         
                         </td>
                      <td>dcat:Dataset -&gt; vcard:Kind [0..*]<br>dcat:DatasetSeries -&gt; vcard:Kind [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:dataset</td>
-                     <td></td>
-                     <td>dcat:Catalog (external) -&gt; dcat:Dataset [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:distribution</td>
@@ -503,12 +498,6 @@
                      <td>dcat:servesDataset</td>
                      <td> </td>
                      <td>dcat:DataService -&gt; dcat:Dataset [0..*]<br>dcat:DataService -&gt; dcat:Dataset [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:service</td>
-                     <td>
-                        </td>
-                     <td>dcat:Catalog (external) -&gt; dcat:DataService [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:theme</td>
@@ -560,18 +549,13 @@
                   </tr>
                   <tr>
                      <td>dct:creator</td>
-                     <td>An entity responsible for producing the dataset. </td>
-                     <td>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:Catalog (external) -&gt; foaf:Agent [0..1]<br></td>
+                     <td>An entity responsible for producing the dataset.</td>
+                     <td>dcat:Dataset -&gt; foaf:Agent [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:format</td>
                      <td>The file format of the Distribution.</td>
                      <td>dcat:Distribution -&gt; dct:MediaTypeOrExtent [0..1]</td>
-                  </tr>
-                  <tr>
-                     <td>dct:hadRole</td>
-                     <td></td>
-                     <td>dcat:Relationship -&gt; dcat:Role (external) []</td>
                   </tr>
                   <tr>
                      <td>dct:hasVersion</td>
@@ -587,13 +571,13 @@
                      <td>dct:language</td>
                      <td>A language of the Dataset.
                          A language used in the Distribution.
-                          </td>
-                     <td>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]<br>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]<br>dcat:CatalogRecord (external) -&gt; dct:LinguisticSystem [0..*]<br>dcat:Catalog (external) -&gt; dct:LinguisticSystem [0..*]<br></td>
+                        </td>
+                     <td>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]<br>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:license</td>
-                     <td>  </td>
-                     <td>dcat:DataService -&gt; dct:LicenseDocument [0..1]<br>dcat:Distribution -&gt; dct:LicenseDocument [0..1]<br>dcat:Catalog (external) -&gt; dct:LicenseDocument [0..1]<br></td>
+                     <td> </td>
+                     <td>dcat:DataService -&gt; dct:LicenseDocument [0..1]<br>dcat:Distribution -&gt; dct:LicenseDocument [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:provenance</td>
@@ -605,18 +589,18 @@
                   <tr>
                      <td>dct:publisher</td>
                      <td> An entity (organisation) responsible for making the Dataset available.
-                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers  </td>
-                     <td>dcat:DataService -&gt; foaf:Agent [0..1]<br>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br>dcat:Catalog (external) -&gt; foaf:Agent [1..1]<br></td>
+                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers </td>
+                     <td>dcat:DataService -&gt; foaf:Agent [0..1]<br>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:relation</td>
-                     <td> </td>
-                     <td>dcat:Relationship -&gt; dcat:Dataset []<br>dcat:Relationship -&gt; dcat:Catalog (external) []<br></td>
+                     <td></td>
+                     <td>dcat:Relationship -&gt; dcat:Dataset []</td>
                   </tr>
                   <tr>
                      <td>dct:rights</td>
-                     <td> </td>
-                     <td>dcat:Distribution -&gt; dct:RightsStatement [0..1]<br>dcat:Catalog (external) -&gt; dct:RightsStatement [0..1]<br></td>
+                     <td></td>
+                     <td>dcat:Distribution -&gt; dct:RightsStatement [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:source</td>
@@ -626,13 +610,13 @@
                   <tr>
                      <td>dct:spatial</td>
                      <td> A geographic region that is covered by the Dataset. A geographic region that is covered by the Dataset Series
-                         </td>
-                     <td>dcat:DataService -&gt; dct:Location [0..*]<br>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br>dcat:Catalog (external) -&gt; dct:Location [0..*]<br></td>
+                        </td>
+                     <td>dcat:DataService -&gt; dct:Location [0..*]<br>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:temporal</td>
-                     <td>   </td>
-                     <td>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]<br>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]<br>dcat:Catalog (external) -&gt; dct:PeriodOfTime [0..*]<br></td>
+                     <td>  </td>
+                     <td>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]<br>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:type</td>
@@ -654,22 +638,12 @@
                      <td>dcat:Dataset -&gt; dpv:Data [0..*]</td>
                   </tr>
                   <tr>
-                     <td>foaf:homepage</td>
-                     <td></td>
-                     <td>dcat:Catalog (external) -&gt; foaf:Document [0..1]</td>
-                  </tr>
-                  <tr>
                      <td>foaf:page</td>
                      <td>A page or document about this Dataset.
                         
                          A page or document about this Distribution.
                         </td>
                      <td>dcat:Dataset -&gt; foaf:Document [0..*]<br>dcat:Distribution -&gt; foaf:Document [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>foaf:primaryTopic</td>
-                     <td></td>
-                     <td>dcat:CatalogRecord (external) -&gt; dcat:Resource [1..1]</td>
                   </tr>
                   <tr>
                      <td>locn:geometry</td>
@@ -693,8 +667,8 @@
                      <td>prov:qualifiedRelation</td>
                      <td>A description of a relationship with another resource.
                         
-                         </td>
-                     <td>dcat:Dataset -&gt; dcat:Relationship []<br>dcat:Catalog (external) -&gt; dcat:Relationship []<br></td>
+                        </td>
+                     <td>dcat:Dataset -&gt; dcat:Relationship []</td>
                   </tr>
                   <tr>
                      <td>prov:wasGeneratedBy</td>
@@ -708,10 +682,6 @@
                         changed.
                         </td>
                      <td>dcat:Distribution -&gt; spdx:Checksum [0..1]</td>
-                  </tr>
-                  <tr>
-                     <td>spdx:checksumValue</td>
-                     <td></td>
                   </tr>
                </tbody>
             </table>
