@@ -45,14 +45,6 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <td>dcat:Catalog</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:CatalogRecord</td>
-                     <td></td>
-                  </tr>
-                  <tr>
                      <td>dcat:DataService</td>
                      <td>A collection of operations that provides access to one or more datasets or data processing
                         functions.
@@ -99,9 +91,7 @@
                   </tr>
                   <tr>
                      <td>dct:LinguisticSystem</td>
-                     <td>A system of signs, symbols, sounds, gestures, or rules used in communication, e.g.
-                        a language.
-                        </td>
+                     <td></td>
                   </tr>
                   <tr>
                      <td>dct:Location</td>
@@ -185,15 +175,7 @@
                         </td>
                   </tr>
                   <tr>
-                     <td>rdfs:Resource</td>
-                     <td></td>
-                  </tr>
-                  <tr>
                      <td>skos:Concept</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>skos:ConceptScheme</td>
                      <td></td>
                   </tr>
                   <tr>
@@ -222,12 +204,6 @@
                   </tr>
                </thead>
                <tbody>
-                  <tr>
-                     <td>dcat:CatalogRecord</td>
-                     <td>adms:status</td>
-                     <td></td>
-                     <td>skos:Concept [0..1]</td>
-                  </tr>
                   <tr>
                      <td>dcat:Dataset</td>
                      <td>adms:versionNotes</td>
@@ -327,16 +303,10 @@
                      <td>skos:Concept [0..*]</td>
                   </tr>
                   <tr>
-                     <td>dcat:Catalog</td>
-                     <td>dcat:themeTaxonomy</td>
-                     <td></td>
-                     <td>skos:ConceptScheme [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:Catalog<br>dcat:DataService<br></td>
+                     <td>dcat:DataService</td>
                      <td>dcatap:applicableLegislation</td>
-                     <td> </td>
-                     <td>eli:LegalResource [0..*]<br>eli:LegalResource [0..*]<br></td>
+                     <td></td>
+                     <td>eli:LegalResource [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:DataService</td>
@@ -345,16 +315,16 @@
                      <td>dct:RightsStatement [0..1]</td>
                   </tr>
                   <tr>
-                     <td>dcat:CatalogRecord<br>dcat:DataService<br></td>
+                     <td>dcat:DataService</td>
                      <td>dct:conformsTo</td>
-                     <td> </td>
-                     <td>dct:Standard [0..*]<br>dct:Standard [0..*]<br></td>
+                     <td></td>
+                     <td>dct:Standard [0..*]</td>
                   </tr>
                   <tr>
-                     <td>dcat:Catalog<br>dcat:CatalogRecord<br>dcat:DataService<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
+                     <td>dcat:DataService<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:description</td>
-                     <td>   A free-text account of the Dataset. A free-text account of the Dataset Series. </td>
-                     <td>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br>rdfs:Literal [0..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
+                     <td> A free-text account of the Dataset. A free-text account of the Dataset Series. </td>
+                     <td>rdfs:Literal [0..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:DataService</td>
@@ -377,22 +347,16 @@
                      <td>rdfs:Resource [0..*]</td>
                   </tr>
                   <tr>
-                     <td>dcat:Catalog<br>dcat:CatalogRecord<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
+                     <td>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:issued</td>
-                     <td>   The date of formal issuance (e.g., publication) of the Dataset Series. </td>
-                     <td>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br></td>
+                     <td> The date of formal issuance (e.g., publication) of the Dataset Series. </td>
+                     <td>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br></td>
                   </tr>
                   <tr>
-                     <td>dcat:Catalog<br>dcat:CatalogRecord<br></td>
-                     <td>dct:language</td>
-                     <td> </td>
-                     <td>dct:LinguisticSystem [0..*]<br>dct:LinguisticSystem [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:Catalog<br>dcat:CatalogRecord<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
+                     <td>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:modified</td>
-                     <td>  The most recent date on which the Dataset was changed or modified. The most recent date on which the Dataset Series was changed or modified. </td>
-                     <td>TemporalLiteral [0..1]<br>TemporalLiteral [1..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br></td>
+                     <td>The most recent date on which the Dataset was changed or modified. The most recent date on which the Dataset Series was changed or modified. </td>
+                     <td>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:Dataset</td>
@@ -401,22 +365,10 @@
                      <td>rdfs:Resource [0..*]</td>
                   </tr>
                   <tr>
-                     <td>dcat:Catalog</td>
-                     <td>dct:rights</td>
-                     <td></td>
-                     <td>dct:RightsStatement [0..1]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:Catalog<br>dcat:CatalogRecord<br>dcat:DataService<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br>skos:ConceptScheme<br></td>
+                     <td>dcat:DataService<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:title</td>
-                     <td>   A name given to the Dataset A name given to the Dataset Series.  </td>
-                     <td>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br> [1..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:Catalog</td>
-                     <td>foaf:homepage</td>
-                     <td></td>
-                     <td>foaf:Document [0..1]</td>
+                     <td> A name given to the Dataset A name given to the Dataset Series. </td>
+                     <td>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>foaf:Agent</td>
@@ -495,11 +447,6 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <td>dcat:catalog</td>
-                     <td></td>
-                     <td>dcat:Catalog -&gt; dcat:Catalog [0..*]</td>
-                  </tr>
-                  <tr>
                      <td>dcat:compressFormat</td>
                      <td>compressed form, e.g. to reduce the size of the downloadable file.
                         Usage Note: It SHOULD be expressed using a media type as defined in the official register
@@ -519,7 +466,7 @@
                   <tr>
                      <td>dcat:dataset</td>
                      <td></td>
-                     <td>dcat:Catalog -&gt; dcat:Dataset [0..*]</td>
+                     <td>dcat:Catalog (external) -&gt; dcat:Dataset [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:distribution</td>
@@ -568,11 +515,6 @@
                      <td>dcat:Distribution -&gt; dct:MediaType [1]</td>
                   </tr>
                   <tr>
-                     <td>dcat:record</td>
-                     <td></td>
-                     <td>dcat:Catalog -&gt; dcat:CatalogRecord [0..*]</td>
-                  </tr>
-                  <tr>
                      <td>dcat:servesDataset</td>
                      <td> </td>
                      <td>dcat:DataService -&gt; dcat:Dataset [0..*]<br>dcat:DataService -&gt; dcat:Dataset [0..*]<br></td>
@@ -581,7 +523,7 @@
                      <td>dcat:service</td>
                      <td>
                         </td>
-                     <td>dcat:Catalog -&gt; dcat:DataService [0..*]</td>
+                     <td>dcat:Catalog (external) -&gt; dcat:DataService [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:theme</td>
@@ -592,10 +534,6 @@
                         
                         </td>
                      <td>dcat:Dataset -&gt; skos:Concept [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:themeTaxonomy</td>
-                     <td></td>
                   </tr>
                   <tr>
                      <td>dcatap:applicablelegislation</td>
@@ -630,15 +568,15 @@
                   </tr>
                   <tr>
                      <td>dct:conformsTo</td>
-                     <td> An implementing rule or other specification.
+                     <td>An implementing rule or other specification.
                         
                          </td>
                      <td>dcat:Dataset -&gt; dct:Standard [0..*]<br>dcat:Distribution -&gt; dct:Standard [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:creator</td>
-                     <td> An entity responsible for producing the dataset.</td>
-                     <td>dcat:Catalog -&gt; foaf:Agent [0..1]<br>dcat:Dataset -&gt; foaf:Agent [0..1]<br></td>
+                     <td>An entity responsible for producing the dataset. </td>
+                     <td>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:Catalog (external) -&gt; foaf:Agent [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:format</td>
@@ -650,18 +588,9 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <td>dct:hasPart</td>
-                     <td></td>
-                     <td>dcat:Catalog -&gt; dcat:Catalog [0..*]</td>
-                  </tr>
-                  <tr>
                      <td>dct:hasVersion</td>
                      <td></td>
                      <td>dcat:Dataset -&gt; dcat:Dataset [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dct:isPartOf</td>
-                     <td></td>
                   </tr>
                   <tr>
                      <td>dct:isReferenceBy</td>
@@ -674,15 +603,15 @@
                   </tr>
                   <tr>
                      <td>dct:language</td>
-                     <td>  A language of the Dataset.
-                         A language of the Dataset. A language used in the Distribution. A language used in the Distribution.
-                        </td>
-                     <td>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]<br>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]<br>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]<br>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]<br></td>
+                     <td>A language of the Dataset.
+                         A language used in the Distribution.
+                          </td>
+                     <td>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]<br>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:license</td>
                      <td>  </td>
-                     <td>dcat:Catalog -&gt; dct:LicenseDocument [0..1]<br>dcat:DataService -&gt; dct:LicenseDocument [0..1]<br>dcat:Distribution -&gt; dct:LicenseDocument [0..1]<br></td>
+                     <td>dcat:DataService -&gt; dct:LicenseDocument [0..1]<br>dcat:Distribution -&gt; dct:LicenseDocument [0..1]<br>dcat:Catalog (external) -&gt; dct:LicenseDocument [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:provenance</td>
@@ -693,9 +622,9 @@
                   </tr>
                   <tr>
                      <td>dct:publisher</td>
-                     <td>  An entity (organisation) responsible for making the Dataset available.
-                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers </td>
-                     <td>dcat:Catalog -&gt; foaf:Agent [1..1]<br>dcat:DataService -&gt; foaf:Agent [0..1]<br>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br></td>
+                     <td> An entity (organisation) responsible for making the Dataset available.
+                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers  </td>
+                     <td>dcat:DataService -&gt; foaf:Agent [0..1]<br>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br>dcat:Catalog (external) -&gt; foaf:Agent [1..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:relation</td>
@@ -709,14 +638,14 @@
                   </tr>
                   <tr>
                      <td>dct:source</td>
-                     <td> A related Dataset from which the described Dataset is derived.</td>
-                     <td>dcat:CatalogRecord -&gt; dcat:CatalogRecord [0..1]<br>dcat:Dataset -&gt; dcat:Dataset [0..*]<br></td>
+                     <td>A related Dataset from which the described Dataset is derived.</td>
+                     <td>dcat:Dataset -&gt; dcat:Dataset [0..*]</td>
                   </tr>
                   <tr>
                      <td>dct:spatial</td>
-                     <td>  A geographic region that is covered by the Dataset. A geographic region that is covered by the Dataset Series
-                        </td>
-                     <td>dcat:Catalog -&gt; dct:Location [0..*]<br>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br></td>
+                     <td> A geographic region that is covered by the Dataset. A geographic region that is covered by the Dataset Series
+                         </td>
+                     <td>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br>dcat:Catalog (external) -&gt; dct:Location [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:temporal</td>
@@ -757,7 +686,7 @@
                   <tr>
                      <td>foaf:primaryTopic</td>
                      <td></td>
-                     <td>dcat:CatalogRecord -&gt; dcat:Resource [1..1]</td>
+                     <td>dcat:CatalogRecord (external) -&gt; dcat:Resource [1..1]</td>
                   </tr>
                   <tr>
                      <td>locn:geometry</td>
@@ -779,9 +708,9 @@
                   </tr>
                   <tr>
                      <td>prov:qualifiedRelation</td>
-                     <td> A description of a relationship with another resource.
+                     <td>A description of a relationship with another resource.
                         
-                        </td>
+                         </td>
                      <td>dcat:Dataset -&gt; dcat:Relationship []<br></td>
                   </tr>
                   <tr>

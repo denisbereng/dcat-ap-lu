@@ -56,14 +56,12 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>dcat_ap_lu_CM.xml</em> 
-               was tested at 07:41 on July 10, 2025.</p>
+               was tested at 07:57 on July 10, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
          <ul xmlns:f="http://https://github.com/costezki/model2owl#" class="display-in-two-columns">
             <li><a href="#adms:Identifier">adms:Identifier</a></li>
-            <li><a href="#dcat:Catalog">dcat:Catalog</a></li>
-            <li><a href="#dcat:CatalogRecord">dcat:CatalogRecord</a></li>
             <li><a href="#dcat:DataService">dcat:DataService</a></li>
             <li><a href="#dcat:Dataset">dcat:Dataset</a></li>
             <li><a href="#dcat:DatasetSeries">dcat:DatasetSeries</a></li>
@@ -72,7 +70,7 @@
             <li><a href="#dcat:Resource">dcat:Resource</a></li>
             <li><a href="#dct:Frequency">dct:Frequency</a></li>
             <li><a href="#dct:LicenseDocument">dct:LicenseDocument (2)</a></li>
-            <li><a href="#dct:LinguisticSystem">dct:LinguisticSystem (2)</a></li>
+            <li><a href="#dct:LinguisticSystem">dct:LinguisticSystem</a></li>
             <li><a href="#dct:Location">dct:Location</a></li>
             <li><a href="#dct:MediaType">dct:MediaType</a></li>
             <li><a href="#dct:MediaTypeOrExtent">dct:MediaTypeOrExtent</a></li>
@@ -88,15 +86,12 @@
             <li><a href="#odrl:Policy">odrl:Policy</a></li>
             <li><a href="#prov:Activity">prov:Activity</a></li>
             <li><a href="#prov:Attribution">prov:Attribution</a></li>
-            <li><a href="#rdfs:Resource">rdfs:Resource</a></li>
             <li><a href="#skos:Concept">skos:Concept</a></li>
-            <li><a href="#skos:ConceptScheme">skos:ConceptScheme</a></li>
             <li><a href="#spdx:Checksum">spdx:Checksum</a></li>
             <li><a href="#vcard:Kind">vcard:Kind</a></li>
          </ul>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classAttributesNames">Class attribute names</h2>
          <ul xmlns:f="http://https://github.com/costezki/model2owl#">
-            <li><a href="#attribute-adms:status">adms:status</a></li>
             <li><a href="#attribute-adms:versionNotes">adms:versionNotes</a></li>
             <li><a href="#attribute-dcat:accessURL">dcat:accessURL</a></li>
             <li><a href="#attribute-dcat:bbox">dcat:bbox</a></li>
@@ -122,19 +117,10 @@
                      <li>dcat:Distribution (xsd:duration) [0..*]</li></em></ul>
             </li>
             <li><a href="#attribute-dcat:theme">dcat:theme</a></li>
-            <li><a href="#attribute-dcat:themeTaxonomy">dcat:themeTaxonomy</a></li>
-            <li><a href="#attribute-dcatap:applicableLegislation-usage">dcatap:applicableLegislation (2)</a><ul><em>
-                     <li>dcat:Catalog (eli:LegalResource) [0..*]</li>
-                     <li>dcat:DataService (eli:LegalResource) [0..*]</li></em></ul>
-            </li>
+            <li><a href="#attribute-dcatap:applicableLegislation">dcatap:applicableLegislation</a></li>
             <li><a href="#attribute-dct:accessRights">dct:accessRights</a></li>
-            <li><a href="#attribute-dct:conformsTo-usage">dct:conformsTo (2)</a><ul><em>
-                     <li>dcat:CatalogRecord (dct:Standard) [0..*]</li>
-                     <li>dcat:DataService (dct:Standard) [0..*]</li></em></ul>
-            </li>
-            <li><a href="#attribute-dct:description-usage">dct:description (6)</a><ul><em>
-                     <li>dcat:Catalog (rdfs:Literal) [1..*]</li>
-                     <li>dcat:CatalogRecord (rdfs:Literal) [0..*]</li>
+            <li><a href="#attribute-dct:conformsTo">dct:conformsTo</a></li>
+            <li><a href="#attribute-dct:description-usage">dct:description (4)</a><ul><em>
                      <li>dcat:DataService (rdfs:Literal) [0..*]</li>
                      <li>dcat:Dataset (rdfs:Literal) [1..*]</li>
                      <li>dcat:DatasetSeries (rdfs:Literal) [1..*]</li>
@@ -143,36 +129,23 @@
             <li><a href="#attribute-dct:format">dct:format</a></li>
             <li><a href="#attribute-dct:identifier">dct:identifier</a></li>
             <li><a href="#attribute-dct:isReferencedBy">dct:isReferencedBy</a></li>
-            <li><a href="#attribute-dct:issued-usage">dct:issued (5)</a><ul><em>
-                     <li>dcat:Catalog (TemporalLiteral) [0..1]</li>
-                     <li>dcat:CatalogRecord (TemporalLiteral) [0..1]</li>
+            <li><a href="#attribute-dct:issued-usage">dct:issued (3)</a><ul><em>
                      <li>dcat:Dataset (TemporalLiteral) [0..1]</li>
                      <li>dcat:DatasetSeries (TemporalLiteral) [0..1]</li>
                      <li>dcat:Distribution (TemporalLiteral) [0..1]</li></em></ul>
             </li>
-            <li><a href="#attribute-dct:language-usage">dct:language (2)</a><ul><em>
-                     <li>dcat:Catalog (dct:LinguisticSystem) [0..*]</li>
-                     <li>dcat:CatalogRecord (dct:LinguisticSystem) [0..*]</li></em></ul>
-            </li>
-            <li><a href="#attribute-dct:modified-usage">dct:modified (5)</a><ul><em>
-                     <li>dcat:Catalog (TemporalLiteral) [0..1]</li>
-                     <li>dcat:CatalogRecord (TemporalLiteral) [1..1]</li>
+            <li><a href="#attribute-dct:modified-usage">dct:modified (3)</a><ul><em>
                      <li>dcat:Dataset (TemporalLiteral) [0..1]</li>
                      <li>dcat:DatasetSeries (TemporalLiteral) [0..1]</li>
                      <li>dcat:Distribution (TemporalLiteral) [0..1]</li></em></ul>
             </li>
             <li><a href="#attribute-dct:relation">dct:relation</a></li>
-            <li><a href="#attribute-dct:rights">dct:rights</a></li>
-            <li><a href="#attribute-dct:title-usage">dct:title (7)</a><ul><em>
-                     <li>dcat:Catalog (rdfs:Literal) [1..*]</li>
-                     <li>dcat:CatalogRecord (rdfs:Literal) [0..*]</li>
+            <li><a href="#attribute-dct:title-usage">dct:title (4)</a><ul><em>
                      <li>dcat:DataService (rdfs:Literal) [1..*]</li>
                      <li>dcat:Dataset (rdfs:Literal) [1..*]</li>
                      <li>dcat:DatasetSeries (rdfs:Literal) [1..*]</li>
-                     <li>dcat:Distribution (rdfs:Literal) [0..*]</li>
-                     <li>skos:ConceptScheme () [1..*]</li></em></ul>
+                     <li>dcat:Distribution (rdfs:Literal) [0..*]</li></em></ul>
             </li>
-            <li><a href="#attribute-foaf:homepage">foaf:homepage</a></li>
             <li><a href="#attribute-foaf:name">foaf:name</a></li>
             <li><a href="#attribute-owl:versionInfo">owl:versionInfo</a></li>
             <li><a href="#attribute-skos:notation">skos:notation</a></li>
@@ -189,7 +162,6 @@
             </li>
             <li>dcat:accessService</li>
             <li>dcat:accessURL</li>
-            <li>dcat:catalog</li>
             <li>dcat:compressFormat</li>
             <li><a href="#connector-dcat:contactPoint">dcat:contactPoint (2)</a><ul><em>
                      <li>dcat:Dataset -&gt; vcard:Kind [0..*]</li>
@@ -204,14 +176,12 @@
             <li>dcat:landingPage</li>
             <li>dcat:mediaType</li>
             <li>dcat:packageFormat</li>
-            <li>dcat:record</li>
             <li><a href="#connector-dcat:servesDataset">dcat:servesDataset (2)</a><ul><em>
                      <li>dcat:DataService -&gt; dcat:Dataset [0..*]</li>
                      <li>dcat:DataService -&gt; dcat:Dataset [0..*]</li></em></ul>
             </li>
             <li>dcat:service</li>
             <li>dcat:theme</li>
-            <li>dcat:themeTaxonomy</li>
             <li><a href="#connector-dcatap:applicablelegislation">dcatap:applicablelegislation (3)</a><ul><em>
                      <li>dcat:Dataset -&gt; eli:LegalResource [0..*]</li>
                      <li>dcat:DatasetSeries -&gt; eli:LegalResource [0..*]</li>
@@ -223,38 +193,34 @@
                      <li>dcat:Dataset -&gt; dct:Frequency [0..1]</li>
                      <li>dcat:DatasetSeries -&gt; dct:Frequency [0..1]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:conformsTo">dct:conformsTo (3)</a><ul><em>
+            <li><a href="#connector-dct:conformsTo">dct:conformsTo (2)</a><ul><em>
                      <li>dcat:Dataset -&gt; dct:Standard [0..*]</li>
                      <li>dcat:Distribution -&gt; dct:Standard [0..*]</li></em></ul>
             </li>
             <li><a href="#connector-dct:creator">dct:creator (2)</a><ul><em>
-                     <li>dcat:Catalog -&gt; foaf:Agent [0..1]</li>
-                     <li>dcat:Dataset -&gt; foaf:Agent [0..1]</li></em></ul>
+                     <li>dcat:Dataset -&gt; foaf:Agent [0..1]</li>
+                     <li> -&gt; foaf:Agent [0..1]</li></em></ul>
             </li>
             <li>dct:format</li>
             <li>dct:hadRole</li>
-            <li>dct:hasPart</li>
             <li>dct:hasVersion</li>
-            <li>dct:isPartOf</li>
             <li>dct:isReferenceBy</li>
             <li>dct:isVersionOf</li>
-            <li><a href="#connector-dct:language">dct:language (6)</a><ul><em>
+            <li><a href="#connector-dct:language">dct:language (4)</a><ul><em>
                      <li>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]</li>
-                     <li>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]</li>
-                     <li>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]</li>
                      <li>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]</li></em></ul>
             </li>
             <li><a href="#connector-dct:license">dct:license (3)</a><ul><em>
-                     <li>dcat:Catalog -&gt; dct:LicenseDocument [0..1]</li>
                      <li>dcat:DataService -&gt; dct:LicenseDocument [0..1]</li>
-                     <li>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</li></em></ul>
+                     <li>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</li>
+                     <li> -&gt; dct:LicenseDocument [0..1]</li></em></ul>
             </li>
             <li>dct:provenance</li>
             <li><a href="#connector-dct:publisher">dct:publisher (4)</a><ul><em>
-                     <li>dcat:Catalog -&gt; foaf:Agent [1..1]</li>
                      <li>dcat:DataService -&gt; foaf:Agent [0..1]</li>
                      <li>dcat:Dataset -&gt; foaf:Agent [0..1]</li>
-                     <li>dcat:DatasetSeries -&gt; foaf:Agent [0..1]</li></em></ul>
+                     <li>dcat:DatasetSeries -&gt; foaf:Agent [0..1]</li>
+                     <li> -&gt; foaf:Agent [1..1]</li></em></ul>
             </li>
             <li><a href="#connector-dct:relation">dct:relation (3)</a><ul><em>
                      <li>dcat:Relationship -&gt; dcat:Dataset []</li></em></ul>
@@ -262,14 +228,11 @@
             <li><a href="#connector-dct:rights">dct:rights (2)</a><ul><em>
                      <li>dcat:Distribution -&gt; dct:RightsStatement [0..1]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:source">dct:source (2)</a><ul><em>
-                     <li>dcat:CatalogRecord -&gt; dcat:CatalogRecord [0..1]</li>
-                     <li>dcat:Dataset -&gt; dcat:Dataset [0..*]</li></em></ul>
-            </li>
+            <li>dct:source</li>
             <li><a href="#connector-dct:spatial">dct:spatial (4)</a><ul><em>
-                     <li>dcat:Catalog -&gt; dct:Location [0..*]</li>
                      <li>dcat:Dataset -&gt; dct:Location [0..*]</li>
-                     <li>dcat:DatasetSeries -&gt; dct:Location [0..*]</li></em></ul>
+                     <li>dcat:DatasetSeries -&gt; dct:Location [0..*]</li>
+                     <li> -&gt; dct:Location [0..*]</li></em></ul>
             </li>
             <li><a href="#connector-dct:temporal">dct:temporal (4)</a><ul><em>
                      <li>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]</li>
@@ -315,218 +278,6 @@
                   in the current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to skos:notationis not known and will be ignored.
                   </dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dcat:Catalog">dcat:Catalog</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dcat:Catalog is missing a description. All concepts should be defined or described.</dd>
-            </dl>
-            <dl id="attribute-dcat:themeTaxonomy">
-               <dt>dcat:themeTaxonomy</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dcat:themeTaxonomy is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to dcat:themeTaxonomy. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to dcat:themeTaxonomyis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dcat:themeTaxonomy is not unique. The Concept names should be unique within
-                  the model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: attributes -&gt; elements, connector roles (dependency
-                  and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type skos:ConceptScheme type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dcatap:applicableLegislation">
-               <dt>dcatap:applicableLegislation</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dcatap:applicableLegislation is missing a description. All concepts should be defined
-                  or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dcatap:applicableLegislation. Stereotypes are
-                  discouraged in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dcatap:applicableLegislationis not known and will
-                  be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type eli:LegalResource type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:description">
-               <dt>dct:description</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:description is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The mandatory stareotype is applied to dct:description. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to dct:descriptionis not known and will be ignored.
-                  </dd>
-            </dl>
-            <dl id="attribute-dct:issued">
-               <dt>dct:issued</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:issued is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to dct:issued. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to dct:issuedis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:language">
-               <dt>dct:language</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:language is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to dct:language. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to dct:languageis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:language is not unique. The Concept names should be unique within the
-                  model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: attributes -&gt; elements, connector roles (dependency
-                  and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type dct:LinguisticSystem type is invalid. Attributes must use types
-                  that are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom
-                  URIs (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:modified">
-               <dt>dct:modified</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:modified is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to dct:modified. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to dct:modifiedis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:rights">
-               <dt>dct:rights</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:rights is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:rights. Stereotypes are discouraged in the
-                  current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:rightsis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The name (dct:rights) is possibly in plural grammatical number. Names shall be usually
-                  provided in singular number.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:rights is not unique. The Concept names should be unique within the model.
-                  The following specifies the names of the which things are not to be reused as the
-                  names of which other things: attributes -&gt; elements, connector roles (dependency and
-                  association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type dct:RightsStatement type is invalid. Attributes must use types
-                  that are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom
-                  URIs (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:title">
-               <dt>dct:title</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:title is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The mandatory stareotype is applied to dct:title. Stereotypes are discouraged in the
-                  current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to dct:titleis not known and will be ignored. </dd>
-            </dl>
-            <dl id="attribute-foaf:homepage">
-               <dt>foaf:homepage</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>foaf:homepage is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to foaf:homepage. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to foaf:homepageis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name foaf:homepage is not unique. The Concept names should be unique within the
-                  model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: attributes -&gt; elements, connector roles (dependency
-                  and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type foaf:Document type is invalid. Attributes must use types that are
-                  either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dcat:CatalogRecord">dcat:CatalogRecord</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dcat:CatalogRecord is missing a description. All concepts should be defined or described.</dd>
-            </dl>
-            <dl id="attribute-adms:status">
-               <dt>adms:status</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>adms:status is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to adms:status. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to adms:statusis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The name (adms:status) is possibly in plural grammatical number. Names shall be usually
-                  provided in singular number.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name adms:status is not unique. The Concept names should be unique within the
-                  model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: attributes -&gt; elements, connector roles (dependency
-                  and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type skos:Concept type is invalid. Attributes must use types that are
-                  either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:conformsTo">
-               <dt>dct:conformsTo</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:conformsTo is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to dct:conformsTo. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to dct:conformsTois not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:conformsTo is not unique. The Concept names should be unique within the
-                  model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: attributes -&gt; elements, connector roles (dependency
-                  and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type dct:Standard type is invalid. Attributes must use types that are
-                  either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:description">
-               <dt>dct:description</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:description is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:description. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:descriptionis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The tag mandatory of element dct:description must be one of the following formats:
-                  namespace:localName, namespace:localName@en, namespace:localName^^xsd:integer, namespace:localName&lt;&gt;.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The tag mandatory of element dct:description must have a value</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix for mandatory is not defined. A prefix must be associated to a namespace
-                  URI.</dd>
-            </dl>
-            <dl id="attribute-dct:issued">
-               <dt>dct:issued</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:issued is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to dct:issued. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to dct:issuedis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:language">
-               <dt>dct:language</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:language is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:language. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:languageis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:language is not unique. The Concept names should be unique within the
-                  model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: attributes -&gt; elements, connector roles (dependency
-                  and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type dct:LinguisticSystem type is invalid. Attributes must use types
-                  that are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom
-                  URIs (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:modified">
-               <dt>dct:modified</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:modified is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The mandatory stareotype is applied to dct:modified. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to dct:modifiedis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
-            </dl>
-            <dl id="attribute-dct:title">
-               <dt>dct:title</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:title is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:title. Stereotypes are discouraged in the
-                  current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:titleis not known and will be ignored. </dd>
             </dl>
          </section>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dcat:DataService">dcat:DataService</h2>
@@ -1008,27 +759,11 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:LinguisticSystem is not unique. The Concept names should be unique within
-                  the model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: elements (Class, Datatype, Enumeration, Object)
-                  -&gt; elements, attributes, connector roles (dependency and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:LinguisticSystem has no attributes provided. A class should define some
-                  attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dct:LinguisticSystem">dct:LinguisticSystem</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:LinguisticSystem is missing a description. All concepts should be defined or described.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:LinguisticSystem. Stereotypes are discouraged
                   in the current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:LinguisticSystemis not known and will be ignored.
                   </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:LinguisticSystem is not unique. The Concept names should be unique within
-                  the model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: elements (Class, Datatype, Enumeration, Object)
-                  -&gt; elements, attributes, connector roles (dependency and association)</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:LinguisticSystem has no attributes provided. A class should define some
                   attributes.</dd>
             </dl>
@@ -1233,18 +968,6 @@
                   attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="rdfs:Resource">rdfs:Resource</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>rdfs:Resource is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The mandatory stareotype is applied to rdfs:Resource. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to rdfs:Resourceis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class rdfs:Resource has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="skos:Concept">skos:Concept</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
@@ -1262,28 +985,6 @@
                   in the current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to skos:prefLabelis not known and will be ignored.
                   </dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="skos:ConceptScheme">skos:ConceptScheme</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>skos:ConceptScheme is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to skos:ConceptScheme. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to skos:ConceptSchemeis not known and will be ignored.
-                  </dd>
-            </dl>
-            <dl id="attribute-dct:title">
-               <dt>dct:title</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:title is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The mandatory stareotype is applied to dct:title. Stereotypes are discouraged in the
-                  current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The mandatory stareotype applied to dct:titleis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type  type is invalid. Attributes must use types that are either: (a)
-                  XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes or
-                  classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute dct:title is non-public. Attributes shall be public </dd>
             </dl>
          </section>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="spdx:Checksum">spdx:Checksum</h2>
@@ -1332,110 +1033,6 @@
                built employing at least two subclasses for each class or not at all.</dd>
          </dl>
          <h1 class="selector-heading" id="associations">Associations</h1>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; foaf:Agent (+dct:publisher)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; foaf:Agent (+dct:publisher)is not known
-               and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; foaf:Agent (+dct:publisher). Stereotypes
-               are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dct:Location (+dct:spatial)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dct:Location (+dct:spatial)is not known
-               and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dct:Location (+dct:spatial). Stereotypes
-               are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dcat:Catalog (+dct:hasPart)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dcat:Catalog (+dct:hasPart)is not known
-               and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dcat:Catalog (+dct:hasPart). Stereotypes
-               are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dcat:Dataset (+dcat:dataset)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dcat:Dataset (+dcat:dataset)is not known
-               and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dcat:Dataset (+dcat:dataset). Stereotypes
-               are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dcat:CatalogRecord (+dcat:record)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dcat:CatalogRecord (+dcat:record)is not
-               known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dcat:CatalogRecord (+dcat:record).
-               Stereotypes are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dcat:Catalog (+dcat:catalog)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dcat:Catalog (+dcat:catalog)is not known
-               and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dcat:Catalog (+dcat:catalog). Stereotypes
-               are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dct:LicenseDocument (+dct:license)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dct:LicenseDocument (+dct:license)is not
-               known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dct:LicenseDocument (+dct:license).
-               Stereotypes are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; dcat:DataService (+dcat:service)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; dcat:DataService (+dcat:service)is not known
-               and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; dcat:DataService (+dcat:service).
-               Stereotypes are discouraged in the current practice with some exceptions. </dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Catalog -&gt; foaf:Agent (+dct:creator)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Catalog -&gt; foaf:Agent (+dct:creator)is not known and
-               will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Catalog -&gt; foaf:Agent (+dct:creator). Stereotypes
-               are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:CatalogRecord -&gt; dcat:Resource (+foaf:primaryTopic)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:CatalogRecord -&gt; dcat:CatalogRecord (+dct:source)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:CatalogRecord -&gt; dcat:CatalogRecord (+dct:source)is
-               not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:CatalogRecord -&gt; dcat:CatalogRecord (+dct:source).
-               Stereotypes are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:DataService -&gt; dcat:Dataset (+dcat:servesDataset)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1533,10 +1130,6 @@
                known and will be ignored. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; dct:LinguisticSystem (+dct:language).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector target role name dct:language is not unique.The Connector role names
-               can be reused within the model, but only as connector role names on the same type
-               of connector.I.e. the  name of (dependecy and association) connector roles should
-               not be reused as the name of elements  (Class, Datatype, Enumeration, Object) or attributes.</dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; dct:ProvenanceStatement (+dct:provenance)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
@@ -1581,14 +1174,6 @@
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; dct:LinguisticSystem (+dct:language)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector target role name dct:language is not unique.The Connector role names
-               can be reused within the model, but only as connector role names on the same type
-               of connector.I.e. the  name of (dependecy and association) connector roles should
-               not be reused as the name of elements  (Class, Datatype, Enumeration, Object) or attributes.</dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; skos:Concept (+dcat:theme)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
@@ -1720,14 +1305,6 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dcat:DataService (+dcat:accessService).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector target role name dct:language is not unique.The Connector role names
-               can be reused within the model, but only as connector role names on the same type
-               of connector.I.e. the  name of (dependecy and association) connector roles should
-               not be reused as the name of elements  (Class, Datatype, Enumeration, Object) or attributes.</dd>
-         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:MediaType (+dcat:packageFormat)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1791,10 +1368,6 @@
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector target role name dct:rights is not unique.The Connector role names can
-               be reused within the model, but only as connector role names on the same type of connector.I.e.
-               the  name of (dependecy and association) connector roles should not be reused as the
-               name of elements  (Class, Datatype, Enumeration, Object) or attributes.</dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; skos:Concept (+adms:status)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
@@ -1805,10 +1378,6 @@
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector target role name adms:status is not unique.The Connector role names
-               can be reused within the model, but only as connector role names on the same type
-               of connector.I.e. the  name of (dependecy and association) connector roles should
-               not be reused as the name of elements  (Class, Datatype, Enumeration, Object) or attributes.</dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
@@ -1817,10 +1386,6 @@
                not known and will be ignored. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector target role name dct:language is not unique.The Connector role names
-               can be reused within the model, but only as connector role names on the same type
-               of connector.I.e. the  name of (dependecy and association) connector roles should
-               not be reused as the name of elements  (Class, Datatype, Enumeration, Object) or attributes.</dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:MediaTypeOrExtent (+dct:format)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
@@ -1880,130 +1445,6 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
          </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">adms:status</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to adms:statusis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to adms:status. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (adms:status), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector adms:status has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:accessURL</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:accessURLis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:accessURL. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dcat:accessURL), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dcat:accessURL has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:downloadURL</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:downloadURLis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:downloadURL. Stereotypes are discouraged in
-               the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dcat:downloadURL), and it should not. The names
-               must be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dcat:downloadURL has no target role. The connectors must have target
-               roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:endpointURL</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:endpointURLis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:endpointURL. Stereotypes are discouraged in
-               the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dcat:endpointURL), and it should not. The names
-               must be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dcat:endpointURL has no target role. The connectors must have target
-               roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of dcat:endpointURL has no multiplicity. Cardinality must be provided
-               for each role.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:landingPage</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -2028,284 +1469,6 @@
                must be provided as connector source and target roles, not as connector name.</dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dcat:landingPage has no target role. The connectors must have target
                roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:themeTaxonomy</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:themeTaxonomyis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:themeTaxonomy. Stereotypes are discouraged
-               in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dcat:themeTaxonomy), and it should not. The names
-               must be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dcat:themeTaxonomy has no target role. The connectors must have target
-               roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:conformsTo</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:conformsTois not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:conformsTo. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:conformsTo), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:conformsTo has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:isPartOf</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:isPartOfis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:isPartOf. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:isPartOf), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:isPartOf has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:isReferenceBy</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:isReferenceByis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:isReferenceBy. Stereotypes are discouraged in
-               the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:isReferenceBy), and it should not. The names
-               must be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:isReferenceBy has no target role. The connectors must have target
-               roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of dct:isReferenceBy has no multiplicity. Cardinality must be provided
-               for each role.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:language</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:languageis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:language. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:language), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:language has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:language</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:languageis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:language. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:language), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:language has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:relation</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:relationis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:relation. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:relation), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:relation has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of dct:relation has no multiplicity. Cardinality must be provided
-               for each role.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:relation</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:relationis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:relation. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:relation), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:relation has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of dct:relation has no multiplicity. Cardinality must be provided
-               for each role.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:rights</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:rightsis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:rights. Stereotypes are discouraged in the current
-               practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:rights), and it should not. The names must be
-               provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:rights has no target role. The connectors must have target roles.</dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
                are out of sync. When the connector direction is Source-&gt;Destination then only a target
                role is expected, while for Bi-Directional direction source and a target roles are
@@ -2366,102 +1529,8 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:temporal has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dct:temporal</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dct:temporalis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dct:temporal. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (dct:temporal), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector dct:temporal has no target role. The connectors must have target roles.</dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of dct:temporal has no multiplicity. Cardinality must be provided
                for each role.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">foaf:homepage</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to foaf:homepageis not known and will be ignored. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to foaf:homepage. Stereotypes are discouraged in the
-               current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (foaf:homepage), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector foaf:homepage has no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
-               are out of sync. When the connector direction is Source-&gt;Destination then only a target
-               role is expected, while for Bi-Directional direction source and a target roles are
-               expected.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">prov:qualifiedRelation</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  does not match the pattern. The name should respect the syntax
-               prefix:localSegment (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is missing a local segment. Please provide one respecing the
-               syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  , is invalid. Please provide a short prefix name containing
-               only alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The target role name  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  , is invalid. Please provide a concise label
-               using alphanumeric characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly
-               with tokens delimited by single spaces.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name from target role name  starts with an invalid character. The local
-               segment must start with a letter or underscore.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to prov:qualifiedRelationis not known and will be ignored.
-               </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to prov:qualifiedRelation. Stereotypes are discouraged
-               in the current practice with some exceptions. </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (prov:qualifiedRelation), and it should not. The
-               names must be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector prov:qualifiedRelation has no target role. The connectors must have
-               target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of prov:qualifiedRelation has no multiplicity. Cardinality must be
-               provided for each role.</dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector direction and roles are out of sync. The connector direction and roles
                are out of sync. When the connector direction is Source-&gt;Destination then only a target
                role is expected, while for Bi-Directional direction source and a target roles are
@@ -2523,12 +1592,9 @@
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:conformsTo">
             <dt>dct:conformsTo</dt>
          </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
-               <li>... (dct:conformsTo) </li>
                <li>An implementing rule or other specification.
                   
                   (dcat:Dataset -&gt; dct:Standard (+dct:conformsTo)) </li>
@@ -2541,9 +1607,9 @@
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
-               <li>... (dcat:Catalog -&gt; foaf:Agent (+dct:creator)) </li>
                <li>An entity responsible for producing the dataset. (dcat:Dataset -&gt; foaf:Agent (+dct:creator))
                   </li>
+               <li>... (dcat:Catalog -&gt; foaf:Agent (+dct:creator)) </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:language">
@@ -2554,16 +1620,12 @@
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
-               <li>... (dct:language) </li>
-               <li>... (dct:language) </li>
                <li>A language of the Dataset.
                   (dcat:Dataset -&gt; dct:LinguisticSystem (+dct:language)) </li>
-               <li>A language of the Dataset. (dcat:Dataset -&gt; dct:LinguisticSystem (+dct:language))
-                  </li>
-               <li>A language used in the Distribution. (dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language))
-                  </li>
                <li>A language used in the Distribution.
                   (dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language)) </li>
+               <li>... (dct:language) </li>
+               <li>... (dct:language) </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:publisher">
@@ -2574,12 +1636,12 @@
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
-               <li>... (dcat:Catalog -&gt; foaf:Agent (+dct:publisher)) </li>
                <li>... (dcat:DataService -&gt; foaf:Agent (+dct:publisher)) </li>
                <li>An entity (organisation) responsible for making the Dataset available.
                   Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers
                   (dcat:Dataset -&gt; foaf:Agent (+dct:publisher)) </li>
                <li>... (dcat:DatasetSeries -&gt; foaf:Agent (+dct:publisher)) </li>
+               <li>... (dcat:Catalog -&gt; foaf:Agent (+dct:publisher)) </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:relation">
@@ -2592,19 +1654,6 @@
          </dl>
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
             the same.</dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:source">
-            <dt>dct:source</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
-            is expected to be the same. In this case, multiple definitions are found: 
-            <ul>
-               <li>... (dcat:CatalogRecord -&gt; dcat:CatalogRecord (+dct:source)) </li>
-               <li>A related Dataset from which the described Dataset is derived. (dcat:Dataset -&gt; dcat:Dataset
-                  (+dct:source)) </li>
-            </ul>
-         </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:spatial">
             <dt>dct:spatial</dt>
          </dl>
@@ -2613,12 +1662,12 @@
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
-               <li>... (dcat:Catalog -&gt; dct:Location (+dct:spatial)) </li>
                <li>... (dct:spatial) </li>
                <li>A geographic region that is covered by the Dataset. (dcat:Dataset -&gt; dct:Location
                   (+dct:spatial)) </li>
                <li>A geographic region that is covered by the Dataset Series
                   (dcat:DatasetSeries -&gt; dct:Location (+dct:spatial)) </li>
+               <li>... (dcat:Catalog -&gt; dct:Location (+dct:spatial)) </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:temporal">
@@ -2666,10 +1715,10 @@
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
-               <li>... (prov:qualifiedRelation) </li>
                <li>A description of a relationship with another resource.
                   
                   (dcat:Dataset -&gt; dcat:Relationship (+prov:qualifiedRelation)) </li>
+               <li>... (prov:qualifiedRelation) </li>
             </ul>
          </dd>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="classAttributesUsage">Class attributes with multiple usages</h1>
@@ -2730,8 +1779,6 @@
                When a property is reused in multiple contexts, the multiplicity is expected to be
                the same. Please see usage below:
                <ul>
-                  <li>dcat:Catalog (rdfs:Literal) [1..*]</li>
-                  <li>dcat:CatalogRecord (rdfs:Literal) [0..*]</li>
                   <li>dcat:DataService (rdfs:Literal) [0..*]</li>
                   <li>dcat:Dataset (rdfs:Literal) [1..*]</li>
                   <li>dcat:DatasetSeries (rdfs:Literal) [1..*]</li>
@@ -2742,8 +1789,6 @@
                is reused in multiple contexts, the meaning given by the definition is expected to
                be the same.In this case, multiple definitions are found: 
                <ul>
-                  <li>... (dcat:Catalog) </li>
-                  <li>... (dcat:CatalogRecord) </li>
                   <li>... (dcat:DataService) </li>
                   <li>A free-text account of the Dataset. (dcat:Dataset) </li>
                   <li>A free-text account of the Dataset Series. (dcat:DatasetSeries) </li>
@@ -2757,8 +1802,6 @@
                is reused in multiple contexts, the meaning given by the definition is expected to
                be the same.In this case, multiple definitions are found: 
                <ul>
-                  <li>... (dcat:Catalog) </li>
-                  <li>... (dcat:CatalogRecord) </li>
                   <li>... (dcat:Dataset) </li>
                   <li>The date of formal issuance (e.g., publication) of the Dataset Series. (dcat:DatasetSeries)
                      </li>
@@ -2768,23 +1811,10 @@
          </dl>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="attribute-dct:modified-usage">
             <dt>dct:modified</dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute dct:modified has different multiplicities in reuse contexts.       
-               When a property is reused in multiple contexts, the multiplicity is expected to be
-               the same. Please see usage below:
-               <ul>
-                  <li>dcat:Catalog (TemporalLiteral) [0..1]</li>
-                  <li>dcat:CatalogRecord (TemporalLiteral) [1..1]</li>
-                  <li>dcat:Dataset (TemporalLiteral) [0..1]</li>
-                  <li>dcat:DatasetSeries (TemporalLiteral) [0..1]</li>
-                  <li>dcat:Distribution (TemporalLiteral) [0..1]</li>
-               </ul>
-            </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute dct:modified is defined differently in reuse contexts. When a property
                is reused in multiple contexts, the meaning given by the definition is expected to
                be the same.In this case, multiple definitions are found: 
                <ul>
-                  <li>... (dcat:Catalog) </li>
-                  <li>... (dcat:CatalogRecord) </li>
                   <li>The most recent date on which the Dataset was changed or modified. (dcat:Dataset)
                      </li>
                   <li>The most recent date on which the Dataset Series was changed or modified. (dcat:DatasetSeries)
@@ -2799,38 +1829,20 @@
                When a property is reused in multiple contexts, the multiplicity is expected to be
                the same. Please see usage below:
                <ul>
-                  <li>dcat:Catalog (rdfs:Literal) [1..*]</li>
-                  <li>dcat:CatalogRecord (rdfs:Literal) [0..*]</li>
                   <li>dcat:DataService (rdfs:Literal) [1..*]</li>
                   <li>dcat:Dataset (rdfs:Literal) [1..*]</li>
                   <li>dcat:DatasetSeries (rdfs:Literal) [1..*]</li>
                   <li>dcat:Distribution (rdfs:Literal) [0..*]</li>
-                  <li>skos:ConceptScheme () [1..*]</li>
                </ul>
             </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute dct:title is defined differently in reuse contexts. When a property
                is reused in multiple contexts, the meaning given by the definition is expected to
                be the same.In this case, multiple definitions are found: 
                <ul>
-                  <li>... (dcat:Catalog) </li>
-                  <li>... (dcat:CatalogRecord) </li>
                   <li>... (dcat:DataService) </li>
                   <li>A name given to the Dataset (dcat:Dataset) </li>
                   <li>A name given to the Dataset Series. (dcat:DatasetSeries) </li>
                   <li>... (dcat:Distribution) </li>
-                  <li>... (skos:ConceptScheme) </li>
-               </ul>
-            </dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute dct:title has different datatypes in reuse contexts.When a property
-               is reused in multiple contexts, the data-type is expected to be the same.In this case,
-               multiple data-types are found: 
-               <ul>
-                  <li>rdfs:Literal (dcat:Catalog) </li>
-                  <li>rdfs:Literal (dcat:CatalogRecord) </li>
-                  <li>rdfs:Literal (dcat:DataService) </li>
-                  <li>rdfs:Literal (dcat:Dataset) </li>
-                  <li>rdfs:Literal (dcat:DatasetSeries) </li>
-                  <li>rdfs:Literal (dcat:Distribution) </li>
                </ul>
             </dd>
          </dl>
