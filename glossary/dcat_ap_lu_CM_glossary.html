@@ -45,12 +45,6 @@
                      <td></td>
                   </tr>
                   <tr>
-                     <td>dcat:DataService</td>
-                     <td>A collection of operations that provides access to one or more datasets or data processing
-                        functions.
-                        </td>
-                  </tr>
-                  <tr>
                      <td>dcat:Dataset</td>
                      <td></td>
                   </tr>
@@ -235,12 +229,6 @@
                      <td>rdfs:Literal [0..1]</td>
                   </tr>
                   <tr>
-                     <td>dcat:DataService</td>
-                     <td>dcat:contactPoint</td>
-                     <td>Contact information that can be used for sending comments about the Data Service.</td>
-                     <td>vcard:Kind [0..*]</td>
-                  </tr>
-                  <tr>
                      <td>dcat:Distribution</td>
                      <td>dcat:downloadURL</td>
                      <td></td>
@@ -253,30 +241,11 @@
                      <td>TemporalLiteral [0..1]</td>
                   </tr>
                   <tr>
-                     <td>dcat:DataService</td>
-                     <td>dcat:endpointDescription</td>
-                     <td>A description of the services available via the end-points, including their operations,
-                        parameters etc.</td>
-                     <td>rdfs:Resource [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService</td>
-                     <td>dcat:endpointURL</td>
-                     <td></td>
-                     <td>rdfs:Resource [1..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService<br>dcat:Dataset<br></td>
+                     <td>dcat:Dataset</td>
                      <td>dcat:keyword</td>
-                     <td> A keyword or tag describing the Dataset.
+                     <td>A keyword or tag describing the Dataset.
                         </td>
-                     <td>rdfs:Literal [0..*]<br>rdfs:Literal [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService</td>
-                     <td>dcat:landingPage</td>
-                     <td></td>
-                     <td>foaf:Document [0..*]</td>
+                     <td>rdfs:Literal [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:Dataset<br>dcat:Distribution<br></td>
@@ -297,40 +266,10 @@
                      <td>xsd:duration [0..1]<br>xsd:duration [0..*]<br></td>
                   </tr>
                   <tr>
-                     <td>dcat:DataService</td>
-                     <td>dcat:theme</td>
-                     <td></td>
-                     <td>skos:Concept [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService</td>
-                     <td>dcatap:applicableLegislation</td>
-                     <td></td>
-                     <td>eli:LegalResource [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService</td>
-                     <td>dct:accessRights</td>
-                     <td></td>
-                     <td>dct:RightsStatement [0..1]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService</td>
-                     <td>dct:conformsTo</td>
-                     <td></td>
-                     <td>dct:Standard [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
+                     <td>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:description</td>
-                     <td> A free-text account of the Dataset. A free-text account of the Dataset Series. </td>
-                     <td>rdfs:Literal [0..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>dcat:DataService</td>
-                     <td>dct:format</td>
-                     <td></td>
-                     <td>dct:MediaTypeOrExtent [0..*]</td>
+                     <td>A free-text account of the Dataset. A free-text account of the Dataset Series. </td>
+                     <td>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:Dataset</td>
@@ -365,10 +304,10 @@
                      <td>rdfs:Resource [0..*]</td>
                   </tr>
                   <tr>
-                     <td>dcat:DataService<br>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
+                     <td>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:title</td>
-                     <td> A name given to the Dataset A name given to the Dataset Series. </td>
-                     <td>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
+                     <td>A name given to the Dataset A name given to the Dataset Series. </td>
+                     <td>rdfs:Literal [1..*]<br>rdfs:Literal [1..*]<br>rdfs:Literal [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>foaf:Agent</td>
@@ -438,11 +377,6 @@
                      <td>dcat:Distribution -&gt; skos:Concept [0..1]</td>
                   </tr>
                   <tr>
-                     <td>dcat:accessService</td>
-                     <td>A data service that gives access to the distribution of the dataset.</td>
-                     <td>dcat:Distribution -&gt; dcat:DataService [0..*]</td>
-                  </tr>
-                  <tr>
                      <td>dcat:compressFormat</td>
                      <td>compressed form, e.g. to reduce the size of the downloadable file.
                         Usage Note: It SHOULD be expressed using a media type as defined in the official register
@@ -493,11 +427,6 @@
                         to enable a set of related files to be downloaded together.
                         </td>
                      <td>dcat:Distribution -&gt; dct:MediaType [1]</td>
-                  </tr>
-                  <tr>
-                     <td>dcat:servesDataset</td>
-                     <td> </td>
-                     <td>dcat:DataService -&gt; dcat:Dataset [0..*]<br>dcat:DataService -&gt; dcat:Dataset [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:theme</td>
@@ -576,8 +505,8 @@
                   </tr>
                   <tr>
                      <td>dct:license</td>
-                     <td> </td>
-                     <td>dcat:DataService -&gt; dct:LicenseDocument [0..1]<br>dcat:Distribution -&gt; dct:LicenseDocument [0..1]<br></td>
+                     <td></td>
+                     <td>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:provenance</td>
@@ -588,9 +517,9 @@
                   </tr>
                   <tr>
                      <td>dct:publisher</td>
-                     <td> An entity (organisation) responsible for making the Dataset available.
+                     <td>An entity (organisation) responsible for making the Dataset available.
                         Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers </td>
-                     <td>dcat:DataService -&gt; foaf:Agent [0..1]<br>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br></td>
+                     <td>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:relation</td>
@@ -609,13 +538,13 @@
                   </tr>
                   <tr>
                      <td>dct:spatial</td>
-                     <td> A geographic region that is covered by the Dataset. A geographic region that is covered by the Dataset Series
+                     <td>A geographic region that is covered by the Dataset. A geographic region that is covered by the Dataset Series
                         </td>
-                     <td>dcat:DataService -&gt; dct:Location [0..*]<br>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br></td>
+                     <td>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:temporal</td>
-                     <td>  </td>
+                     <td> </td>
                      <td>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]<br>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]<br></td>
                   </tr>
                   <tr>
