@@ -25,15 +25,15 @@
 
 :core a owl:Ontology ;
     rdfs:label "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:created "2025-07-10"^^xsd:date ;
+    dcterms:created "2025-07-16"^^xsd:date ;
     dcterms:description "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:issued "2025-07-10"^^xsd:date ;
+    dcterms:issued "2025-07-16"^^xsd:date ;
     dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
     dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
     dcterms:title "ePO Core core"@en ;
     vann:preferredNamespacePrefix "epo" ;
     vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
-    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-10" ;
+    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-16" ;
     rdfs:seeAlso <https://docs.ted.europa.eu/EPO/latest/index.html>,
         <https://github.com/eprocurementontology/eprocurementontology>,
         <https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about>,
@@ -89,12 +89,15 @@ dcterms:LinguisticSystem a owl:Class ;
     skos:prefLabel "Linguistic System"@en .
 
 dcterms:Location a owl:Class ;
+    skos:definition "A temporal period that the Dataset covers."@en ;
     skos:prefLabel "Location"@en .
 
 dcterms:MediaType a owl:Class ;
+    skos:definition "A file format or physical medium."@en ;
     skos:prefLabel "Media Type"@en .
 
 dcterms:MediaTypeOrExtent a owl:Class ;
+    skos:definition "A media type or dataset distribution."@en ;
     skos:prefLabel "Media Type Or Extent"@en .
 
 dcterms:PeriodOfTime a owl:Class ;
@@ -112,11 +115,11 @@ dcterms:Standard a owl:Class ;
     skos:prefLabel "Standard"@en .
 
 dcterms:accessRights a owl:ObjectProperty ;
-    skos:definition "dct:accessRights"@en ;
+    skos:definition "Information that indicates whether the Dataset is publicly accessible, has access restrictions or is not public. Usage note: DCAT-AP-LU places additional restrictions on the vocabularies recommended in DCAT-AP. See section 10. Controlled Vocabularies for details."@en ;
     skos:prefLabel "access Rights"@en .
 
 dcterms:accrualPeriodicity a owl:ObjectProperty ;
-    skos:definition "The frequency at which the Dataset is updated."@en ;
+    skos:definition "The frequency at which the Dataset is updated. The frequency at which the Dataset series is updated."@en ;
     skos:prefLabel "accrual Periodicity"@en .
 
 dcterms:conformsTo a owl:ObjectProperty ;
@@ -128,7 +131,7 @@ dcterms:creator a owl:ObjectProperty ;
     skos:prefLabel "creator"@en .
 
 dcterms:description a owl:ObjectProperty ;
-    skos:definition "A free-text account of the Dataset. (dcat:Dataset) A free-text account of the Dataset Series. (dcat:DatasetSeries)"@en ;
+    skos:definition "A free-text account of the Dataset. (dcat:Dataset) A free-text account of the Dataset Series. (dcat:DatasetSeries) A free-text account of the Distribution. (dcat:Distribution)"@en ;
     skos:prefLabel "description"@en .
 
 dcterms:format a owl:ObjectProperty ;
@@ -136,6 +139,7 @@ dcterms:format a owl:ObjectProperty ;
     skos:prefLabel "format"@en .
 
 dcterms:hasVersion a owl:ObjectProperty ;
+    skos:definition "A related Dataset that is a version, edition, or adaptation of the described Dataset."@en ;
     skos:prefLabel "has Version"@en .
 
 dcterms:identifier a owl:ObjectProperty ;
@@ -143,13 +147,14 @@ dcterms:identifier a owl:ObjectProperty ;
     skos:prefLabel "identifier"@en .
 
 dcterms:isReferencedBy a rdf:Property ;
+    skos:definition "A related resource, such as a publication, that references, cites, or otherwise points to the dataset. (dcat:Dataset)"@en ;
     skos:prefLabel "is Referenced By"@en .
 
 dcterms:isVersionOf a owl:ObjectProperty ;
     skos:prefLabel "is Version Of"@en .
 
 dcterms:issued a rdf:Property ;
-    skos:definition "The date of formal issuance (e.g., publication) of the Dataset Series. (dcat:DatasetSeries)"@en ;
+    skos:definition "The date of formal issuance (e.g., publication) of the Dataset. (dcat:Dataset) The date of formal issuance (e.g., publication) of the Dataset Series. (dcat:DatasetSeries) The date of formal issuance (e.g., publication) of the Distribution. (dcat:Distribution)"@en ;
     skos:prefLabel "issued"@en .
 
 dcterms:language a owl:ObjectProperty ;
@@ -160,7 +165,7 @@ dcterms:license a owl:ObjectProperty ;
     skos:prefLabel "license"@en .
 
 dcterms:modified a rdf:Property ;
-    skos:definition "The most recent date on which the Dataset was changed or modified. (dcat:Dataset) The most recent date on which the Dataset Series was changed or modified. (dcat:DatasetSeries)"@en ;
+    skos:definition "The most recent date on which the Dataset was changed or modified. (dcat:Dataset) The most recent date on which the Dataset Series was changed or modified. (dcat:DatasetSeries) The most recent date on which the Distribution was changed or modified. (dcat:Distribution)"@en ;
     skos:prefLabel "modified"@en .
 
 dcterms:provenance a owl:ObjectProperty ;
@@ -168,15 +173,15 @@ dcterms:provenance a owl:ObjectProperty ;
     skos:prefLabel "provenance"@en .
 
 dcterms:publisher a owl:ObjectProperty ;
-    skos:definition "An entity (organisation) responsible for making the Dataset available. Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers"@en ;
+    skos:definition "An entity (organisation) responsible for making the Dataset available. Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers An entity (organisation) responsible for making the Dataset available. Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers"@en ;
     skos:prefLabel "publisher"@en .
 
-dcterms:relation a rdf:Property,
-        owl:ObjectProperty ;
+dcterms:relation a rdf:Property ;
     skos:definition "A related resource. (dcat:Dataset)"@en ;
     skos:prefLabel "relation"@en .
 
 dcterms:rights a owl:ObjectProperty ;
+    skos:definition "A statement that specifies rights associated with the Distribution."@en ;
     skos:prefLabel "rights"@en .
 
 dcterms:source a owl:ObjectProperty ;
@@ -188,10 +193,11 @@ dcterms:spatial a owl:ObjectProperty ;
     skos:prefLabel "spatial"@en .
 
 dcterms:temporal a owl:ObjectProperty ;
+    skos:definition "A temporal period that the Dataset covers."@en ;
     skos:prefLabel "temporal"@en .
 
 dcterms:title a owl:ObjectProperty ;
-    skos:definition "A name given to the Dataset (dcat:Dataset) A name given to the Dataset Series. (dcat:DatasetSeries)"@en ;
+    skos:definition "A name given to the Dataset (dcat:Dataset) A name given to the Dataset Series. (dcat:DatasetSeries) A name given to the Distribution. (dcat:Distribution)"@en ;
     skos:prefLabel "title"@en .
 
 dcterms:type a owl:ObjectProperty ;
@@ -210,6 +216,7 @@ owl:versionInfo a owl:ObjectProperty ;
     skos:prefLabel "version Info"@en .
 
 skos:notation a owl:ObjectProperty ;
+    skos:definition "The literal identifying an entity, like a person or an object. (adms:Identifier)"@en ;
     skos:prefLabel "notation"@en .
 
 skos:prefLabel a owl:DatatypeProperty ;
@@ -222,6 +229,7 @@ time:hasEnd a rdf:Property ;
     skos:prefLabel "has End"@en .
 
 vcard:Kind a owl:Class ;
+    skos:definition "A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point."@en ;
     skos:prefLabel "Kind"@en .
 
 adms:Identifier a owl:Class ;
@@ -239,7 +247,12 @@ adms:status a owl:ObjectProperty ;
     skos:prefLabel "status"@en .
 
 adms:versionNotes a owl:ObjectProperty ;
+    skos:definition "A description of the differences between this version and a previous version of the Dataset. (dcat:Dataset)"@en ;
     skos:prefLabel "version Notes"@en .
+
+dcat:DataService a owl:Class ;
+    skos:definition "A collection of operations that provides access to one or more datasets or data processing functions."@en ;
+    skos:prefLabel "Data Service"@en .
 
 dcat:Dataset a owl:Class ;
     rdfs:subClassOf dcat:Resource ;
@@ -256,7 +269,12 @@ dcat:Distribution a owl:Class ;
 dcat:Relationship a owl:Class ;
     skos:prefLabel "Relationship"@en .
 
+dcat:accessService a owl:ObjectProperty ;
+    skos:definition "A data service that gives access to the distribution of the dataset."@en ;
+    skos:prefLabel "access Service"@en .
+
 dcat:accessURL a rdf:Property ;
+    skos:definition "A URL that gives access to a Distribution of the Dataset. (dcat:Distribution)"@en ;
     skos:prefLabel "access URL"@en .
 
 dcat:bbox a owl:ObjectProperty ;
@@ -282,6 +300,7 @@ dcat:distribution a owl:ObjectProperty ;
     skos:prefLabel "distribution"@en .
 
 dcat:downloadURL a rdf:Property ;
+    skos:definition "A URL that is a direct link to a downloadable file in a given format. (dcat:Distribution)"@en ;
     skos:prefLabel "download URL"@en .
 
 dcat:endDate a rdf:Property ;
@@ -307,15 +326,19 @@ dcat:packageFormat a owl:ObjectProperty ;
     skos:definition "The format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together."@en ;
     skos:prefLabel "package Format"@en .
 
+dcat:qualifiedRelation a owl:ObjectProperty ;
+    skos:definition "A description of a relationship with another resource"@en ;
+    skos:prefLabel "qualified Relation"@en .
+
 dcat:spatialResolutionInMeters a owl:DatatypeProperty ;
-    skos:definition "The minimum spatial separation resolvable in a dataset, measured in meters. (dcat:Dataset)"@en ;
+    skos:definition "The minimum spatial separation resolvable in a dataset, measured in meters. (dcat:Dataset) The minimum spatial separation resolvable in a dataset distribution, measured in meters. (dcat:Distribution)"@en ;
     skos:prefLabel "spatial Resolution In Meters"@en .
 
 dcat:startDate a rdf:Property ;
     skos:prefLabel "start Date"@en .
 
 dcat:temporalResolution a rdf:Property ;
-    skos:definition "The minimum time period resolvable in the dataset. (dcat:Dataset)"@en ;
+    skos:definition "The minimum time period resolvable in the dataset. (dcat:Dataset) The minimum time period resolvable in the dataset distribution. (dcat:Distribution)"@en ;
     skos:prefLabel "temporal Resolution"@en .
 
 dcat:theme a owl:ObjectProperty ;
@@ -323,6 +346,7 @@ dcat:theme a owl:ObjectProperty ;
     skos:prefLabel "theme"@en .
 
 locn:Geometry a owl:Class ;
+    skos:definition "The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference System."@en ;
     skos:prefLabel "Geometry"@en .
 
 locn:geometry a owl:ObjectProperty ;
@@ -345,6 +369,7 @@ prov:Attribution a owl:Class ;
     skos:prefLabel "Attribution"@en .
 
 prov:qualifiedAttribution a owl:ObjectProperty ;
+    skos:definition "An Agent having some form of responsibility for the resource."@en ;
     skos:prefLabel "qualified Attribution"@en .
 
 prov:qualifiedRelation a owl:ObjectProperty ;
@@ -381,5 +406,6 @@ skos:Concept a owl:Class ;
     skos:prefLabel "Concept"@en .
 
 dcat:Resource a owl:Class ;
+    skos:definition "Resource published or curated by a single agent."@en ;
     skos:prefLabel "Resource"@en .
 
