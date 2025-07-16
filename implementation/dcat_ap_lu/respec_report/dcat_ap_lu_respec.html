@@ -68,7 +68,7 @@
    
     var respecConfig = {
       postProcess: [quickreference],
-      publishDate: "2025-07-10",
+      publishDate: "2025-07-16",
       shortName: "ePO Core core",
         editors: editors,
       authors: authors,
@@ -309,7 +309,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..1
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The literal identifying an entity, like a person or an object.
                                 </td>
 
 
@@ -319,6 +319,49 @@ The main entities are those that form the core of the Application Profile.
                     </tbody>
                 </table>
             </div>
+        
+    </div>
+</section>
+
+
+
+
+
+   
+        <section>
+            <h3 id="Dataservice">
+                <a href="http://www.w3.org/ns/dcat#DataService"
+                   data-toggle="tooltip"
+                   data-content="http://www.w3.org/ns/dcat#DataService"
+                   data-placement="right">Data service</a>
+
+            </h3>
+            <dl>
+                <dt>
+                    Definition
+                </dt>
+                <dd>
+                    A collection of operations that provides access to one or more datasets or data processing functions.
+                </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        A collection of operations that provides access to one or more datasets or data processing functions.
+                    </dd>
+                
+                
+                    <dt>
+                        Properties
+                    </dt>
+                    
+                    <dd>
+                        This specification does not impose any additional requirements to properties for this entity.
+                    </dd>
+                
+            </dl>
+        </div>
         
     </div>
 </section>
@@ -457,7 +500,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    A description of the differences between this version and a previous version of the Dataset.
                                 </td>
 
 
@@ -685,7 +728,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    A related resource, such as a publication, that references, cites, or otherwise points to the dataset.
                                 </td>
 
 
@@ -723,7 +766,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..1
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The date of formal issuance (e.g., publication) of the Dataset.
                                 </td>
 
 
@@ -2382,6 +2425,7 @@ The main entities are those that form the core of the Application Profile.
                             , <a href="#Distribution.Issued">Issued</a>
                             , <a href="#Distribution.Modified">Modified</a>
                             , <a href="#Distribution.Title">Title</a>
+                            , <a href="#Distribution.Accessservice">Access service</a>
                             , <a href="#Distribution.Packageformat">Package format</a>
                             , <a href="#Distribution.Haspolicy">Has policy</a>
                             , <a href="#Distribution.Conformsto">Conforms to</a>
@@ -2458,7 +2502,7 @@ The main entities are those that form the core of the Application Profile.
                                     1..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    A URL that gives access to a Distribution of the Dataset.
                                 </td>
 
 
@@ -2534,7 +2578,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    A URL that is a direct link to a downloadable file in a given format.
                                 </td>
 
 
@@ -2572,7 +2616,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The minimum spatial separation resolvable in a dataset distribution, measured in meters.
                                 </td>
 
 
@@ -2610,7 +2654,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The minimum time period resolvable in the dataset distribution.
                                 </td>
 
 
@@ -2648,7 +2692,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..*
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    A free-text account of the Distribution.
                                 </td>
 
 
@@ -2686,7 +2730,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..1
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The date of formal issuance (e.g., publication) of the Distribution.
                                 </td>
 
 
@@ -2724,7 +2768,7 @@ The main entities are those that form the core of the Application Profile.
                                     0..1
                                 </td>
                                 <td property="rdfs:comment">
-                                    
+                                    The most recent date on which the Distribution was changed or modified.
                                 </td>
 
 
@@ -2760,6 +2804,44 @@ The main entities are those that form the core of the Application Profile.
                                 </td>
                                 <td>
                                     0..*
+                                </td>
+                                <td property="rdfs:comment">
+                                    A name given to the Distribution.
+                                </td>
+
+
+
+                            </tr>
+                        
+                            <tr id="Distribution.Accessservice"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/ns/dcat#accessService"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20Access service%20in%20Distribution" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/ns/dcat#accessService"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/ns/dcat#accessService"
+                                           data-placement="right">
+                                        Access service</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/ns/dcat#DataService" data-placement="right">dcat:DataService</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
                                 </td>
                                 <td property="rdfs:comment">
                                     
@@ -3335,7 +3417,7 @@ The main entities are those that form the core of the Application Profile.
                     </dt>
                     
                         <dd>
-                            For this entity the following properties are defined: <a href="#Relationship.Relation">Relation</a>
+                            For this entity the following properties are defined: <a href="#Relationship.Qualifiedrelation">Qualified relation</a>
                             .
                     </dd>
                 
@@ -3367,13 +3449,13 @@ The main entities are those that form the core of the Application Profile.
                     </thead>
                     <tbody class="supertype">
                         
-                            <tr id="Relationship.Relation"
+                            <tr id="Relationship.Qualifiedrelation"
                                 typeof="rdfs:Property"
-                                resource="http://purl.org/dc/terms/relation"
+                                resource="http://www.w3.org/ns/dcat#qualifiedRelation"
                                 class="class mandatory">
                                 <td>
 
-                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20Relation%20in%20Relationship" target="_blank" rel="noopener noreferrer" >
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20Qualified relation%20in%20Relationship" target="_blank" rel="noopener noreferrer" >
 					    <!--                                        <i class="icon">[o]</i> -->
 
                                     <i class="fa-regular fa-message"></i>
@@ -3381,11 +3463,11 @@ The main entities are those that form the core of the Application Profile.
 
                                 </td>
                                 <td>
-                                        <a href="http://purl.org/dc/terms/relation"
+                                        <a href="http://www.w3.org/ns/dcat#qualifiedRelation"
                                            data-toggle="tooltip"
-                                           data-content="http://purl.org/dc/terms/relation"
+                                           data-content="http://www.w3.org/ns/dcat#qualifiedRelation"
                                            data-placement="right">
-                                        Relation</a>
+                                        Qualified relation</a>
                                 </td>
                                 <td>
                                     
@@ -3430,8 +3512,15 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    
+                    Resource published or curated by a single agent.
                 </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        Resource published or curated by a single agent.
+                    </dd>
                 
                 
                     <dt>
@@ -3760,8 +3849,15 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    
+                    A temporal period that the Dataset covers.
                 </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        A temporal period that the Dataset covers.
+                    </dd>
                 
                 
                     <dt>
@@ -3942,8 +4038,15 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    
+                    A file format or physical medium.
                 </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        A file format or physical medium.
+                    </dd>
                 
                 
                     <dt>
@@ -3978,8 +4081,15 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    
+                    A media type or dataset distribution.
                 </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        A media type or dataset distribution.
+                    </dd>
                 
                 
                     <dt>
@@ -4629,8 +4739,15 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    
+                    The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference System.
                 </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        The Geometry class provides the means to identify a Location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference System.
+                    </dd>
                 
                 
                     <dt>
@@ -4941,8 +5058,15 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    
+                    A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.
                 </dd>
+                
+                    <dt>
+                        Usage Note
+                    </dt>
+                    <dd>
+                        A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point.
+                    </dd>
                 
                 
                     <dt>
