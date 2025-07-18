@@ -142,18 +142,21 @@ core-shape:dct-Frequency a sh:NodeShape ;
     rdfs:label "Frequency" ;
     rdfs:comment "A rate at which something recurs, e.g. the publication of a Dataset." ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:property core-shape:dct-Frequency-skos-inScheme ;
     sh:targetClass dcterms:Frequency .
 
 core-shape:dct-LicenseDocument a sh:NodeShape ;
     rdfs:label "License Document" ;
     rdfs:comment "A legal document giving official permission to do something with a resource." ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-LicenseDocument-dct-type ;
+    sh:property core-shape:dct-LicenseDocument-dct-type,
+        core-shape:dct-LicenseDocument-skos-inScheme ;
     sh:targetClass dcterms:LicenseDocument .
 
 core-shape:dct-LinguisticSystem a sh:NodeShape ;
     rdfs:label "Linguistic System" ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:property core-shape:dct-LinguisticSystem-skos-inScheme ;
     sh:targetClass dcterms:LinguisticSystem .
 
 core-shape:dct-Location a sh:NodeShape ;
@@ -169,12 +172,14 @@ core-shape:dct-MediaType a sh:NodeShape ;
     rdfs:label "Media Type" ;
     rdfs:comment "A file format or physical medium." ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:property core-shape:dct-MediaType-skos-inScheme ;
     sh:targetClass dcterms:MediaType .
 
 core-shape:dct-MediaTypeOrExtent a sh:NodeShape ;
     rdfs:label "Media Type Or Extent" ;
     rdfs:comment "A media type or dataset distribution." ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:property core-shape:dct-MediaTypeOrExtent-skos-inScheme ;
     sh:targetClass dcterms:MediaTypeOrExtent .
 
 core-shape:dct-PeriodOfTime a sh:NodeShape ;
@@ -196,6 +201,7 @@ core-shape:dct-RightsStatement a sh:NodeShape ;
     rdfs:label "Rights Statement" ;
     rdfs:comment "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights." ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:property core-shape:dct-RightsStatement-skos-inScheme ;
     sh:targetClass dcterms:RightsStatement .
 
 core-shape:dct-Standard a sh:NodeShape ;
@@ -219,7 +225,8 @@ core-shape:foaf-Agent a sh:NodeShape ;
     rdfs:label "Agent" ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:property core-shape:foaf-Agent-dct-type,
-        core-shape:foaf-Agent-foaf-name ;
+        core-shape:foaf-Agent-foaf-name,
+        core-shape:foaf-Agent-skos-inScheme ;
     sh:targetClass foaf:Agent .
 
 core-shape:foaf-Document a sh:NodeShape ;
@@ -703,6 +710,7 @@ core-shape:dcat-Distribution-dcatap-availability a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dct-conformsTo a sh:PropertyShape ;
     sh:class dcterms:Standard ;
+    sh:description "An implementing rule or other specification." ;
     sh:name "conforms To" ;
     sh:path dcterms:conformsTo ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/conformsTo> ?that . ?that <http://purl.org/dc/terms/conformsTo> ?this .}" ] .
@@ -737,6 +745,7 @@ core-shape:dcat-Distribution-dct-language a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dct-license a sh:PropertyShape ;
     sh:class dcterms:LicenseDocument ;
+    sh:description "A licence under which the Distribution is made available." ;
     sh:maxCount 1 ;
     sh:name "license" ;
     sh:path dcterms:license ;
@@ -793,12 +802,27 @@ core-shape:dcat-Relationship-dcat-qualifiedRelation a sh:PropertyShape ;
     sh:path dcat:qualifiedRelation ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/dcat#qualifiedRelation> ?that . ?that <http://www.w3.org/ns/dcat#qualifiedRelation> ?this .}" ] .
 
+core-shape:dct-Frequency-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
 core-shape:dct-LicenseDocument-dct-type a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:description "A type of licence, e.g. indicating 'public domain' or 'royalties required'." ;
     sh:name "type" ;
     sh:path dcterms:type ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/type> ?that . ?that <http://purl.org/dc/terms/type> ?this .}" ] .
+
+core-shape:dct-LicenseDocument-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
+core-shape:dct-LinguisticSystem-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
 
 core-shape:dct-Location-dcat-bbox a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
@@ -818,6 +842,16 @@ core-shape:dct-Location-locn-geometry a sh:PropertyShape ;
     sh:name "geometry" ;
     sh:path locn:geometry ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/locn#geometry> ?that . ?that <http://www.w3.org/ns/locn#geometry> ?this .}" ] .
+
+core-shape:dct-MediaType-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
+core-shape:dct-MediaTypeOrExtent-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
 
 core-shape:dct-PeriodOfTime-dcat-endDate a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
@@ -843,6 +877,11 @@ core-shape:dct-PeriodOfTime-time-hasEnd a sh:PropertyShape ;
     sh:name "has End" ;
     sh:path time:hasEnd .
 
+core-shape:dct-RightsStatement-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
 core-shape:foaf-Agent-dct-type a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:maxCount 1 ;
@@ -856,6 +895,11 @@ core-shape:foaf-Agent-foaf-name a sh:PropertyShape ;
     sh:name "name" ;
     sh:path foaf:name .
 
+core-shape:foaf-Agent-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
 core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:minCount 1 ;
@@ -865,15 +909,15 @@ core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
 
 core-shape:core-shape a owl:Ontology ;
     rdfs:label "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:created "2025-07-16"^^xsd:date ;
+    dcterms:created "2025-07-18"^^xsd:date ;
     dcterms:description "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:issued "2025-07-16"^^xsd:date ;
+    dcterms:issued "2025-07-18"^^xsd:date ;
     dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
     dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
     dcterms:title "ePO Core shapes"@en ;
     vann:preferredNamespacePrefix "epo" ;
     vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
-    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-16" ;
+    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-18" ;
     rdfs:seeAlso <https://docs.ted.europa.eu/EPO/latest/index.html>,
         <https://github.com/eprocurementontology/eprocurementontology>,
         <https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about>,
