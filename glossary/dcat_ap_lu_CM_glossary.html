@@ -501,7 +501,10 @@
                      <td>dct:conformsTo</td>
                      <td>An implementing rule or other specification.
                         
-                         </td>
+                         An implementing rule or other specification.
+                        
+                        
+                        </td>
                      <td>dcat:Dataset -&gt; dct:Standard [0..*]<br>dcat:Distribution -&gt; dct:Standard [0..*]<br></td>
                   </tr>
                   <tr>
@@ -533,7 +536,7 @@
                   </tr>
                   <tr>
                      <td>dct:license</td>
-                     <td></td>
+                     <td>A licence under which the Distribution is made available.</td>
                      <td>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</td>
                   </tr>
                   <tr>
@@ -630,6 +633,11 @@
                      <td>provides the business context for, the creation of the dataset.
                         </td>
                      <td>dcat:Dataset -&gt; prov:Activity [0..*]</td>
+                  </tr>
+                  <tr>
+                     <td>skos:inScheme</td>
+                     <td>      </td>
+                     <td>dct:Frequency -&gt; at-voc:frequency []<br>dct:LicenseDocument -&gt; at-voc:licence []<br>dct:LinguisticSystem -&gt; at-voc:language []<br>dct:MediaType -&gt; at-voc:file-type []<br>dct:MediaTypeOrExtent -&gt; at-voc:file-type []<br>dct:RightsStatement -&gt; at-voc:access-rights []<br>foaf:Agent -&gt; at-voc:corporate-body []<br></td>
                   </tr>
                   <tr>
                      <td>spdx:checksum</td>
