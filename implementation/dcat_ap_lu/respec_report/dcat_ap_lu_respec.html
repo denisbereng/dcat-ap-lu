@@ -68,7 +68,7 @@
    
     var respecConfig = {
       postProcess: [quickreference],
-      publishDate: "2025-07-16",
+      publishDate: "2025-07-18",
       shortName: "ePO Core core",
         editors: editors,
       authors: authors,
@@ -199,6 +199,8 @@ A <strong>Data Portal</strong> is a Web-based system that contains a data catalo
                 <tr><td><code>odrl</code></td><td><code>http://www.w3.org/ns/odrl/2/</code></td></tr>
             
                 <tr><td><code>spdx</code></td><td><code>http://spdx.org/rdf/terms#</code></td></tr>
+            
+                <tr><td><code>at-voc</code></td><td><code>http://publications.europa.eu/resource/authority/</code></td></tr>
             
                 <tr><td><code>locn</code></td><td><code>http://www.w3.org/ns/locn#</code></td></tr>
             
@@ -3570,12 +3572,80 @@ The main entities are those that form the core of the Application Profile.
                         Properties
                     </dt>
                     
-                    <dd>
-                        This specification does not impose any additional requirements to properties for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Frequency.Inscheme">In scheme</a>
+                            .
                     </dd>
                 
             </dl>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable" style="width:5%">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:12%">
+                                Range
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:6%">
+                                Card
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:30%">
+                                Definition
+                            </th>
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Frequency.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20Frequency" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -3615,6 +3685,7 @@ The main entities are those that form the core of the Application Profile.
                     
                         <dd>
                             For this entity the following properties are defined: <a href="#Licensedocument.Type">Type</a>
+                            , <a href="#Licensedocument.Inscheme">In scheme</a>
                             .
                     </dd>
                 
@@ -3684,6 +3755,44 @@ The main entities are those that form the core of the Application Profile.
 
                             </tr>
                         
+                            <tr id="Licensedocument.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20License document" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
                     </tbody>
                 </table>
             </div>
@@ -3719,6 +3828,7 @@ The main entities are those that form the core of the Application Profile.
                     
                         <dd>
                             For this entity the following properties are defined: <a href="#Licensedocument.Type">Type</a>
+                            , <a href="#Licensedocument.Inscheme">In scheme</a>
                             .
                     </dd>
                 
@@ -3779,6 +3889,44 @@ The main entities are those that form the core of the Application Profile.
                                 </td>
                                 <td>
                                     0..*
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                            <tr id="Licensedocument.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20License document" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
                                 </td>
                                 <td property="rdfs:comment">
                                     
@@ -3821,12 +3969,80 @@ The main entities are those that form the core of the Application Profile.
                         Properties
                     </dt>
                     
-                    <dd>
-                        This specification does not impose any additional requirements to properties for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Linguisticsystem.Inscheme">In scheme</a>
+                            .
                     </dd>
                 
             </dl>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable" style="width:5%">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:12%">
+                                Range
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:6%">
+                                Card
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:30%">
+                                Definition
+                            </th>
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Linguisticsystem.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20Linguistic system" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -4053,12 +4269,80 @@ The main entities are those that form the core of the Application Profile.
                         Properties
                     </dt>
                     
-                    <dd>
-                        This specification does not impose any additional requirements to properties for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Mediatype.Inscheme">In scheme</a>
+                            .
                     </dd>
                 
             </dl>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable" style="width:5%">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:12%">
+                                Range
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:6%">
+                                Card
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:30%">
+                                Definition
+                            </th>
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Mediatype.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20Media type" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -4096,12 +4380,80 @@ The main entities are those that form the core of the Application Profile.
                         Properties
                     </dt>
                     
-                    <dd>
-                        This specification does not impose any additional requirements to properties for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Mediatypeorextent.Inscheme">In scheme</a>
+                            .
                     </dd>
                 
             </dl>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable" style="width:5%">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:12%">
+                                Range
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:6%">
+                                Card
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:30%">
+                                Definition
+                            </th>
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Mediatypeorextent.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20Media type or extent" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -4403,12 +4755,80 @@ The main entities are those that form the core of the Application Profile.
                         Properties
                     </dt>
                     
-                    <dd>
-                        This specification does not impose any additional requirements to properties for this entity.
+                        <dd>
+                            For this entity the following properties are defined: <a href="#Rightsstatement.Inscheme">In scheme</a>
+                            .
                     </dd>
                 
             </dl>
         </div>
+        
+            <div class="u-table-overflow">
+                <table class="data-table simple" id="table-mandatory-classes">
+                    <thead>
+                        <tr class="data-table__header">
+                            <th class="data-table__header-title--sortable" style="width:5%">
+                            </th>
+                            <th class="data-table__header-title--sortable data-table__header-title--sortable-active" style="width:12%">
+                                Property
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:12%">
+                                Range
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:6%">
+                                Card
+                            </th>
+                            <th class="data-table__header-title--sortable" style="width:30%">
+                                Definition
+                            </th>
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="supertype">
+                        
+                            <tr id="Rightsstatement.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20Rights statement" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
         
     </div>
 </section>
@@ -4571,6 +4991,7 @@ The main entities are those that form the core of the Application Profile.
                         <dd>
                             For this entity the following properties are defined: <a href="#Agent.Name">Name</a>
                             , <a href="#Agent.Type">Type</a>
+                            , <a href="#Agent.Inscheme">In scheme</a>
                             .
                     </dd>
                 
@@ -4669,6 +5090,44 @@ The main entities are those that form the core of the Application Profile.
                                 </td>
                                 <td>
                                     0..1
+                                </td>
+                                <td property="rdfs:comment">
+                                    
+                                </td>
+
+
+
+                            </tr>
+                        
+                            <tr id="Agent.Inscheme"
+                                typeof="rdfs:Property"
+                                resource="http://www.w3.org/2004/02/skos/core#inScheme"
+                                class="class mandatory">
+                                <td>
+
+                                    <a href="https://github.com/OP-TED/ePO/issues/new?title=Issue%20for%20In scheme%20in%20Agent" target="_blank" rel="noopener noreferrer" >
+					    <!--                                        <i class="icon">[o]</i> -->
+
+                                    <i class="fa-regular fa-message"></i>
+                                    </a>
+
+                                </td>
+                                <td>
+                                        <a href="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-toggle="tooltip"
+                                           data-content="http://www.w3.org/2004/02/skos/core#inScheme"
+                                           data-placement="right">
+                                        In scheme</a>
+                                </td>
+                                <td>
+                                    
+
+                                            <a href="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">skos:Concept</a>
+
+                                    
+                                </td>
+                                <td>
+                                    
                                 </td>
                                 <td property="rdfs:comment">
                                     
