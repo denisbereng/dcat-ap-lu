@@ -25,16 +25,6 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-core-shape:Class1 a sh:NodeShape ;
-    rdfs:label "Class1" ;
-    rdfs:isDefinedBy core-shape:core-shape ;
-    sh:targetClass :Class1 .
-
-core-shape:Class2 a sh:NodeShape ;
-    rdfs:label "Class2" ;
-    rdfs:isDefinedBy core-shape:core-shape ;
-    sh:targetClass :Class2 .
-
 core-shape:adms-Identifier a sh:NodeShape ;
     rdfs:label "Identifier" ;
     rdfs:isDefinedBy core-shape:core-shape ;

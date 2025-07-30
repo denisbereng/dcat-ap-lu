@@ -23,13 +23,47 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:Class1 a owl:Class ;
-    rdfs:isDefinedBy :core ;
-    skos:prefLabel "Class1"@en .
-
-:Class2 a owl:Class ;
-    rdfs:isDefinedBy :core ;
-    skos:prefLabel "Class2"@en .
+:core a owl:Ontology ;
+    rdfs:label "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
+    dcterms:created "2025-07-30"^^xsd:date ;
+    dcterms:description "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
+    dcterms:issued "2025-07-30"^^xsd:date ;
+    dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
+    dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
+    dcterms:title "ePO Core core"@en ;
+    vann:preferredNamespacePrefix "epo" ;
+    vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
+    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-30" ;
+    rdfs:seeAlso <https://docs.ted.europa.eu/EPO/latest/index.html>,
+        <https://github.com/eprocurementontology/eprocurementontology>,
+        <https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about>,
+        <https://op.europa.eu/en/web/eu-vocabularies/e-procurement> ;
+    owl:imports cv:,
+        <http://data.europa.eu/nuts>,
+        dcatap:,
+        at-voc:,
+        dcmitype:,
+        dcterms:,
+        bibo:,
+        spdx:,
+        <http://www.opengis.net/ont/geosparql>,
+        <http://www.w3.org/2004/02/skos/core>,
+        <http://www.w3.org/2006/time>,
+        <http://www.w3.org/2006/vcard/ns>,
+        <http://www.w3.org/ns/adms>,
+        <http://www.w3.org/ns/dcat>,
+        <http://www.w3.org/ns/locn>,
+        odrl:,
+        org:,
+        <http://www.w3.org/ns/person>,
+        prov:,
+        foaf:,
+        <https://data.europa.eu/m8g/>,
+        <https://w3id.org/dpv#> ;
+    owl:incompatibleWith "2.1.0" ;
+    owl:priorVersion "http://data.europa.eu/a4g/ontology#core-3.0.1" ;
+    owl:versionIRI :core-3.1.0 ;
+    owl:versionInfo "3.1.0" .
 
 eli:LegalResource a owl:Class ;
     skos:definition "This class represents the legislation, policy or policies that lie behind the Rules that govern the service. Usage Note The definition and properties of the Legal Resource class are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition, etc.) we refer to the ELI ontology. In this data specification the use is restricted to instances of this class that follow the ELI URI guidelines"@en ;
@@ -378,46 +412,4 @@ skos:Concept a owl:Class ;
 dcat:Resource a owl:Class ;
     skos:definition "Resource published or curated by a single agent."@en ;
     skos:prefLabel "Resource"@en .
-
-:core a owl:Ontology ;
-    rdfs:label "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:created "2025-07-30"^^xsd:date ;
-    dcterms:description "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:issued "2025-07-30"^^xsd:date ;
-    dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
-    dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
-    dcterms:title "ePO Core core"@en ;
-    vann:preferredNamespacePrefix "epo" ;
-    vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
-    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-30" ;
-    rdfs:seeAlso <https://docs.ted.europa.eu/EPO/latest/index.html>,
-        <https://github.com/eprocurementontology/eprocurementontology>,
-        <https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about>,
-        <https://op.europa.eu/en/web/eu-vocabularies/e-procurement> ;
-    owl:imports cv:,
-        <http://data.europa.eu/nuts>,
-        dcatap:,
-        at-voc:,
-        dcmitype:,
-        dcterms:,
-        bibo:,
-        spdx:,
-        <http://www.opengis.net/ont/geosparql>,
-        <http://www.w3.org/2004/02/skos/core>,
-        <http://www.w3.org/2006/time>,
-        <http://www.w3.org/2006/vcard/ns>,
-        <http://www.w3.org/ns/adms>,
-        <http://www.w3.org/ns/dcat>,
-        <http://www.w3.org/ns/locn>,
-        odrl:,
-        org:,
-        <http://www.w3.org/ns/person>,
-        prov:,
-        foaf:,
-        <https://data.europa.eu/m8g/>,
-        <https://w3id.org/dpv#> ;
-    owl:incompatibleWith "2.1.0" ;
-    owl:priorVersion "http://data.europa.eu/a4g/ontology#core-3.0.1" ;
-    owl:versionIRI :core-3.1.0 ;
-    owl:versionInfo "3.1.0" .
 
