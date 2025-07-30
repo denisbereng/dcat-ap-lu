@@ -25,6 +25,16 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+core-shape:Class1 a sh:NodeShape ;
+    rdfs:label "Class1" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass :Class1 .
+
+core-shape:Class2 a sh:NodeShape ;
+    rdfs:label "Class2" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass :Class2 .
+
 core-shape:adms-Identifier a sh:NodeShape ;
     rdfs:label "Identifier" ;
     rdfs:isDefinedBy core-shape:core-shape ;
@@ -165,7 +175,8 @@ core-shape:dct-Location a sh:NodeShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:property core-shape:dct-Location-dcat-bbox,
         core-shape:dct-Location-dcat-centroid,
-        core-shape:dct-Location-locn-geometry ;
+        core-shape:dct-Location-locn-geometry,
+        core-shape:dct-Location-skos-inScheme ;
     sh:targetClass dcterms:Location .
 
 core-shape:dct-MediaType a sh:NodeShape ;
@@ -213,6 +224,7 @@ core-shape:dpv-Data a sh:NodeShape ;
     rdfs:label "Data" ;
     rdfs:comment "A broad concept representing 'data' or 'information'" ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:property core-shape:dpv-Data-skos-inScheme ;
     sh:targetClass <https://w3id.org/dpv#Data> .
 
 core-shape:eli-LegalResource a sh:NodeShape ;
@@ -261,7 +273,8 @@ core-shape:prov-Attribution a sh:NodeShape ;
 core-shape:skos-Concept a sh:NodeShape ;
     rdfs:label "Concept" ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:skos-Concept-skos-prefLabel ;
+    sh:property core-shape:skos-Concept-skos-inScheme,
+        core-shape:skos-Concept-skos-prefLabel ;
     sh:targetClass skos:Concept .
 
 core-shape:spdx-Checksum a sh:NodeShape ;
@@ -843,6 +856,11 @@ core-shape:dct-Location-locn-geometry a sh:PropertyShape ;
     sh:path locn:geometry ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/locn#geometry> ?that . ?that <http://www.w3.org/ns/locn#geometry> ?this .}" ] .
 
+core-shape:dct-Location-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
 core-shape:dct-MediaType-skos-inScheme a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:name "in Scheme" ;
@@ -882,6 +900,11 @@ core-shape:dct-RightsStatement-skos-inScheme a sh:PropertyShape ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
+core-shape:dpv-Data-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
 core-shape:foaf-Agent-dct-type a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:maxCount 1 ;
@@ -900,6 +923,11 @@ core-shape:foaf-Agent-skos-inScheme a sh:PropertyShape ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
+core-shape:skos-Concept-skos-inScheme a sh:PropertyShape ;
+    sh:class skos:Concept ;
+    sh:name "in Scheme" ;
+    sh:path skos:inScheme .
+
 core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:minCount 1 ;
@@ -909,15 +937,15 @@ core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
 
 core-shape:core-shape a owl:Ontology ;
     rdfs:label "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:created "2025-07-18"^^xsd:date ;
+    dcterms:created "2025-07-30"^^xsd:date ;
     dcterms:description "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:issued "2025-07-18"^^xsd:date ;
+    dcterms:issued "2025-07-30"^^xsd:date ;
     dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
     dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
     dcterms:title "ePO Core shapes"@en ;
     vann:preferredNamespacePrefix "epo" ;
     vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
-    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-18" ;
+    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-07-30" ;
     rdfs:seeAlso <https://docs.ted.europa.eu/EPO/latest/index.html>,
         <https://github.com/eprocurementontology/eprocurementontology>,
         <https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about>,
