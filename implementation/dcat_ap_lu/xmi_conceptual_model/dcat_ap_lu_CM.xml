@@ -17,8 +17,6 @@
 					<type xmi:idref="EAID_4BAD0A56_89A2_40fe_8A22_FD9F4A8E5244"/>
 				</ownedEnd>
 			</packagedElement>
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_6C271C18_FCFA_41fe_8356_334E737505CE" name="Class1"/>
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_E5207F4F_DFA8_41e0_B146_EB7E092A3697" name="Class2"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_58C69C87_D71A_4ec5_B1A3_1C5B567347BF" name="dcat:DataService"/>
 			<packagedElement xmi:type="uml:Association" xmi:id="EAID_239FCB69_E9BD_4955_A036_BE1E97AD348D">
 				<memberEnd xmi:idref="EAID_dst9FCB69_E9BD_4955_A036_BE1E97AD348D"/>
@@ -2602,26 +2600,6 @@
 				<links>
 					<Association xmi:id="EAID_4E5F9B50_F431_474d_BF1D_69EE52148295" start="EAID_4BAD0A56_89A2_40fe_8A22_FD9F4A8E5244" end="EAID_0AF7745E_596D_4c48_AE1F_C611231C587B"/>
 				</links>
-			</element>
-			<element xmi:idref="EAID_6C271C18_FCFA_41fe_8356_334E737505CE" xmi:type="uml:Class" name="Class1" scope="public">
-				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" tpos="0" ea_localid="112" ea_eleType="element"/>
-				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="janaa" version="1.0" phase="1.0" created="2025-07-30 13:04:44" modified="2025-07-30 13:04:44" complexity="1" status="Proposed"/>
-				<code gentype="Java"/>
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-				<tags/>
-				<xrefs/>
-				<extendedProperties tagged="0" package_name="Domain Model"/>
-			</element>
-			<element xmi:idref="EAID_E5207F4F_DFA8_41e0_B146_EB7E092A3697" xmi:type="uml:Class" name="Class2" scope="public">
-				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" tpos="0" ea_localid="120" ea_eleType="element"/>
-				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="janaa" version="1.0" phase="1.0" created="2025-07-30 13:43:38" modified="2025-07-30 13:43:38" complexity="1" status="Proposed"/>
-				<code gentype="Java"/>
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-				<tags/>
-				<xrefs/>
-				<extendedProperties tagged="0" package_name="Domain Model"/>
 			</element>
 			<element xmi:idref="EAID_58C69C87_D71A_4ec5_B1A3_1C5B567347BF" xmi:type="uml:Class" name="dcat:DataService" scope="public">
 				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" tpos="0" ea_localid="104" ea_eleType="element"/>
