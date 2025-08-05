@@ -543,7 +543,7 @@
 				</ownedAttribute>
 				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8" name="dcat:packageFormat" association="EAID_2479E901_0E23_4e8d_A3E6_FC32072143B8">
 					<type xmi:idref="EAID_12898C99_0858_457b_B4E4_690472DF6E18"/>
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000115__0E23_4e8d_A3E6_FC32072143B8" value="1"/>
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000115__0E23_4e8d_A3E6_FC32072143B8" value="0"/>
 					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000116__0E23_4e8d_A3E6_FC32072143B8" value="1"/>
 				</ownedAttribute>
 				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_dst8F4C46_88B3_4093_BBA3_528F0C031210" name="odrl:hasPolicy" association="EAID_338F4C46_88B3_4093_BBA3_528F0C031210">
@@ -1055,7 +1055,7 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_B685_8A988B3CEC5D" source="EAID_80E1F5B2_738F_4118_8E47_917B1DDEA792" target="EAID_12898C99_0858_457b_B4E4_690472DF6E18" modelElement="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_B685_8A988B3CEC5D" text="optional">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_B685_8A988B3CEC5D" x="2299" y="1100" width="43" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_B685_8A988B3CEC5D" x="2298" y="1100" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_B685_8A988B3CEC5D" text="+dcat:mediaType" modelElement="EAID_dst0A70FB_E433_45d8_B685_8A988B3CEC5D">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_B685_8A988B3CEC5D" x="2391" y="905" width="71" height="14"/>
@@ -1063,8 +1063,8 @@
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_B685_8A988B3CEC5D" text="0..1" modelElement="EAID_dst0A70FB_E433_45d8_B685_8A988B3CEC5D">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_B685_8A988B3CEC5D" x="2455" y="871" width="17" height="14"/>
 				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_B685_8A988B3CEC5D" x="2236" y="965"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_B685_8A988B3CEC5D" x="2236" y="1089"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_B685_8A988B3CEC5D" x="2234" y="965"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_B685_8A988B3CEC5D" x="2234" y="1089"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_B685_8A988B3CEC5D" x="2443" y="1089"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_C812_4de0_B685_8A988B3CEC5D" x="2443" y="866"/>
 			</ownedElement>
@@ -1539,10 +1539,10 @@
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A3E6_FC32072143B8" x="2275" y="843" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A3E6_FC32072143B8" text="+dcat:packageFormat" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A3E6_FC32072143B8" x="2250" y="828" width="89" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A3E6_FC32072143B8" x="2247" y="822" width="89" height="14"/>
 				</ownedElement>
-				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_A3E6_FC32072143B8" text="1" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A3E6_FC32072143B8" x="2348" y="845" width="6" height="14"/>
+				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_A3E6_FC32072143B8" text="0..1" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A3E6_FC32072143B8" x="2328" y="852" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A3E6_FC32072143B8" x="2236" y="840"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A3E6_FC32072143B8" x="2356" y="840"/>
@@ -1783,7 +1783,7 @@
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_6A351E63_00A4_40d6_AECF_C60D1FF7B5C9" modelElement="EAID_F7971086_EADE_4e79_AECF_C60D1FF7B5C9">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_00A4_40d6_AECF_C60D1FF7B5C9" text="enumeration"/>
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_00A4_40d6_AECF_C60D1FF7B5C9" text="at-voc:corporate-body"/>
-				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_00A4_40d6_AECF_C60D1FF7B5C9" x="103" y="1379" width="90" height="60"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_00A4_40d6_AECF_C60D1FF7B5C9" x="103" y="1371" width="90" height="60"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_6A351E63_00A4_40d6_8298_2F420681F11A" modelElement="EAID_C4529644_2574_4fea_8298_2F420681F11A">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_00A4_40d6_8298_2F420681F11A" text="enumeration"/>
@@ -1932,8 +1932,8 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_00A4_40d6_AA2B_729B056A24DE" x="579" y="859"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_6A351E63_00A4_40d6_9425_EF19C4118094" source="EAID_F4D0B2A6_BF29_48d7_826E_7BC5EE531274" target="EAID_F7971086_EADE_4e79_AECF_C60D1FF7B5C9" modelElement="EAID_27AF0970_3E41_4265_9425_EF19C4118094">
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_00A4_40d6_9425_EF19C4118094" x="296" y="1407"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_00A4_40d6_9425_EF19C4118094" x="193" y="1407"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_00A4_40d6_9425_EF19C4118094" x="296" y="1406"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_00A4_40d6_9425_EF19C4118094" x="193" y="1406"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_6A351E63_00A4_40d6_A145_47E0E1F19CF7" source="EAID_D60766FA_AEB6_46f9_896D_1FADB3BD18A4" target="EAID_EFD0D21A_7B55_42e1_8D40_BE0396EFFDA1" modelElement="EAID_F88BD1A1_996F_4b28_A145_47E0E1F19CF7">
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_00A4_40d6_A145_47E0E1F19CF7" x="1365" y="206"/>
@@ -2516,8 +2516,8 @@
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_00A4_40d6_A3E6_FC32072143B8" text="+dcat:packageFormat" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_00A4_40d6_A3E6_FC32072143B8" x="1763" y="845" width="89" height="14"/>
 				</ownedElement>
-				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_00A4_40d6_A3E6_FC32072143B8" text="1" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_00A4_40d6_A3E6_FC32072143B8" x="1861" y="862" width="6" height="14"/>
+				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_00A4_40d6_A3E6_FC32072143B8" text="0..1" modelElement="EAID_dst79E901_0E23_4e8d_A3E6_FC32072143B8">
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_00A4_40d6_A3E6_FC32072143B8" x="1850" y="862" width="6" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_00A4_40d6_A3E6_FC32072143B8" x="1752" y="857"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_00A4_40d6_A3E6_FC32072143B8" x="1869" y="857"/>
@@ -5003,7 +5003,7 @@
 				<target xmi:idref="EAID_12898C99_0858_457b_B4E4_690472DF6E18">
 					<model ea_localid="29" type="Class" name="dct:MediaType"/>
 					<role name="dcat:packageFormat" visibility="Public" targetScope="instance"/>
-					<type multiplicity="1" aggregation="none" containment="Unspecified"/>
+					<type multiplicity="0..1" aggregation="none" containment="Unspecified"/>
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
@@ -5017,7 +5017,7 @@
 				<parameterSubstitutions/>
 				<documentation value="The format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.&#xA;"/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels mb=" &#xA;«optional»" rb="1" rt="+dcat:packageFormat"/>
+				<labels mb=" &#xA;«optional»" rb="0..1" rt="+dcat:packageFormat"/>
 				<extendedProperties conditional=" &#xA;«optional»"/>
 				<style/>
 				<xrefs value="$XREFPROP=$XID={2BF25ACB-FE69-46fc-B0FD-C4D31409472D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={2479E901-0E23-4e8d-A3E6-FC32072143B8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
@@ -6206,9 +6206,9 @@
 			<diagram xmi:id="EAID_92AD94DD_C812_4de0_B5C4_E96A2540D545">
 				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" localID="8" owner="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1"/>
 				<properties name="DCAT-AP-LU" type="Logical" documentation="Usage: DCAT-AP-LU recommends the use of DatasetSeries, with additional guidance provided."/>
-				<project author="janaa" version="1.0" created="2025-06-24 09:56:08" modified="2025-07-28 13:14:22"/>
+				<project author="janaa" version="1.0" created="2025-06-24 09:56:08" modified="2025-08-04 13:21:35"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=4;PPgs.cy=2;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=96B6FFA3;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=7A799F94;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -6246,7 +6246,7 @@
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=1161;SCTR.TOP=-809;SCTR.RIGHT=1307;SCTR.BOTTOM=-780;$LLB=;LLT=;LMT=CX=43:CY=14:OX=7:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=85:CY=14:OX=-5:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1306:-780$1161:-780$1161:-809$1306:-809$;" subject="EAID_456D0A6B_0836_4fca_8350_3A0DA9FDF578" style="Mode=3;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=1163;SCTR.TOP=-905;SCTR.RIGHT=1341;SCTR.BOTTOM=-877;$LLB=;LLT=;LMT=CX=43:CY=14:OX=68:OY=-4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=83:CY=14:OX=-5:OY=6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1306:-877$1163:-877$1163:-905$1306:-905$;" subject="EAID_08968CE7_DEC0_4fb5_A4A8_D083A10A4EC1" style="Mode=3;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=-18;SY=0;EX=0;EY=-5;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=-22:OY=7:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=39:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=11:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2082:-241$;" subject="EAID_2ECBDFF6_1A48_40d9_A342_7D7155F9479B" style="Mode=3;EOID=348C0FF8;SOID=DC200438;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=156;SY=0;EX=30;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-19:OY=8:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=71:CY=14:OX=26:OY=34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2236:-1089$2443:-1089$;" subject="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
+					<element geometry="SX=154;SY=0;EX=30;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-19:OY=8:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=71:CY=14:OX=26:OY=34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2234:-1089$2443:-1089$;" subject="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
 					<element geometry="SX=153;SY=0;EX=0;EY=23;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=75:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1615:-537$;" subject="EAID_1FAA03D8_7B97_48f9_BFBE_F9EE7D494D48" style="Mode=3;EOID=7B6A559B;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=9;SY=-185;EX=9;EY=51;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=13:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=7:OY=-7:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A8051298_BB13_4ffb_A8FA_1AD8C0F53A3B" style="Mode=3;EOID=798054EF;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=24;SY=0;EX=16;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-1:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=90:CY=14:OX=60:OY=-34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_E790B201_35E0_486c_A713_69FE4B6F159F" style="Mode=3;EOID=1BDBAD4F;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
@@ -6286,7 +6286,7 @@
 					<element geometry="SX=156;SY=-10;EX=-23;EY=-211;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-20:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=60:CY=14:OX=-20:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0A47C698_D38F_4361_981A_D99507B8203A" style="Mode=2;EOID=6F1D0DEE;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=53;EX=0;EY=7;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=103:CY=14:OX=-3:OY=-4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_D3AFA773_522C_4e46_872D_6C0FA244493C" style="Mode=3;EOID=C6767081;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=1;SY=-34;EX=1;EY=206;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=55:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=92:CY=14:OX=44:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1CEE6F71_2A58_4171_831A_E85F35CC5B62" style="Mode=3;EOID=939E49B0;SOID=D395D104;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=0;SY=-116;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=89:CY=14:OX=-15:OY=6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=6:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_2479E901_0E23_4e8d_A3E6_FC32072143B8" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=0;SY=-116;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=89:CY=14:OX=-18:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=-9:OY=7:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_2479E901_0E23_4e8d_A3E6_FC32072143B8" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-67;SY=0;EX=0;EY=-22;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=26:OY=65:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=79:CY=14:OX=21:OY=42:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2013:-258$;" subject="EAID_4DE2801C_646F_45d5_A292_BAE7331004C1" style="Mode=3;EOID=348C0FF8;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=1;SY=-76;EX=1;EY=40;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=69:CY=27:OX=15:OY=-15:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=2:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_06C80A37_DB76_4405_81DD_8FFE3E3866D3" style="Mode=3;EOID=181568AB;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-219;EX=65;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=69:CY=27:OX=114:OY=-32:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1253:-1031$;" subject="EAID_32C9A4D3_5F8D_4fd9_9BDE_A232C5BEE63D" style="Mode=3;EOID=8C21E65E;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
@@ -6299,9 +6299,9 @@
 			<diagram xmi:id="EAID_6A351E63_00A4_40d6_96F4_54D6B55BA5B4">
 				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" localID="11" owner="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1"/>
 				<properties name="Domain Model LU" type="Logical" documentation="The access-right authority table is a controlled vocabulary listing the access rights or restrictions to resources. It is designed for but not limited to DCAT descriptions of datasets. This authority table is maintained by the Publications Office of the European Union and disseminated on the EU Vocabularies website. &#xA;&#xA;"/>
-				<project author="janaa" version="1.0" created="2025-07-18 13:35:04" modified="2025-07-30 13:51:38"/>
+				<project author="janaa" version="1.0" created="2025-07-18 13:35:04" modified="2025-08-01 10:13:10"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=3;PPgs.cy=2;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=E6FADC07;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=C01AFF2D;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -6315,7 +6315,7 @@
 					<element geometry="Left=1342;Top=8;Right=1432;Bottom=68;" subject="EAID_EFD0D21A_7B55_42e1_8D40_BE0396EFFDA1" seqno="7" style="DUID=A1D89513;"/>
 					<element geometry="Left=1237;Top=8;Right=1327;Bottom=68;" subject="EAID_BF2EB7E4_1CA6_48c1_86B6_2943DA814E8D" seqno="8" style="DUID=E6733647;"/>
 					<element geometry="Left=2086;Top=789;Right=2176;Bottom=849;" subject="EAID_C4529644_2574_4fea_8298_2F420681F11A" seqno="9" style="DUID=6840F7A4;"/>
-					<element geometry="Left=103;Top=1379;Right=193;Bottom=1439;" subject="EAID_F7971086_EADE_4e79_AECF_C60D1FF7B5C9" seqno="10" style="DUID=A07DDCD3;"/>
+					<element geometry="Left=103;Top=1371;Right=193;Bottom=1431;" subject="EAID_F7971086_EADE_4e79_AECF_C60D1FF7B5C9" seqno="10" style="DUID=A07DDCD3;"/>
 					<element geometry="Left=1250;Top=721;Right=1340;Bottom=781;" subject="EAID_570EA7F6_4807_4fa7_95E9_A831797D7C36" seqno="11" style="DUID=FDE18226;"/>
 					<element geometry="Left=2086;Top=861;Right=2176;Bottom=921;" subject="EAID_8F112BC0_7912_4933_B061_6366B4A44BFD" seqno="12" style="DUID=B6879811;"/>
 					<element geometry="Left=934;Top=1344;Right=1024;Bottom=1404;" subject="EAID_CFB0E5EC_4F48_4a37_B338_F5E0AE806631" seqno="13" style="DUID=650B4E07;"/>
@@ -6358,7 +6358,7 @@
 					<element geometry="SX=0;SY=191;EX=0;EY=28;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=13:OY=-47:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=55:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=8:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1845:-569$1845:-224$;" subject="EAID_A9D79CFB_364F_47ed_9BD0_4E2E6588D4EF" style="Mode=3;EOID=9D5DD65F;SOID=F3142A0B;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=16;EX=0;EY=-21;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=66:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4EB73F4D_EE19_4b94_AA74_69A12EBDFC99" style="Mode=3;EOID=6840F7A4;SOID=2B8A2B16;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=63;SY=6;EX=50;EY=20;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=34:OY=-24:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=47:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_96258166_33FC_4b04_AA2B_729B056A24DE" style="Mode=2;EOID=28E5CFF3;SOID=68E1DAF0;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=66:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_27AF0970_3E41_4265_9425_EF19C4118094" style="Mode=3;EOID=A07DDCD3;SOID=1920FA69;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=1;SY=-5;EX=1;EY=-5;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=66:CY=14:OX=8:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_27AF0970_3E41_4265_9425_EF19C4118094" style="Mode=3;EOID=A07DDCD3;SOID=1920FA69;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=69;SY=-1;EX=-32;EY=-1;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=CX=66:CY=14:OX=44:OY=37:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F88BD1A1_996F_4b28_A145_47E0E1F19CF7" style="Mode=3;EOID=A1D89513;SOID=9D5DD65F;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=9;SY=-185;EX=9;EY=51;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=13:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=7:OY=-7:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A8051298_BB13_4ffb_A8FA_1AD8C0F53A3B" style="Mode=3;EOID=24680165;SOID=68E1DAF0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=128;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-109:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=75:CY=14:OX=31:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1284:-691$;" subject="EAID_1FAA03D8_7B97_48f9_BFBE_F9EE7D494D48" style="Mode=3;EOID=6DC8C263;SOID=68E1DAF0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
