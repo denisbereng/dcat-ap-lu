@@ -371,14 +371,18 @@
                <tbody>
                   <tr>
                      <td>adms:identifier</td>
-                     <td>A secondary identifier of the Dataset
+                     <td>A secondary identifier of the Dataset.
                         
-                        </td>
+                        A secondary identifier of the Dataset.</td>
                      <td>dcat:Dataset -&gt; adms:Identifier [0..*]</td>
                   </tr>
                   <tr>
                      <td>adms:sample</td>
                      <td>A sample distribution of the dataset.
+                        
+                        Usage: DCAT-AP-LU provides additional usage guidance for the use of this property
+                        in providing data dictionaries as part of dataset descriptions.A sample distribution
+                        of the dataset.
                         
                         Usage: DCAT-AP-LU provides additional usage guidance for the use of this property
                         in providing data dictionaries as part of dataset descriptions.</td>
@@ -401,6 +405,10 @@
                      <td>compressed form, e.g. to reduce the size of the downloadable file.
                         Usage Note: It SHOULD be expressed using a media type as defined in the official register
                         of media types managed by IANA.
+                        compressed form, e.g. to reduce the size of the downloadable file.
+                        Usage Note: It SHOULD be expressed using a media type as defined in the official register
+                        of media types managed by IANA.
+                        
                         </td>
                      <td>dcat:Distribution -&gt; dct:MediaType [0..1]</td>
                   </tr>
@@ -410,17 +418,19 @@
                         
                          Contact information that can be used for sending comments about the DatasetSeries.
                         
-                        </td>
+                        Contact information that can be used for sending comments about the DatasetSeries.</td>
                      <td>dcat:Dataset -&gt; vcard:Kind [0..*]<br>dcat:DatasetSeries -&gt; vcard:Kind [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:distribution</td>
-                     <td>An available Distribution for the Dataset.</td>
+                     <td>An available Distribution for the Dataset.An available Distribution for the Dataset.</td>
                      <td>dcat:Dataset -&gt; dcat:Distribution [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:inSeries</td>
                      <td>A dataset series of which the dataset is part.
+                        Usage Note: DCAT-AP-LU recommends the use of DatasetSeries, with additional guidance
+                        providedA dataset series of which the dataset is part.
                         Usage Note: DCAT-AP-LU recommends the use of DatasetSeries, with additional guidance
                         provided</td>
                      <td>dcat:Dataset -&gt; dcat:DatasetSeries [0..*]</td>
@@ -430,6 +440,8 @@
                      <td>A web page that provides access to the Dataset, its Distributions and/or additional
                         information.
                         
+                        A web page that provides access to the Dataset, its Distributions and/or additional
+                        information.
                         </td>
                      <td>dcat:Dataset -&gt; foaf:Document [0..*]</td>
                   </tr>
@@ -438,19 +450,27 @@
                      <td>The media type of the Distribution as defined in the official register of media types
                         managed by IANA.
                         Usage note: DCAT-AP-LU provides additional usage guidance for this property.
+                        The media type of the Distribution as defined in the official register of media types
+                        managed by IANA.
+                        Usage note: DCAT-AP-LU provides additional usage guidance for this property.
                         </td>
                      <td>dcat:Distribution -&gt; dct:MediaType [0..1]</td>
                   </tr>
                   <tr>
                      <td>dcat:packageFormat</td>
                      <td>The format of the file in which one or more data files are grouped together, e.g.
-                        to enable a set of related files to be downloaded together.
+                        to enable a set of related files to be downloaded together.The format of the file
+                        in which one or more data files are grouped together, e.g. to enable a set of related
+                        files to be downloaded together.
+                        
                         </td>
                      <td>dcat:Distribution -&gt; dct:MediaType [0..1]</td>
                   </tr>
                   <tr>
                      <td>dcat:qualifiedRelation</td>
-                     <td>A description of a relationship with another resource</td>
+                     <td>A description of a relat.ionship with another resourceA description of a relationship
+                        with another resource.
+                        </td>
                      <td>dcat:Relationship -&gt; dcat:Dataset []</td>
                   </tr>
                   <tr>
@@ -460,6 +480,10 @@
                         not URL therefore, it may not properly resolve in the web browser even though it properly
                         resolves through the API.
                         
+                        A category of the Dataset.
+                        Usage: A Dataset may be associated with multiple themes. Note: the theme is an URI
+                        not URL therefore, it may not properly resolve in the web browser even though it properly
+                        resolves through the API.
                         </td>
                      <td>dcat:Dataset -&gt; skos:Concept [0..*]</td>
                   </tr>
@@ -468,17 +492,23 @@
                      <td>The legislation that mandates the creation or management of the Dataset.
                         Usage: DCAT-AP-LU provides additional usage guidance for this property in the DGA
                         context.
-                         The legislation that mandates the creation or management of the Dataset Series.
+                        The legislation that mandates the creation or management of the Dataset.
+                        Usage: DCAT-AP-LU provides additional usage guidance for this property in the DGA
+                        context. The legislation that mandates the creation or management of the Dataset Series.
                          The legislation that mandates the creation or management of the Dataset.
                         Usage: DCAT-AP-LU provides additional usage guidance for this property in the DGA
                         context.
                         
+                        The legislation that mandates the creation or management of the Dataset.
+                        Usage: DCAT-AP-LU provides additional usage guidance for this property in the DGA
+                        context.
                         </td>
                      <td>dcat:Dataset -&gt; eli:LegalResource [0..*]<br>dcat:DatasetSeries -&gt; eli:LegalResource [0..*]<br>dcat:Distribution -&gt; eli:LegalResource [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dcatap:availability</td>
                      <td>An indication how long it is planned to keep the Distribution of the Dataset available.
+                        An indication how long it is planned to keep the Distribution of the Dataset available.
                         </td>
                      <td>dcat:Distribution -&gt; skos:Concept [0..1]</td>
                   </tr>
@@ -495,32 +525,39 @@
                      <td>dct:accrualPeriodicity</td>
                      <td>The frequency at which the Dataset is updated.
                         
-                         The frequency at which the Dataset series is updated.</td>
+                        The frequency at which the Dataset is updated.
+                         The frequency at which the Dataset series is updated.The frequency at which the Dataset
+                        series is updated.
+                        </td>
                      <td>dcat:Dataset -&gt; dct:Frequency [0..1]<br>dcat:DatasetSeries -&gt; dct:Frequency [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:conformsTo</td>
                      <td>An implementing rule or other specification.
                         
+                        An implementing rule or other specification.
                          An implementing rule or other specification.
                         
                         
+                        An implementing rule or other specification.
                         </td>
                      <td>dcat:Dataset -&gt; dct:Standard [0..*]<br>dcat:Distribution -&gt; dct:Standard [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:creator</td>
-                     <td>An entity responsible for producing the dataset.</td>
+                     <td>An entity responsible for producing the dataset.An entity responsible for producing
+                        the dataset.</td>
                      <td>dcat:Dataset -&gt; foaf:Agent [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:format</td>
-                     <td>The file format of the Distribution.</td>
+                     <td>The file format of the Distribution.The file format of the Distribution.</td>
                      <td>dcat:Distribution -&gt; dct:MediaTypeOrExtent [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:hasVersion</td>
-                     <td>A related Dataset that is a version, edition, or adaptation of the described Dataset.</td>
+                     <td>A related Dataset that is a version, edition, or adaptation of the described Dataset.A
+                        related Dataset that is a version, edition, or adaptation of the described Dataset.</td>
                      <td>dcat:Dataset -&gt; dcat:Dataset [0..*]</td>
                   </tr>
                   <tr>
@@ -531,50 +568,63 @@
                   <tr>
                      <td>dct:language</td>
                      <td>A language of the Dataset.
-                         A language used in the Distribution.
+                        A language of the Dataset. A language used in the Distribution.
                         </td>
                      <td>dcat:Dataset -&gt; dct:LinguisticSystem [0..*]<br>dcat:Distribution -&gt; dct:LinguisticSystem [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:license</td>
-                     <td>A licence under which the Distribution is made available.</td>
+                     <td>A licence under which the Distribution is made available.A licence under which the
+                        Distribution is made available.</td>
                      <td>dcat:Distribution -&gt; dct:LicenseDocument [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:provenance</td>
                      <td>A statement about the lineage of a Dataset.
                         DCAT-AP-LU recommends the use of this property. Refer to usage guidance for details.
-                        </td>
+                        A statement about the lineage of a Dataset.
+                        DCAT-AP-LU recommends the use of this property. Refer to usage guidance for details.</td>
                      <td>dcat:Dataset -&gt; dct:ProvenanceStatement [0..*]</td>
                   </tr>
                   <tr>
                      <td>dct:publisher</td>
                      <td>An entity (organisation) responsible for making the Dataset available.
-                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers An entity (organisation) responsible for making the Dataset available.
+                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers.An
+                        entity (organisation) responsible for making the Dataset available.
+                        Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers.
+                         An entity (organisation) responsible for making the Dataset available.
                         
                         Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for
-                        publishers</td>
+                        publishersAn entity (organisation) responsible for making the Dataset available.
+                        
+                        Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for
+                        publishers.</td>
                      <td>dcat:Dataset -&gt; foaf:Agent [0..1]<br>dcat:DatasetSeries -&gt; foaf:Agent [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dct:rights</td>
-                     <td>A statement that specifies rights associated with the Distribution.</td>
+                     <td>A statement that specifies rights associated with the Distribution.A statement that
+                        specifies rights associated with the Distribution.
+                        </td>
                      <td>dcat:Distribution -&gt; dct:RightsStatement [0..1]</td>
                   </tr>
                   <tr>
                      <td>dct:source</td>
-                     <td>A related Dataset from which the described Dataset is derived.</td>
+                     <td>A related Dataset from which the described Dataset is derived.A related Dataset from
+                        which the described Dataset is derived.</td>
                      <td>dcat:Dataset -&gt; dcat:Dataset [0..*]</td>
                   </tr>
                   <tr>
                      <td>dct:spatial</td>
-                     <td>A geographic region that is covered by the Dataset. A geographic region that is covered by the Dataset Series
+                     <td>A geographic region that is covered by the Dataset.A geographic region that is covered
+                        by the Dataset. A geographic region that is covered by the Dataset Series
+                        A geographic region that is covered by the Dataet Series.
                         </td>
                      <td>dcat:Dataset -&gt; dct:Location [0..*]<br>dcat:DatasetSeries -&gt; dct:Location [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>dct:temporal</td>
-                     <td>A temporal period that the Dataset covers.</td>
+                     <td>A temporal period that the Dataset covers.A temporal period that the Dataset covers.</td>
                      <td>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]</td>
                   </tr>
                   <tr>
@@ -583,8 +633,11 @@
                         Usage:DCAT-AP-LU extends the recommendations for controlled vocabularies for this
                         properties provided by DCAT-AP. 
                         
-                         A type of licence, e.g. indicating 'public domain' or 'royalties required'.
-                        
+                        A type of the Dataset.
+                        Usage:DCAT-AP-LU extends the recommendations for controlled vocabularies for this
+                        properties provided by DCAT-AP. 
+                         A type of licence, e.g. indicating 'public domain' or 'royalties required'.A type
+                        of licence, e.g. indicating 'public domain' or 'royalties required'.
                          </td>
                      <td>dcat:Dataset -&gt; skos:Concept [0..1]<br>dct:LicenseDocument -&gt; skos:Concept [0..*]<br>foaf:Agent -&gt; skos:Concept [0..1]<br></td>
                   </tr>
@@ -592,6 +645,8 @@
                      <td>dpv:hasData</td>
                      <td>The type(s) of data protection, as defined in the context of the DGA, that applies
                         to the dataset.
+                        Usage:A list of accepted types, based on the Data Privacy Vocabulary.The type(s) of
+                        data protection, as defined in the context of the DGA, that applies to the dataset.
                         Usage:A list of accepted types, based on the Data Privacy Vocabulary
                         </td>
                      <td>dcat:Dataset -&gt; dpv:Data [0..*]</td>
@@ -600,8 +655,8 @@
                      <td>foaf:page</td>
                      <td>A page or document about this Dataset.
                         
-                         A page or document about this Distribution.
-                        </td>
+                        A page or document about this Dataset.
+                         A page or document about this Distribution.A page or document about this Distribution.</td>
                      <td>dcat:Dataset -&gt; foaf:Document [0..*]<br>dcat:Distribution -&gt; foaf:Document [0..*]<br></td>
                   </tr>
                   <tr>
@@ -615,25 +670,27 @@
                         vocabulary.
                         DCAT-AP-LU provides additional usage guidance on the use of this property for expressing
                         data use restrictions.
+                        
                         </td>
                      <td>dcat:Distribution -&gt; odrl:Policy [0..1]</td>
                   </tr>
                   <tr>
                      <td>prov:qualifiedAttribution</td>
-                     <td>An Agent having some form of responsibility for the resource. </td>
+                     <td>An Agent having some form of responsibility for the resource. An Agent having some
+                        form of responsibility for the resource.</td>
                      <td>dcat:Dataset -&gt; prov:Attribution [0..*]</td>
                   </tr>
                   <tr>
                      <td>prov:qualifiedRelation</td>
                      <td>A description of a relationship with another resource.
                         
-                        </td>
+                        A description of a relationship with another resource.</td>
                      <td>dcat:Dataset -&gt; dcat:Relationship []</td>
                   </tr>
                   <tr>
                      <td>prov:wasGeneratedBy</td>
                      <td>provides the business context for, the creation of the dataset.
-                        </td>
+                        provides the business context for, the creation of the dataset.</td>
                      <td>dcat:Dataset -&gt; prov:Activity [0..*]</td>
                   </tr>
                   <tr>
@@ -644,7 +701,9 @@
                   <tr>
                      <td>spdx:checksum</td>
                      <td>A mechanism that can be used to verify that the contents of a distribution have not
-                        changed.</td>
+                        changed.A mechanism that can be used to verify that the contents of a distribution
+                        have not changed.
+                        </td>
                      <td>dcat:Distribution -&gt; spdx:Checksum [0..1]</td>
                   </tr>
                </tbody>

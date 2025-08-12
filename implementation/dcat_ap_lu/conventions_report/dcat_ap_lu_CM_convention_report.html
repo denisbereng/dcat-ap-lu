@@ -56,7 +56,7 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>dcat_ap_lu_CM.xml</em> 
-               was tested at 12:14 on August 12, 2025.</p>
+               was tested at 12:55 on August 12, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
@@ -1542,7 +1542,7 @@
             is expected to be the same. In this case, multiple definitions are found: 
             <ul>
                <li>An entity (organisation) responsible for making the Dataset available.
-                  Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers
+                  Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers.
                   (dcat:Dataset -&gt; foaf:Agent (+dct:publisher)) </li>
                <li>An entity (organisation) responsible for making the Dataset available.
                   
@@ -1575,9 +1575,8 @@
                   properties provided by DCAT-AP. 
                   
                   (dcat:Dataset -&gt; skos:Concept (+dct:type)) </li>
-               <li>A type of licence, e.g. indicating 'public domain' or 'royalties required'.
-                  
-                  (dct:LicenseDocument -&gt; skos:Concept (+dct:type)) </li>
+               <li>A type of licence, e.g. indicating 'public domain' or 'royalties required'. (dct:LicenseDocument
+                  -&gt; skos:Concept (+dct:type)) </li>
                <li>... (foaf:Agent -&gt; skos:Concept (+dct:type)) </li>
             </ul>
          </dd>
@@ -1590,8 +1589,8 @@
                <li>A page or document about this Dataset.
                   
                   (dcat:Dataset -&gt; foaf:Document (+foaf:page)) </li>
-               <li>A page or document about this Distribution.
-                  (dcat:Distribution -&gt; foaf:Document (+foaf:page)) </li>
+               <li>A page or document about this Distribution. (dcat:Distribution -&gt; foaf:Document (+foaf:page))
+                  </li>
             </ul>
          </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-skos:inScheme">
