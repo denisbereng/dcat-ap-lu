@@ -92,7 +92,6 @@ core-shape:dcat-DatasetSeries a sh:NodeShape ;
         core-shape:dcat-DatasetSeries-dct-modified,
         core-shape:dcat-DatasetSeries-dct-publisher,
         core-shape:dcat-DatasetSeries-dct-spatial,
-        core-shape:dcat-DatasetSeries-dct-temporal,
         core-shape:dcat-DatasetSeries-dct-title ;
     sh:targetClass dcat:DatasetSeries .
 
@@ -435,6 +434,7 @@ core-shape:dcat-Dataset-dct-isVersionOf a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-issued a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:datatype xsd:dateTime ;
     sh:description "The date of formal issuance (e.g., publication) of the Dataset." ;
     sh:maxCount 1 ;
     sh:name "issued" ;
@@ -449,6 +449,7 @@ core-shape:dcat-Dataset-dct-language a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-modified a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:datatype xsd:dateTime ;
     sh:description "The most recent date on which the Dataset was changed or modified." ;
     sh:maxCount 1 ;
     sh:name "modified" ;
@@ -610,12 +611,6 @@ core-shape:dcat-DatasetSeries-dct-spatial a sh:PropertyShape ;
     sh:path dcterms:spatial ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/spatial> ?that . ?that <http://purl.org/dc/terms/spatial> ?this .}" ] .
 
-core-shape:dcat-DatasetSeries-dct-temporal a sh:PropertyShape ;
-    sh:class dcterms:PeriodOfTime ;
-    sh:name "temporal" ;
-    sh:path dcterms:temporal ;
-    sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/temporal> ?that . ?that <http://purl.org/dc/terms/temporal> ?this .}" ] .
-
 core-shape:dcat-DatasetSeries-dct-title a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:description "A name given to the Dataset Series." ;
@@ -733,6 +728,7 @@ core-shape:dcat-Distribution-dct-format a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dct-issued a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:datatype xsd:dateTime ;
     sh:description "The date of formal issuance (e.g., publication) of the Distribution." ;
     sh:maxCount 1 ;
     sh:name "issued" ;
@@ -755,6 +751,7 @@ core-shape:dcat-Distribution-dct-license a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dct-modified a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:datatype xsd:dateTime ;
     sh:description "The most recent date on which the Distribution was changed or modified." ;
     sh:maxCount 1 ;
     sh:name "modified" ;

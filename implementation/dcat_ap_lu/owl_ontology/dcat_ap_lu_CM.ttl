@@ -153,7 +153,7 @@ dcterms:isReferencedBy a rdf:Property ;
 dcterms:isVersionOf a owl:ObjectProperty ;
     skos:prefLabel "is Version Of"@en .
 
-dcterms:issued a rdf:Property ;
+dcterms:issued a owl:DatatypeProperty ;
     skos:definition "The date of formal issuance (e.g., publication) of the Dataset. (dcat:Dataset) The date of formal issuance (e.g., publication) of the Dataset Series. (dcat:DatasetSeries) The date of formal issuance (e.g., publication) of the Distribution. (dcat:Distribution)"@en ;
     skos:prefLabel "issued"@en .
 
@@ -165,7 +165,7 @@ dcterms:license a owl:ObjectProperty ;
     skos:definition "A licence under which the Distribution is made available."@en ;
     skos:prefLabel "license"@en .
 
-dcterms:modified a rdf:Property ;
+dcterms:modified a owl:DatatypeProperty ;
     skos:definition "The most recent date on which the Dataset was changed or modified. (dcat:Dataset) The most recent date on which the Dataset Series was changed or modified. (dcat:DatasetSeries) The most recent date on which the Distribution was changed or modified. (dcat:Distribution)"@en ;
     skos:prefLabel "modified"@en .
 
@@ -274,7 +274,6 @@ dcat:Relationship a owl:Class ;
     skos:prefLabel "Relationship"@en .
 
 dcat:accessService a owl:ObjectProperty ;
-    skos:definition "A data service that gives access to the distribution of the dataset."@en ;
     skos:prefLabel "access Service"@en .
 
 dcat:accessURL a rdf:Property ;
