@@ -141,21 +141,18 @@ core-shape:dct-Frequency a sh:NodeShape ;
     rdfs:label "Frequency" ;
     rdfs:comment "A rate at which something recurs, e.g. the publication of a Dataset." ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-Frequency-skos-inScheme ;
     sh:targetClass dcterms:Frequency .
 
 core-shape:dct-LicenseDocument a sh:NodeShape ;
     rdfs:label "License Document" ;
     rdfs:comment "A legal document giving official permission to do something with a resource." ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-LicenseDocument-dct-type,
-        core-shape:dct-LicenseDocument-skos-inScheme ;
+    sh:property core-shape:dct-LicenseDocument-dct-type ;
     sh:targetClass dcterms:LicenseDocument .
 
 core-shape:dct-LinguisticSystem a sh:NodeShape ;
     rdfs:label "Linguistic System" ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-LinguisticSystem-skos-inScheme ;
     sh:targetClass dcterms:LinguisticSystem .
 
 core-shape:dct-Location a sh:NodeShape ;
@@ -164,22 +161,19 @@ core-shape:dct-Location a sh:NodeShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:property core-shape:dct-Location-dcat-bbox,
         core-shape:dct-Location-dcat-centroid,
-        core-shape:dct-Location-locn-geometry,
-        core-shape:dct-Location-skos-inScheme ;
+        core-shape:dct-Location-locn-geometry ;
     sh:targetClass dcterms:Location .
 
 core-shape:dct-MediaType a sh:NodeShape ;
     rdfs:label "Media Type" ;
     rdfs:comment "A file format or physical medium." ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-MediaType-skos-inScheme ;
     sh:targetClass dcterms:MediaType .
 
 core-shape:dct-MediaTypeOrExtent a sh:NodeShape ;
     rdfs:label "Media Type Or Extent" ;
     rdfs:comment "A media type or dataset distribution." ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-MediaTypeOrExtent-skos-inScheme ;
     sh:targetClass dcterms:MediaTypeOrExtent .
 
 core-shape:dct-PeriodOfTime a sh:NodeShape ;
@@ -201,7 +195,6 @@ core-shape:dct-RightsStatement a sh:NodeShape ;
     rdfs:label "Rights Statement" ;
     rdfs:comment "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights." ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dct-RightsStatement-skos-inScheme ;
     sh:targetClass dcterms:RightsStatement .
 
 core-shape:dct-Standard a sh:NodeShape ;
@@ -213,7 +206,6 @@ core-shape:dpv-Data a sh:NodeShape ;
     rdfs:label "Data" ;
     rdfs:comment "A broad concept representing 'data' or 'information'" ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:dpv-Data-skos-inScheme ;
     sh:targetClass <https://w3id.org/dpv#Data> .
 
 core-shape:eli-LegalResource a sh:NodeShape ;
@@ -226,8 +218,7 @@ core-shape:foaf-Agent a sh:NodeShape ;
     rdfs:label "Agent" ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:property core-shape:foaf-Agent-dct-type,
-        core-shape:foaf-Agent-foaf-name,
-        core-shape:foaf-Agent-skos-inScheme ;
+        core-shape:foaf-Agent-foaf-name ;
     sh:targetClass foaf:Agent .
 
 core-shape:foaf-Document a sh:NodeShape ;
@@ -262,8 +253,7 @@ core-shape:prov-Attribution a sh:NodeShape ;
 core-shape:skos-Concept a sh:NodeShape ;
     rdfs:label "Concept" ;
     rdfs:isDefinedBy core-shape:core-shape ;
-    sh:property core-shape:skos-Concept-skos-inScheme,
-        core-shape:skos-Concept-skos-prefLabel ;
+    sh:property core-shape:skos-Concept-skos-prefLabel ;
     sh:targetClass skos:Concept .
 
 core-shape:spdx-Checksum a sh:NodeShape ;
@@ -801,24 +791,12 @@ core-shape:dcat-Relationship-dcat-qualifiedRelation a sh:PropertyShape ;
     sh:path dcat:qualifiedRelation ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/dcat#qualifiedRelation> ?that . ?that <http://www.w3.org/ns/dcat#qualifiedRelation> ?this .}" ] .
 
-core-shape:dct-Frequency-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
 core-shape:dct-LicenseDocument-dct-type a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:description "A type of licence, e.g. indicating 'public domain' or 'royalties required'." ;
     sh:name "type" ;
     sh:path dcterms:type ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/type> ?that . ?that <http://purl.org/dc/terms/type> ?this .}" ] .
-
-core-shape:dct-LicenseDocument-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
-core-shape:dct-LinguisticSystem-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
 
 core-shape:dct-Location-dcat-bbox a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
@@ -838,18 +816,6 @@ core-shape:dct-Location-locn-geometry a sh:PropertyShape ;
     sh:name "geometry" ;
     sh:path locn:geometry ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/locn#geometry> ?that . ?that <http://www.w3.org/ns/locn#geometry> ?this .}" ] .
-
-core-shape:dct-Location-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
-core-shape:dct-MediaType-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
-core-shape:dct-MediaTypeOrExtent-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
 
 core-shape:dct-PeriodOfTime-dcat-endDate a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
@@ -875,14 +841,6 @@ core-shape:dct-PeriodOfTime-time-hasEnd a sh:PropertyShape ;
     sh:name "has End" ;
     sh:path time:hasEnd .
 
-core-shape:dct-RightsStatement-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
-core-shape:dpv-Data-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
 core-shape:foaf-Agent-dct-type a sh:PropertyShape ;
     sh:class skos:Concept ;
     sh:maxCount 1 ;
@@ -895,14 +853,6 @@ core-shape:foaf-Agent-foaf-name a sh:PropertyShape ;
     sh:minCount 1 ;
     sh:name "name" ;
     sh:path foaf:name .
-
-core-shape:foaf-Agent-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
-
-core-shape:skos-Concept-skos-inScheme a sh:PropertyShape ;
-    sh:name "in Scheme" ;
-    sh:path skos:inScheme .
 
 core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;

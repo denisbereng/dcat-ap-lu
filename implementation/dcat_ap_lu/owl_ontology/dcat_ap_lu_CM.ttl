@@ -216,9 +216,6 @@ spdx:checksum a owl:ObjectProperty ;
 owl:versionInfo a owl:ObjectProperty ;
     skos:prefLabel "version Info"@en .
 
-skos:inScheme a owl:ObjectProperty ;
-    skos:prefLabel "in Scheme"@en .
-
 skos:notation a owl:ObjectProperty ;
     skos:definition "The literal identifying an entity, like a person or an object. (adms:Identifier)"@en ;
     skos:prefLabel "notation"@en .
