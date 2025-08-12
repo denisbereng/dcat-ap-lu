@@ -802,7 +802,6 @@ core-shape:dcat-Relationship-dcat-qualifiedRelation a sh:PropertyShape ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/dcat#qualifiedRelation> ?that . ?that <http://www.w3.org/ns/dcat#qualifiedRelation> ?this .}" ] .
 
 core-shape:dct-Frequency-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
@@ -814,12 +813,10 @@ core-shape:dct-LicenseDocument-dct-type a sh:PropertyShape ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/type> ?that . ?that <http://purl.org/dc/terms/type> ?this .}" ] .
 
 core-shape:dct-LicenseDocument-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
 core-shape:dct-LinguisticSystem-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
@@ -843,17 +840,14 @@ core-shape:dct-Location-locn-geometry a sh:PropertyShape ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/locn#geometry> ?that . ?that <http://www.w3.org/ns/locn#geometry> ?this .}" ] .
 
 core-shape:dct-Location-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
 core-shape:dct-MediaType-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
 core-shape:dct-MediaTypeOrExtent-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
@@ -882,12 +876,10 @@ core-shape:dct-PeriodOfTime-time-hasEnd a sh:PropertyShape ;
     sh:path time:hasEnd .
 
 core-shape:dct-RightsStatement-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
 core-shape:dpv-Data-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
@@ -905,12 +897,10 @@ core-shape:foaf-Agent-foaf-name a sh:PropertyShape ;
     sh:path foaf:name .
 
 core-shape:foaf-Agent-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
 core-shape:skos-Concept-skos-inScheme a sh:PropertyShape ;
-    sh:class skos:Concept ;
     sh:name "in Scheme" ;
     sh:path skos:inScheme .
 
