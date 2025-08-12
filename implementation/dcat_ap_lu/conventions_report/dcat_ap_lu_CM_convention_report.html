@@ -56,7 +56,7 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>dcat_ap_lu_CM.xml</em> 
-               was tested at 13:24 on August 12, 2025.</p>
+               was tested at 13:36 on August 12, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
@@ -69,7 +69,7 @@
             <li><a href="#dcat:Relationship">dcat:Relationship</a></li>
             <li><a href="#dcat:Resource">dcat:Resource</a></li>
             <li><a href="#dct:Frequency">dct:Frequency</a></li>
-            <li><a href="#dct:LicenseDocument">dct:LicenseDocument (2)</a></li>
+            <li><a href="#dct:LicenseDocument">dct:LicenseDocument</a></li>
             <li><a href="#dct:LinguisticSystem">dct:LinguisticSystem</a></li>
             <li><a href="#dct:Location">dct:Location</a></li>
             <li><a href="#dct:MediaType">dct:MediaType</a></li>
@@ -208,24 +208,6 @@
             <li>prov:qualifiedAttribution</li>
             <li>prov:qualifiedRelation</li>
             <li>prov:wasGeneratedBy</li>
-            <li><a href="#connector-skos:inScheme">skos:inScheme (16)</a><ul><em>
-                     <li>dct:Frequency -&gt;  []</li>
-                     <li>dct:LicenseDocument -&gt;  []</li>
-                     <li>dct:LinguisticSystem -&gt;  []</li>
-                     <li>dct:Location -&gt;  []</li>
-                     <li>dct:Location -&gt;  []</li>
-                     <li>dct:Location -&gt;  []</li>
-                     <li>dct:Location -&gt;  []</li>
-                     <li>dct:MediaType -&gt;  []</li>
-                     <li>dct:MediaType -&gt;  []</li>
-                     <li>dct:MediaTypeOrExtent -&gt;  []</li>
-                     <li>dct:RightsStatement -&gt;  []</li>
-                     <li>dpv:Data -&gt;  []</li>
-                     <li>foaf:Agent -&gt;  []</li>
-                     <li>skos:Concept -&gt;  []</li>
-                     <li>skos:Concept -&gt;  []</li>
-                     <li>skos:Concept -&gt;  []</li></em></ul>
-            </li>
             <li>spdx:checksum</li>
          </ul>
          <h1 class="selector-heading" id="classes">Classes</h1>
@@ -234,10 +216,6 @@
             <dl>
                <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>adms:Identifier is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to adms:Identifier. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to adms:Identifieris not known and will be ignored.
-                  </dd>
             </dl>
             <dl id="attribute-skos:notation">
                <dt>skos:notation</dt>
@@ -474,10 +452,6 @@
             <dl>
                <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dcat:Relationship is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dcat:Relationship. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dcat:Relationshipis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dcat:Relationship has no attributes provided. A class should define some
                   attributes.</dd>
             </dl>
@@ -500,31 +474,8 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:LicenseDocument is not unique. The Concept names should be unique within
-                  the model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: elements (Class, Datatype, Enumeration, Object)
-                  -&gt; elements, attributes, connector roles (dependency and association)</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:LicenseDocument has no attributes provided. A class should define some
                   attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dct:LicenseDocument">dct:LicenseDocument</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:LicenseDocument is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:LicenseDocument. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:LicenseDocumentis not known and will be ignored.
-                  </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name dct:LicenseDocument is not unique. The Concept names should be unique within
-                  the model. The following specifies the names of the which things are not to be reused
-                  as the names of which other things: elements (Class, Datatype, Enumeration, Object)
-                  -&gt; elements, attributes, connector roles (dependency and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:LicenseDocument has no attributes provided. A class should define some
-                  attributes.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:LicenseDocument is is disconnected. A class should be connected to other
-                  elements.</dd>
             </dl>
          </section>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="dct:LinguisticSystem">dct:LinguisticSystem</h2>
@@ -532,10 +483,6 @@
             <dl>
                <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:LinguisticSystem is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:LinguisticSystem. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:LinguisticSystemis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:LinguisticSystem has no attributes provided. A class should define some
                   attributes.</dd>
             </dl>
@@ -562,10 +509,6 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:MediaType. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:MediaTypeis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:MediaType has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
@@ -639,10 +582,6 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:RightsStatement. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:RightsStatementis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:RightsStatement has no attributes provided. A class should define some
                   attributes.</dd>
             </dl>
@@ -652,9 +591,6 @@
             <dl>
                <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>dct:Standard is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:Standard. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:Standardis not known and will be ignored. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:Standard has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
@@ -692,10 +628,6 @@
             <dl>
                <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>foaf:Document is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to foaf:Document. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to foaf:Documentis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class foaf:Document has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
@@ -733,10 +665,6 @@
             <dl>
                <dt>Unmet class conventions</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>skos:Concept is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The recommended stareotype is applied to skos:Concept. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The recommended stareotype applied to skos:Conceptis not known and will be ignored.
-                  </dd>
             </dl>
             <dl id="attribute-skos:prefLabel">
                <dt>skos:prefLabel</dt>
@@ -751,10 +679,6 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to spdx:Checksum. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to spdx:Checksumis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class spdx:Checksum has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
@@ -1293,11 +1217,6 @@
                   </li>
             </ul>
          </dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-skos:inScheme">
-            <dt>skos:inScheme</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="classAttributesUsage">Class attributes with multiple usages</h1>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="attribute-dcat:spatialResolutionInMeters-usage">
             <dt>dcat:spatialResolutionInMeters</dt>
@@ -1430,12 +1349,6 @@
             </dd>
          </dl>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="generalConventions">General conventions</h1>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Not all prefixes  are defined. All used namespaces shall be defined (prefix = base
-            URI), including the default one. Here is the list of undefined prefixes
-            <ul>
-               <li>iana</li>
-            </ul>
-         </dd>
       </main>
       <footer class="text-center"><br><br><p> This document is generated automatically by the <a href="https://github.com/costezki/model2owl" target="_blank">model2owl tool</a>
             developed in the context of <a href="https://joinup.ec.europa.eu/solution/eprocurement-ontology">the
