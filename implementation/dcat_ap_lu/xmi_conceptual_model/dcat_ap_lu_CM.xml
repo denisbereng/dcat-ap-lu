@@ -1028,7 +1028,7 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A342_7D7155F9479B" source="EAID_99CF909B_4E2B_4c7b_A184_CD337AA23ED6" target="EAID_D60766FA_AEB6_46f9_896D_1FADB3BD18A4" modelElement="EAID_2ECBDFF6_1A48_40d9_A342_7D7155F9479B">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_A342_7D7155F9479B" text="recommended">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A342_7D7155F9479B" x="2116" y="233" width="69" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A342_7D7155F9479B" x="2117" y="233" width="69" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A342_7D7155F9479B" text="+dct:type" modelElement="EAID_dstCBDFF6_1A48_40d9_A342_7D7155F9479B">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A342_7D7155F9479B" x="1968" y="230" width="39" height="14"/>
@@ -1335,15 +1335,15 @@
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_ACFF_E32791013224" x="1663" y="1243" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_ACFF_E32791013224" text="+dct:creator" modelElement="EAID_dst516A6B_4219_4a42_ACFF_E32791013224">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_ACFF_E32791013224" x="956" y="1427" width="49" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_ACFF_E32791013224" x="956" y="1428" width="49" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_ACFF_E32791013224" text="0..1" modelElement="EAID_dst516A6B_4219_4a42_ACFF_E32791013224">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_ACFF_E32791013224" x="956" y="1450" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_ACFF_E32791013224" x="956" y="1451" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_ACFF_E32791013224" x="1618" y="1047"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_ACFF_E32791013224" x="1679" y="1047"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_ACFF_E32791013224" x="1679" y="1445"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_C812_4de0_ACFF_E32791013224" x="953" y="1445"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_ACFF_E32791013224" x="1679" y="1446"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_C812_4de0_ACFF_E32791013224" x="953" y="1446"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_8ABB_3DEF8F3D4B7A" source="EAID_40327841_E4D5_4dbd_8E35_E96CA161E597" target="EAID_41268AD9_BF73_4c6c_BD5C_C1CA089F6CE4" modelElement="EAID_AA27F2CA_B4A9_489c_8ABB_3DEF8F3D4B7A">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_8ABB_3DEF8F3D4B7A" text="+dcatap:applicablelegislation" modelElement="EAID_dst27F2CA_B4A9_489c_8ABB_3DEF8F3D4B7A">
@@ -1445,17 +1445,17 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A93A_9919A90171C9" source="EAID_4BAD0A56_89A2_40fe_8A22_FD9F4A8E5244" target="EAID_41268AD9_BF73_4c6c_BD5C_C1CA089F6CE4" modelElement="EAID_EE000E49_EA61_40a2_A93A_9919A90171C9">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_A93A_9919A90171C9" text="optional">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A93A_9919A90171C9" x="1949" y="1079" width="43" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A93A_9919A90171C9" x="1951" y="1079" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A93A_9919A90171C9" text="+dcatap:applicablelegislation" modelElement="EAID_dst000E49_EA61_40a2_A93A_9919A90171C9">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A93A_9919A90171C9" x="1856" y="1147" width="116" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A93A_9919A90171C9" x="1858" y="1147" width="116" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_A93A_9919A90171C9" text="0..*" modelElement="EAID_dst000E49_EA61_40a2_A93A_9919A90171C9">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A93A_9919A90171C9" x="1978" y="1158" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A93A_9919A90171C9" x="1980" y="1158" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A93A_9919A90171C9" x="1618" y="977"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A93A_9919A90171C9" x="1970" y="977"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_A93A_9919A90171C9" x="1970" y="1176"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A93A_9919A90171C9" x="1972" y="977"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_A93A_9919A90171C9" x="1972" y="1176"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_9AFA_B520C4A57DFD" source="EAID_4BAD0A56_89A2_40fe_8A22_FD9F4A8E5244" target="EAID_12E34CDF_0F68_439f_A539_EE079BB32F0B" modelElement="EAID_1DA111B4_52B3_4199_9AFA_B520C4A57DFD">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_9AFA_B520C4A57DFD" text="optional">
@@ -1472,17 +1472,17 @@
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_A92B_9EE21B6C695B" source="EAID_4BAD0A56_89A2_40fe_8A22_FD9F4A8E5244" target="EAID_099EA70F_67E1_4815_912E_14E694FC443E" modelElement="EAID_BAF1F56A_ECFF_4f1a_A92B_9EE21B6C695B">
 				<ownedElement xmi:type="umldi:UMLKeywordLabel" xmi:id="EAID_KL000000_C812_4de0_A92B_9EE21B6C695B" text="optional">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A92B_9EE21B6C695B" x="1731" y="603" width="43" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBKL000000_C812_4de0_A92B_9EE21B6C695B" x="1732" y="603" width="43" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_A92B_9EE21B6C695B" text="+foaf:page" modelElement="EAID_dstF1F56A_ECFF_4f1a_A92B_9EE21B6C695B">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A92B_9EE21B6C695B" x="1800" y="539" width="45" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_C812_4de0_A92B_9EE21B6C695B" x="1801" y="539" width="45" height="14"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_A92B_9EE21B6C695B" text="0..*" modelElement="EAID_dstF1F56A_ECFF_4f1a_A92B_9EE21B6C695B">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A92B_9EE21B6C695B" x="1833" y="521" width="17" height="14"/>
+					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A92B_9EE21B6C695B" x="1834" y="521" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A92B_9EE21B6C695B" x="1618" y="616"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A92B_9EE21B6C695B" x="1821" y="616"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_A92B_9EE21B6C695B" x="1821" y="516"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A92B_9EE21B6C695B" x="1822" y="616"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_A92B_9EE21B6C695B" x="1822" y="516"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_997D_40E9CC016C36" source="EAID_2DB9E033_48C1_4df5_81FA_875D5C34E99C" target="EAID_A9FC867E_F61A_4c47_98E0_A4390304001D" modelElement="EAID_1BE6A09B_0786_45b9_997D_40E9CC016C36">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_C812_4de0_997D_40E9CC016C36" text="+locn:geometry" modelElement="EAID_dstE6A09B_0786_45b9_997D_40E9CC016C36">
@@ -1564,8 +1564,8 @@
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_C812_4de0_A292_BAE7331004C1" text="0..1" modelElement="EAID_dstE2801C_646F_45d5_A292_BAE7331004C1">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_A292_BAE7331004C1" x="1968" y="292" width="17" height="14"/>
 				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A292_BAE7331004C1" x="2055" y="543"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A292_BAE7331004C1" x="2055" y="287"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_A292_BAE7331004C1" x="2056" y="543"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_A292_BAE7331004C1" x="2056" y="287"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_A292_BAE7331004C1" x="1965" y="287"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_92AD94DD_C812_4de0_81DD_8FFE3E3866D3" source="EAID_40327841_E4D5_4dbd_8E35_E96CA161E597" target="EAID_F4D0B2A6_BF29_48d7_826E_7BC5EE531274" modelElement="EAID_06C80A37_DB76_4405_81DD_8FFE3E3866D3">
@@ -1630,8 +1630,8 @@
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_C812_4de0_AB27_38B9811CF506" x="846" y="860" width="17" height="14"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_C812_4de0_AB27_38B9811CF506" x="1071" y="1229"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_AB27_38B9811CF506" x="787" y="1229"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_AB27_38B9811CF506" x="787" y="855"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_C812_4de0_AB27_38B9811CF506" x="790" y="1229"/>
+				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000002_C812_4de0_AB27_38B9811CF506" x="790" y="855"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_C812_4de0_AB27_38B9811CF506" x="865" y="855"/>
 			</ownedElement>
 		</umldi:Diagram>
@@ -2875,7 +2875,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A secondary identifier of the Dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -2883,7 +2883,7 @@
 				<properties ea_type="Association" stereotype="optional" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="A secondary identifier of the Dataset&#xA;&#xA;"/>
+				<documentation value="A secondary identifier of the Dataset.&#xA;&#xA;"/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳍ptional�" rb="0..*" rt="+adms:identifier"/>
 				<extendedProperties conditional=" &#xA;쳍ptional�" virtualInheritance="0"/>
@@ -2945,7 +2945,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A related Dataset that is a version, edition, or adaptation of the described Dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -2980,7 +2980,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A sample distribution of the dataset.&#xA;&#xA;Usage: DCAT-AP-LU provides additional usage guidance for the use of this property in providing data dictionaries as part of dataset descriptions."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3015,7 +3015,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An available Distribution for the Dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3050,7 +3050,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A type of the Dataset.&#xA;Usage:DCAT-AP-LU extends the recommendations for controlled vocabularies for this properties provided by DCAT-AP.	&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3120,7 +3120,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A language of the Dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3155,7 +3155,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The type(s) of data protection, as defined in the context of the DGA, that applies to the dataset.&#xA;Usage:A list of accepted types, based on the Data Privacy Vocabulary&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3163,7 +3163,7 @@
 				<properties ea_type="Association" stereotype="optional" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="The type(s) of data protection, as defined in the context of the DGA, that applies to the dataset.&#xA;Usage:A list of accepted types, based on the Data Privacy Vocabulary&#xA;"/>
+				<documentation value="The type(s) of data protection, as defined in the context of the DGA, that applies to the dataset.&#xA;Usage:A list of accepted types, based on the Data Privacy Vocabulary."/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳍ptional�" rb="0..*" rt="+dpv:hasData"/>
 				<extendedProperties conditional=" &#xA;쳍ptional�" virtualInheritance="0"/>
@@ -3190,7 +3190,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A web page that provides access to the Dataset, its Distributions and/or additional information.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3225,7 +3225,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A statement about the lineage of a Dataset.&#xA;DCAT-AP-LU recommends the use of this property. Refer to usage guidance for details."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3260,7 +3260,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A dataset series of which the dataset is part.&#xA;Usage Note: DCAT-AP-LU recommends the use of DatasetSeries, with additional guidance provided"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3295,7 +3295,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A related Dataset from which the described Dataset is derived."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3330,7 +3330,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A description of a relationship with another resource."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3400,7 +3400,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="provides the business context for, the creation of the dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3435,7 +3435,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A category of the Dataset.&#xA;Usage: A Dataset may be associated with multiple themes. Note: the theme is an URI not URL therefore, it may not properly resolve in the web browser even though it properly resolves through the API.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3470,7 +3470,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A geographic region that is covered by the Dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3505,7 +3505,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A temporal period that the Dataset covers."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3540,7 +3540,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An entity responsible for producing the dataset."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3575,7 +3575,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A page or document about this Dataset.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3610,7 +3610,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An implementing rule or other specification.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3645,7 +3645,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An Agent having some form of responsibility for the resource."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3714,7 +3714,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An entity (organisation) responsible for making the Dataset available.&#xA;Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3722,7 +3722,7 @@
 				<properties ea_type="Association" stereotype="recommended" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="An entity (organisation) responsible for making the Dataset available.&#xA;Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers"/>
+				<documentation value="An entity (organisation) responsible for making the Dataset available.&#xA;Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers."/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳑ecommended�" rb="0..1" rt="+dct:publisher"/>
 				<extendedProperties conditional=" &#xA;쳑ecommended�"/>
@@ -3784,7 +3784,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The frequency at which the Dataset is updated.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3819,7 +3819,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The legislation that mandates the creation or management of the Dataset.&#xA;Usage: DCAT-AP-LU provides additional usage guidance for this property in the DGA context."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3854,7 +3854,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A description of a relationship with another resource.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3862,7 +3862,7 @@
 				<properties ea_type="Association" stereotype="mandatory" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="A description of a relationship with another resource"/>
+				<documentation value="A description of a relat.ionship with another resource"/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳋andatory�" rt="+dcat:qualifiedRelation"/>
 				<extendedProperties conditional=" &#xA;쳋andatory�"/>
@@ -3889,7 +3889,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An entity (organisation) responsible for making the Dataset available.&#xA;&#xA;Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers."/>
 					<xrefs value="$XREFPROP=$XID={7C22ADA6-7376-47da-9545-EF2EF372B455}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={3D2394BE-1900-4e58-BA38-D70EFCF2B5FD};@ENDSTEREO;$DES;$CLT={06C80A37-DB76-4405-81DD-8FFE3E3866D3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 					<tags/>
 				</target>
@@ -3924,7 +3924,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="Contact information that can be used for sending comments about the DatasetSeries."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -3994,7 +3994,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A geographic region that is covered by the Dataet Series.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4029,7 +4029,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The frequency at which the Dataset series is updated.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4064,7 +4064,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.&#xA;&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4072,7 +4072,7 @@
 				<properties ea_type="Association" stereotype="optional" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="The format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.&#xA;"/>
+				<documentation value="The format of the file in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together."/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳍ptional�" rb="0..1" rt="+dcat:packageFormat"/>
 				<extendedProperties conditional=" &#xA;쳍ptional�"/>
@@ -4099,7 +4099,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The policy expressing the rights associated with the distribution if using the [ODRL] vocabulary.&#xA;DCAT-AP-LU provides additional usage guidance on the use of this property for expressing data use restrictions.&#xA;&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4107,7 +4107,7 @@
 				<properties ea_type="Association" stereotype="optional" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="The policy expressing the rights associated with the distribution if using the [ODRL] vocabulary.&#xA;DCAT-AP-LU provides additional usage guidance on the use of this property for expressing data use restrictions.&#xA;"/>
+				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳍ptional�" rb="0..1" rt="+odrl:hasPolicy"/>
 				<extendedProperties conditional=" &#xA;쳍ptional�" virtualInheritance="0"/>
@@ -4134,7 +4134,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An implementing rule or other specification.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4169,7 +4169,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="An indication how long it is planned to keep the Distribution of the Dataset available.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4204,7 +4204,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A mechanism that can be used to verify that the contents of a distribution have not changed.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4239,7 +4239,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A page or document about this Distribution."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4247,7 +4247,7 @@
 				<properties ea_type="Association" stereotype="optional" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="A page or document about this Distribution.&#xA;"/>
+				<documentation value="A page or document about this Distribution."/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳍ptional�" rb="0..*" rt="+foaf:page"/>
 				<extendedProperties conditional=" &#xA;쳍ptional�"/>
@@ -4274,7 +4274,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The media type of the Distribution as defined in the official register of media types managed by IANA.&#xA;Usage note: DCAT-AP-LU provides additional usage guidance for this property.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4309,7 +4309,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The legislation that mandates the creation or management of the Dataset.&#xA;Usage: DCAT-AP-LU provides additional usage guidance for this property in the DGA context.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4344,7 +4344,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A statement that specifies rights associated with the Distribution.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4449,7 +4449,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="The file format of the Distribution."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4484,7 +4484,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="compressed form, e.g. to reduce the size of the downloadable file.&#xA;Usage Note: It SHOULD be expressed using a media type as defined in the official register of media types managed by IANA.&#xA;&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4519,7 +4519,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A licence under which the Distribution is made available."/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4587,7 +4587,7 @@
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
 					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-					<documentation/>
+					<documentation value="A type of licence, e.g. indicating 'public domain' or 'royalties required'.&#xA;"/>
 					<xrefs/>
 					<tags/>
 				</target>
@@ -4595,7 +4595,7 @@
 				<properties ea_type="Association" stereotype="recommended" direction="Source -&gt; Destination"/>
 				<modifiers isRoot="false" isLeaf="false"/>
 				<parameterSubstitutions/>
-				<documentation value="A type of licence, e.g. indicating 'public domain' or 'royalties required'.&#xA;&#xA;"/>
+				<documentation value="A type of licence, e.g. indicating 'public domain' or 'royalties required'."/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels mb=" &#xA;쳑ecommended�" rb="0..*" rt="+dct:type"/>
 				<extendedProperties conditional=" &#xA;쳑ecommended�" virtualInheritance="0"/>
@@ -5264,9 +5264,9 @@
 			<diagram xmi:id="EAID_92AD94DD_C812_4de0_B5C4_E96A2540D545">
 				<model package="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" localID="8" owner="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1"/>
 				<properties name="DCAT-AP-LU" type="Logical" documentation="Usage: DCAT-AP-LU recommends the use of DatasetSeries, with additional guidance provided."/>
-				<project author="janaa" version="1.0" created="2025-06-24 09:56:08" modified="2025-08-12 14:12:55"/>
+				<project author="janaa" version="1.0" created="2025-06-24 09:56:08" modified="2025-08-12 14:41:03"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=4;PPgs.cy=2;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=D0B05211;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=9E4DC1A1;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -5303,7 +5303,7 @@
 					<element geometry="SX=-1;SY=106;EX=-1;EY=3;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=71:CY=14:OX=-22:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_162405D9_3C69_411f_B625_B0AA7D90F8CF" style="Mode=3;EOID=2A7B5389;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=1161;SCTR.TOP=-809;SCTR.RIGHT=1307;SCTR.BOTTOM=-780;$LLB=;LLT=;LMT=CX=43:CY=14:OX=7:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=85:CY=14:OX=-5:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1306:-780$1161:-780$1161:-809$1306:-809$;" subject="EAID_456D0A6B_0836_4fca_8350_3A0DA9FDF578" style="Mode=3;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=4;SCTR.LEFT=1163;SCTR.TOP=-905;SCTR.RIGHT=1341;SCTR.BOTTOM=-877;$LLB=;LLT=;LMT=CX=43:CY=14:OX=68:OY=-4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=83:CY=14:OX=-5:OY=6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1306:-877$1163:-877$1163:-905$1306:-905$;" subject="EAID_08968CE7_DEC0_4fb5_A4A8_D083A10A4EC1" style="Mode=3;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=14;SY=0;EX=0;EY=2;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=86:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=39:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=9:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2164:-248$;" subject="EAID_2ECBDFF6_1A48_40d9_A342_7D7155F9479B" style="Mode=3;EOID=348C0FF8;SOID=DC200438;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=14;SY=0;EX=0;EY=2;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=87:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=39:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=9:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2164:-248$;" subject="EAID_2ECBDFF6_1A48_40d9_A342_7D7155F9479B" style="Mode=3;EOID=348C0FF8;SOID=DC200438;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-209;EX=44;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-1:OY=29:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=71:CY=14:OX=37:OY=34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2457:-963$;" subject="EAID_A20A70FB_E433_45d8_B685_8A988B3CEC5D" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
 					<element geometry="SX=0;SY=244;EX=0;EY=-5;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=1:OY=-28:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=75:CY=14:OX=-7:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1651:-568$1651:-486$;" subject="EAID_1FAA03D8_7B97_48f9_BFBE_F9EE7D494D48" style="Mode=3;EOID=7B6A559B;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=9;SY=-185;EX=9;EY=51;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=-22:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=6:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A8051298_BB13_4ffb_A8FA_1AD8C0F53A3B" style="Mode=3;EOID=798054EF;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
@@ -5313,7 +5313,7 @@
 					<element geometry="SX=0;SY=1;EX=0;EY=-4;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-6:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=67:CY=14:OX=-6:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_64A4543E_B011_4288_AFC3_BCC3D4A255E1" style="Mode=3;EOID=12174E91;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=13;SY=-10;EX=44;EY=10;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=1:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A457B56C_6BCE_4dac_AC8D_34F5944F56BF" style="Mode=3;EOID=2A7B5389;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-90;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=45:OY=-17:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=45:CY=14:OX=7:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1990:-481$;" subject="EAID_66D8214F_E3A6_4677_9057_35E47BA114FC" style="Mode=3;EOID=7B6A559B;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=-1;SY=-8;EX=-1;EY=1;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-4:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=58:CY=14:OX=-12:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=-3:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_190AF645_C37B_489d_9F80_8E3ACF981117" style="Mode=3;EOID=3EB14274;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=1;SY=-8;EX=1;EY=1;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-4:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=58:CY=14:OX=-12:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=-3:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_190AF645_C37B_489d_9F80_8E3ACF981117" style="Mode=3;EOID=3EB14274;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=68;SY=-121;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=68:CY=14:OX=-11:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_CFDDE0C0_74CB_47b4_A3EE_BFA1CAB17E2F" style="Mode=3;EOID=C8D8C5CE;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-7;SY=152;EX=-7;EY=2;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=68:CY=14:OX=20:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=6:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_241A0488_0FA1_4c18_853E_2403D4AB46B9" style="Mode=3;EOID=8EE5059B;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-251;EX=0;EY=-90;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=9:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1717:-1063$1717:-1492$;" subject="EAID_D78C068E_955F_49ce_BAD5_C746A0F82F04" style="Mode=3;EOID=181568AB;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
@@ -5325,18 +5325,18 @@
 					<element geometry="SX=-2;SY=0;EX=0;EY=44;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=39:CY=14:OX=-2:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1460:-206$;" subject="EAID_139D2448_F2CE_4dae_99C8_CF9915409B45" style="Mode=3;EOID=348C0FF8;SOID=939E49B0;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;SCME=1;SCTR=1;EDGE=2;SCTR.LEFT=1560;SCTR.TOP=-1017;SCTR.RIGHT=1690;SCTR.BOTTOM=-996;$LLB=;LLT=;LMT=CX=43:CY=14:OX=22:OY=12:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=CX=65:CY=14:OX=95:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1618:-1017$1690:-1017$1690:-996$1618:-996$;" subject="EAID_3EE5EC81_3102_46a2_BBAF_48952ACA70C5" style="Mode=2;EOID=939E49B0;SOID=939E49B0;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=191;EX=0;EY=49;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=55:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=8:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2332:-563$2332:-201$;" subject="EAID_A9D79CFB_364F_47ed_9BD0_4E2E6588D4EF" style="Mode=3;EOID=348C0FF8;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=0;SY=-235;EX=0;EY=-43;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=5:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=49:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1679:-1047$1679:-1445$;" subject="EAID_B9516A6B_4219_4a42_ACFF_E32791013224" style="Mode=3;EOID=181568AB;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=0;SY=-235;EX=0;EY=-44;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=5:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=49:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1679:-1047$1679:-1446$;" subject="EAID_B9516A6B_4219_4a42_ACFF_E32791013224" style="Mode=3;EOID=181568AB;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-116;EX=26;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=116:CY=14:OX=46:OY=25:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=2025:-1419$;" subject="EAID_AA27F2CA_B4A9_489c_8ABB_3DEF8F3D4B7A" style="Mode=3;EOID=8FFAF548;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=0;SY=24;EX=0;EY=34;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=90:CY=14:OX=10:OY=-9:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_FFDE88BB_3ADA_4b52_A384_FF20072FF893" style="Mode=3;EOID=1BDBAD4F;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=1;SY=24;EX=1;EY=34;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=90:CY=14:OX=10:OY=-9:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_FFDE88BB_3ADA_4b52_A384_FF20072FF893" style="Mode=3;EOID=1BDBAD4F;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-92;EX=11;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=CX=75:CY=14:OX=10:OY=14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1598:-1395$;" subject="EAID_55BE86A4_20D4_4911_B5AF_5AB485E75671" style="Mode=3;EOID=DE5CE9EA;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=59;SY=0;EX=0;EY=26;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=0:OY=-14:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=48:CY=14:OX=-6:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B31A10BE_2B3B_4299_9157_7AF4A917372F" style="Mode=3;EOID=05BBD888;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=28;SY=-241;EX=4;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=1:OY=-18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=95:CY=14:OX=-22:OY=25:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_7E5CBF10_24F4_4f67_B8D9_E398AEFE5C1F" style="Mode=3;EOID=0AD47FDC;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=122;EX=0;EY=-10;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=61:CY=14:OX=-27:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_338F4C46_88B3_4093_BBA3_528F0C031210" style="Mode=3;EOID=1184DA36;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-211;EX=-49;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=93:CY=14:OX=39:OY=17:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=2364:-965$;" subject="EAID_F8A87022_98E2_4e47_B8AE_4B8A2B14F70F" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-37;SY=17;EX=49;EY=17;EDGE=3;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=116:CY=14:OX=63:OY=-23:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A3AEB985_983F_478b_A68B_981A4D7A97A9" style="Mode=3;EOID=8FFAF548;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=0;SY=-165;EX=-29;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=116:CY=14:OX=9:OY=-11:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1970:-977$;" subject="EAID_EE000E49_EA61_40a2_A93A_9919A90171C9" style="Mode=3;EOID=8FFAF548;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=0;SY=-165;EX=-27;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=116:CY=14:OX=9:OY=-11:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1972:-977$;" subject="EAID_EE000E49_EA61_40a2_A93A_9919A90171C9" style="Mode=3;EOID=8FFAF548;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=152;SY=5;EX=4;EY=5;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=35:OY=16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_1DA111B4_52B3_4199_9AFA_B520C4A57DFD" style="Mode=3;EOID=847B0D34;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=0;SY=196;EX=8;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-69:OY=34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=45:CY=14:OX=31:OY=18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1821:-616$;" subject="EAID_BAF1F56A_ECFF_4f1a_A92B_9EE21B6C695B" style="Mode=3;EOID=7B6A559B;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=0;SY=196;EX=9;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=-69:OY=34:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=45:CY=14:OX=31:OY=18:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=1822:-616$;" subject="EAID_BAF1F56A_ECFF_4f1a_A92B_9EE21B6C695B" style="Mode=3;EOID=7B6A559B;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=13;SY=0;EX=0;EY=3;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=1534:-234$;" subject="EAID_51EE3FCD_E5EA_4e73_BD95_6324A4476073" style="Mode=3;EOID=348C0FF8;SOID=847B0D34;Color=-1;LWidth=0;TREE=OR;Hidden=1;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=CX=64:CY=14:OX=36:OY=21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_1BE6A09B_0786_45b9_997D_40E9CC016C36" style="Mode=3;EOID=656917E6;SOID=A7839D14;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-144;SY=0;EX=0;EY=23;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=8:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=93:CY=14:OX=14:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=1318:-527$;" subject="EAID_3F449638_B1B0_4fb0_B539_11C950FE58D2" style="Mode=3;EOID=D395D104;SOID=939E49B0;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
@@ -5344,13 +5344,13 @@
 					<element geometry="SX=0;SY=53;EX=0;EY=7;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=103:CY=14:OX=5:OY=-5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_D3AFA773_522C_4e46_872D_6C0FA244493C" style="Mode=3;EOID=C6767081;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-23;EX=0;EY=229;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=55:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=92:CY=14:OX=-24:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1CEE6F71_2A58_4171_831A_E85F35CC5B62" style="Mode=3;EOID=939E49B0;SOID=D395D104;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-116;EX=0;EY=2;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=89:CY=14:OX=-18:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=-9:OY=7:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_2479E901_0E23_4e8d_A3E6_FC32072143B8" style="Mode=3;EOID=0D33DB15;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=-25;SY=0;EX=0;EY=-37;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=52:OY=56:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=79:CY=14:OX=-1:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2055:-287$;" subject="EAID_4DE2801C_646F_45d5_A292_BAE7331004C1" style="Mode=3;EOID=348C0FF8;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
-					<element geometry="SX=1;SY=-76;EX=1;EY=40;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=69:CY=27:OX=4:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=2:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_06C80A37_DB76_4405_81DD_8FFE3E3866D3" style="Mode=3;EOID=181568AB;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=-24;SY=0;EX=0;EY=-37;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=52:OY=56:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=79:CY=14:OX=-1:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=2056:-287$;" subject="EAID_4DE2801C_646F_45d5_A292_BAE7331004C1" style="Mode=3;EOID=348C0FF8;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=2;SY=-76;EX=2;EY=40;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=69:CY=27:OX=4:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=2:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_06C80A37_DB76_4405_81DD_8FFE3E3866D3" style="Mode=3;EOID=181568AB;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-219;EX=65;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=69:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=CX=57:CY=14:OX=78:OY=-16:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=1253:-1031$;" subject="EAID_32C9A4D3_5F8D_4fd9_9BDE_A232C5BEE63D" style="Mode=3;EOID=8C21E65E;SOID=939E49B0;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-12;SY=-74;EX=-12;EY=11;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=8:OY=1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=58:CY=14:OX=2:OY=-6:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=11:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_AB06793A_75D2_4fdd_9F04_14E94B27526A" style="Mode=3;EOID=3EB14274;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=0;SY=-171;EX=0;EY=5;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=43:CY=14:OX=7:OY=5:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=CX=68:CY=14:OX=0:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_3CB722E0_2A1B_4e73_BFFB_E9F83F92A398" style="Mode=3;EOID=C8D8C5CE;SOID=6F1D0DEE;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 					<element geometry="SX=-84;SY=2;EX=18;EY=2;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D4F31F03_22CE_4285_8B02_C79C18D56674" style="Mode=3;EOID=6CA88963;SOID=939E49B0;Color=-1;LWidth=0;TREE=OS;Hidden=0;"/>
-					<element geometry="SX=0;SY=74;EX=0;EY=5;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=47:CY=14:OX=-10:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=787:-1229$787:-855$;" subject="EAID_E76A4FBE_B699_4cdb_AB27_38B9811CF506" style="Mode=3;EOID=A7839D14;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
+					<element geometry="SX=0;SY=74;EX=0;EY=5;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=47:CY=14:OX=-10:OY=-3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=790:-1229$790:-855$;" subject="EAID_E76A4FBE_B699_4cdb_AB27_38B9811CF506" style="Mode=3;EOID=A7839D14;SOID=8C21E65E;Color=-1;LWidth=0;TREE=OR;Hidden=0;"/>
 				</elements>
 			</diagram>
 		</diagrams>
