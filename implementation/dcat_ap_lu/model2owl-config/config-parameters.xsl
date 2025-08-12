@@ -131,50 +131,49 @@
     <!--    This section contains the variables used to build the ontology metadata-->
     <xsl:variable name="moduleReference" select="'core'"/>
     <!--    dct:title -->
-    <xsl:variable name="ontologyTitleCore" select="'ePO Core core'"/>
-    <xsl:variable name="ontologyTitleRestrictions" select="'ePO Core restrictions'"/>
-    <xsl:variable name="ontologyTitleShapes" select="'ePO Core shapes'"/>
+    <xsl:variable name="ontologyTitleCore" select="'DCAT-AP-LU'"/>
+    <xsl:variable name="ontologyTitleRestrictions" select="'DCAT-AP-LU restrictions'"/>
+    <xsl:variable name="ontologyTitleShapes" select="'DCAT-AP-LU shapes'"/>
     <!--    dct:description-->
     <xsl:variable name="ontologyDescriptionCore"
         select="
-        'This artefact provides the definitions for the eProcurement Ontology Core.
+        'This artefact provides the definitions for the DCAT-AP-LU.
         This artefact excludes the restrictions.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
-        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
+        DCAT-AP-LU is a Luxembourg-specific extension of the DCAT-AP profile used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe. It was created as part of the national implementation of the Data Governance Act (DGA) to support the creation of a single national dataset catalogue for all public sector data. The DCAT-AP-LU reuses large parts of the DCAT-AP-v3.0 standard, with a set of minor adaptations to support specific requirements for Luxembourg.'"/>
 
         <xsl:variable name="ontologyDescriptionRestrictions"
         select="
         'This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.
         This artefact excludes the definitions of concepts.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyDescriptionShapes"
         select="
-        'This artefact provides the generic datashape specifications for the eProcurement Ontology Core.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        'This artefact provides the generic datashape specifications for the DCAT-AP-LU.
+        The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
 
     <!--    rdfs:label-->
     <xsl:variable name="ontologyLabelCore"
         select="
-        'This artefact provides the definitions for the eProcurement Ontology Core.
+        'This artefact provides the definitions for the DCAT-AP-LU.
         This artefact excludes the restrictions.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyLabelRestrictions"
         select="
         'This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.
         This artefact excludes the definitions of concepts.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The eDCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyLabelShapes"
         select="
         'This artefact provides the generic datashape specifications for the eProcurement Ontology Core.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <!--    rdfs:seeAlso -->
@@ -213,10 +212,10 @@
     <!--                            RESPEC SECTION                               -->
     <!-- _______________________________________________________________________   -->
 
-    <xsl:variable name="githubURL" select="'https://github.com/OP-TED/ePO'"/>
+    <xsl:variable name="githubURL" select="'https://github.com/meaningfy-ws/dcat-ap-lu'"/>
     <xsl:variable name="respecDescription" select="$ontologyDescriptionCore"/>
     <xsl:variable name="feedbackURL" select="fn:concat($githubURL, '/issues')"/>
-    <xsl:variable name="authors" select="('Author One', 'Author Two')"/>
+    <xsl:variable name="authors" select="('Maria Keet', 'Jana Ahmad')"/>
     <xsl:variable name="editors" select="('Editor One', 'Editor Two')"/>
 
 </xsl:stylesheet>
