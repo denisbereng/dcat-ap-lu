@@ -24,13 +24,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :core a owl:Ontology ;
-    rdfs:label "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
+    rdfs:label "This artefact provides the definitions for the DCAT-AP-LU.         This artefact excludes the restrictions.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
     dcterms:created "2025-08-12"^^xsd:date ;
-    dcterms:description "This artefact provides the definitions for the eProcurement Ontology Core.         This artefact excludes the restrictions.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
+    dcterms:description "This artefact provides the definitions for the DCAT-AP-LU.         This artefact excludes the restrictions.         DCAT-AP-LU is a Luxembourg-specific extension of the DCAT-AP profile used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe. It was created as part of the national implementation of the Data Governance Act (DGA) to support the creation of a single national dataset catalogue for all public sector data. The DCAT-AP-LU reuses large parts of the DCAT-AP-v3.0 standard, with a set of minor adaptations to support specific requirements for Luxembourg."@en ;
     dcterms:issued "2025-08-12"^^xsd:date ;
     dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
     dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
-    dcterms:title "ePO Core core"@en ;
+    dcterms:title "DCAT-AP-LU"@en ;
     vann:preferredNamespacePrefix "epo" ;
     vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
     rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-12" ;
@@ -174,7 +174,7 @@ dcterms:provenance a owl:ObjectProperty ;
     skos:prefLabel "provenance"@en .
 
 dcterms:publisher a owl:ObjectProperty ;
-    skos:definition "An entity (organisation) responsible for making the Dataset available. Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers An entity (organisation) responsible for making the Dataset available. Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers"@en ;
+    skos:definition "An entity (organisation) responsible for making the Dataset available. Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers. An entity (organisation) responsible for making the Dataset available. Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers"@en ;
     skos:prefLabel "publisher"@en .
 
 dcterms:relation a rdf:Property ;
@@ -240,7 +240,7 @@ adms:Identifier a owl:Class ;
     skos:prefLabel "Identifier"@en .
 
 adms:identifier a owl:ObjectProperty ;
-    skos:definition "A secondary identifier of the Dataset"@en ;
+    skos:definition "A secondary identifier of the Dataset."@en ;
     skos:prefLabel "identifier"@en .
 
 adms:sample a owl:ObjectProperty ;
@@ -330,7 +330,7 @@ dcat:packageFormat a owl:ObjectProperty ;
     skos:prefLabel "package Format"@en .
 
 dcat:qualifiedRelation a owl:ObjectProperty ;
-    skos:definition "A description of a relationship with another resource"@en ;
+    skos:definition "A description of a relat.ionship with another resource"@en ;
     skos:prefLabel "qualified Relation"@en .
 
 dcat:spatialResolutionInMeters a owl:DatatypeProperty ;
@@ -360,7 +360,6 @@ odrl:Policy a owl:Class ;
     skos:prefLabel "Policy"@en .
 
 odrl:hasPolicy a owl:ObjectProperty ;
-    skos:definition "The policy expressing the rights associated with the distribution if using the [ODRL] vocabulary. DCAT-AP-LU provides additional usage guidance on the use of this property for expressing data use restrictions."@en ;
     skos:prefLabel "has Policy"@en .
 
 prov:Activity a owl:Class ;
@@ -402,7 +401,7 @@ foaf:page a owl:ObjectProperty ;
     skos:prefLabel "Data"@en .
 
 <https://w3id.org/dpv#hasData> a owl:ObjectProperty ;
-    skos:definition "The type(s) of data protection, as defined in the context of the DGA, that applies to the dataset. Usage:A list of accepted types, based on the Data Privacy Vocabulary"@en ;
+    skos:definition "The type(s) of data protection, as defined in the context of the DGA, that applies to the dataset. Usage:A list of accepted types, based on the Data Privacy Vocabulary."@en ;
     skos:prefLabel "has Data"@en .
 
 skos:Concept a owl:Class ;

@@ -287,7 +287,7 @@ core-shape:adms-Identifier-skos-notation a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-adms-identifier a sh:PropertyShape ;
     sh:class adms:Identifier ;
-    sh:description "A secondary identifier of the Dataset" ;
+    sh:description "A secondary identifier of the Dataset." ;
     sh:name "identifier" ;
     sh:path adms:identifier ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/adms#identifier> ?that . ?that <http://www.w3.org/ns/adms#identifier> ?this .}" ] .
@@ -464,7 +464,7 @@ core-shape:dcat-Dataset-dct-provenance a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-publisher a sh:PropertyShape ;
     sh:class foaf:Agent ;
-    sh:description "An entity (organisation) responsible for making the Dataset available. Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers" ;
+    sh:description "An entity (organisation) responsible for making the Dataset available. Usage: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers." ;
     sh:maxCount 1 ;
     sh:name "publisher" ;
     sh:path dcterms:publisher ;
@@ -598,7 +598,7 @@ core-shape:dcat-DatasetSeries-dct-modified a sh:PropertyShape ;
 
 core-shape:dcat-DatasetSeries-dct-publisher a sh:PropertyShape ;
     sh:class foaf:Agent ;
-    sh:description "An entity (organisation) responsible for making the Dataset available. Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers" ;
+    sh:description "An entity (organisation) responsible for making the Dataset available. Usage note: DCAT-AP-LU provides additional usage guidance regarding vocabularies for publishers." ;
     sh:maxCount 1 ;
     sh:name "publisher" ;
     sh:path dcterms:publisher ;
@@ -606,7 +606,7 @@ core-shape:dcat-DatasetSeries-dct-publisher a sh:PropertyShape ;
 
 core-shape:dcat-DatasetSeries-dct-spatial a sh:PropertyShape ;
     sh:class dcterms:Location ;
-    sh:description "A geographic region that is covered by the Dataset Series" ;
+    sh:description "A geographic region that is covered by the Dataet Series." ;
     sh:name "spatial" ;
     sh:path dcterms:spatial ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://purl.org/dc/terms/spatial> ?that . ?that <http://purl.org/dc/terms/spatial> ?this .}" ] .
@@ -796,7 +796,7 @@ core-shape:dcat-Distribution-spdx-checksum a sh:PropertyShape ;
 
 core-shape:dcat-Relationship-dcat-qualifiedRelation a sh:PropertyShape ;
     sh:class dcat:Dataset ;
-    sh:description "A description of a relationship with another resource" ;
+    sh:description "A description of a relationship with another resource." ;
     sh:name "qualified Relation" ;
     sh:path dcat:qualifiedRelation ;
     sh:sparql [ sh:select "SELECT ?this ?that WHERE { ?this <http://www.w3.org/ns/dcat#qualifiedRelation> ?that . ?that <http://www.w3.org/ns/dcat#qualifiedRelation> ?this .}" ] .
@@ -922,13 +922,13 @@ core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
     sh:path skos:prefLabel .
 
 core-shape:core-shape a owl:Ontology ;
-    rdfs:label "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
+    rdfs:label "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
     dcterms:created "2025-08-12"^^xsd:date ;
-    dcterms:description "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
+    dcterms:description "This artefact provides the generic datashape specifications for the DCAT-AP-LU.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
     dcterms:issued "2025-08-12"^^xsd:date ;
     dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
     dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
-    dcterms:title "ePO Core shapes"@en ;
+    dcterms:title "DCAT-AP-LU shapes"@en ;
     vann:preferredNamespacePrefix "epo" ;
     vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
     rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-12" ;
