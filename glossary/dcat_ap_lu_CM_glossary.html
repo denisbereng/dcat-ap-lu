@@ -300,13 +300,13 @@
                      <td>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:issued</td>
                      <td>The date of formal issuance (e.g., publication) of the Dataset. The date of formal issuance (e.g., publication) of the Dataset Series. The date of formal issuance (e.g., publication) of the Distribution.</td>
-                     <td>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br></td>
+                     <td>xsd:dateTime [0..1]<br>TemporalLiteral [0..1]<br>xsd:dateTime [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:Dataset<br>dcat:DatasetSeries<br>dcat:Distribution<br></td>
                      <td>dct:modified</td>
                      <td>The most recent date on which the Dataset was changed or modified. The most recent date on which the Dataset Series was changed or modified. The most recent date on which the Distribution was changed or modified.</td>
-                     <td>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br>TemporalLiteral [0..1]<br></td>
+                     <td>xsd:dateTime [0..1]<br>TemporalLiteral [0..1]<br>xsd:dateTime [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>dcat:Dataset</td>
@@ -392,8 +392,9 @@
                   <tr>
                      <td>dcat:accessService</td>
                      <td>A data service that gives access to the distribution of the dataset.
+                        
                         </td>
-                     <td>dcat:Distribution -&gt; dcat:DataService []</td>
+                     <td>dcat:Distribution -&gt; dcat:DataService [0..*]</td>
                   </tr>
                   <tr>
                      <td>dcat:compressFormat</td>
@@ -573,8 +574,8 @@
                   </tr>
                   <tr>
                      <td>dct:temporal</td>
-                     <td>A temporal period that the Dataset covers. </td>
-                     <td>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]<br>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]<br></td>
+                     <td>A temporal period that the Dataset covers.</td>
+                     <td>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]</td>
                   </tr>
                   <tr>
                      <td>dct:type</td>
@@ -613,7 +614,8 @@
                      <td>The policy expressing the rights associated with the distribution if using the [ODRL]
                         vocabulary.
                         DCAT-AP-LU provides additional usage guidance on the use of this property for expressing
-                        data use restrictions.</td>
+                        data use restrictions.
+                        </td>
                      <td>dcat:Distribution -&gt; odrl:Policy [0..1]</td>
                   </tr>
                   <tr>
@@ -642,8 +644,7 @@
                   <tr>
                      <td>spdx:checksum</td>
                      <td>A mechanism that can be used to verify that the contents of a distribution have not
-                        changed.
-                        </td>
+                        changed.</td>
                      <td>dcat:Distribution -&gt; spdx:Checksum [0..1]</td>
                   </tr>
                </tbody>

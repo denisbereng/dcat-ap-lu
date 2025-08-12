@@ -56,7 +56,7 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>dcat_ap_lu_CM.xml</em> 
-               was tested at 10:02 on August 12, 2025.</p>
+               was tested at 12:14 on August 12, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
@@ -117,14 +117,14 @@
             <li><a href="#attribute-dct:identifier">dct:identifier</a></li>
             <li><a href="#attribute-dct:isReferencedBy">dct:isReferencedBy</a></li>
             <li><a href="#attribute-dct:issued-usage">dct:issued (3)</a><ul><em>
-                     <li>dcat:Dataset (TemporalLiteral) [0..1]</li>
+                     <li>dcat:Dataset (xsd:dateTime) [0..1]</li>
                      <li>dcat:DatasetSeries (TemporalLiteral) [0..1]</li>
-                     <li>dcat:Distribution (TemporalLiteral) [0..1]</li></em></ul>
+                     <li>dcat:Distribution (xsd:dateTime) [0..1]</li></em></ul>
             </li>
             <li><a href="#attribute-dct:modified-usage">dct:modified (3)</a><ul><em>
-                     <li>dcat:Dataset (TemporalLiteral) [0..1]</li>
+                     <li>dcat:Dataset (xsd:dateTime) [0..1]</li>
                      <li>dcat:DatasetSeries (TemporalLiteral) [0..1]</li>
-                     <li>dcat:Distribution (TemporalLiteral) [0..1]</li></em></ul>
+                     <li>dcat:Distribution (xsd:dateTime) [0..1]</li></em></ul>
             </li>
             <li><a href="#attribute-dct:relation">dct:relation</a></li>
             <li><a href="#attribute-dct:title-usage">dct:title (3)</a><ul><em>
@@ -192,10 +192,7 @@
                      <li>dcat:Dataset -&gt; dct:Location [0..*]</li>
                      <li>dcat:DatasetSeries -&gt; dct:Location [0..*]</li></em></ul>
             </li>
-            <li><a href="#connector-dct:temporal">dct:temporal (2)</a><ul><em>
-                     <li>dcat:Dataset -&gt; dct:PeriodOfTime [0..*]</li>
-                     <li>dcat:DatasetSeries -&gt; dct:PeriodOfTime [0..*]</li></em></ul>
-            </li>
+            <li>dct:temporal</li>
             <li><a href="#connector-dct:type">dct:type (3)</a><ul><em>
                      <li>dcat:Dataset -&gt; skos:Concept [0..1]</li>
                      <li>dct:LicenseDocument -&gt; skos:Concept [0..*]</li>
@@ -328,18 +325,12 @@
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:issued. Stereotypes are discouraged in the
                   current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:issuedis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
             </dl>
             <dl id="attribute-dct:modified">
                <dt>dct:modified</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:modified. Stereotypes are discouraged in
                   the current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:modifiedis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
             </dl>
             <dl id="attribute-dct:relation">
                <dt>dct:relation</dt>
@@ -464,18 +455,12 @@
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:issued. Stereotypes are discouraged in the
                   current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:issuedis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
             </dl>
             <dl id="attribute-dct:modified">
                <dt>dct:modified</dt>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:modified. Stereotypes are discouraged in
                   the current practice with some exceptions. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:modifiedis not known and will be ignored. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type TemporalLiteral type is invalid. Attributes must use types that
-                  are either: (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs
-                  (datatypes or classes).</dd>
             </dl>
             <dl id="attribute-dct:title">
                <dt>dct:title</dt>
@@ -508,10 +493,6 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:Frequency. Stereotypes are discouraged in
-                  the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:Frequencyis not known and will be ignored.
-                  </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:Frequency has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
@@ -650,10 +631,6 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to dct:ProvenanceStatement. Stereotypes are discouraged
-                  in the current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to dct:ProvenanceStatementis not known and will be
-                  ignored. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class dct:ProvenanceStatement has no attributes provided. A class should define
                   some attributes.</dd>
             </dl>
@@ -789,9 +766,6 @@
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The optional stareotype is applied to vcard:Kind. Stereotypes are discouraged in the
-                  current practice with some exceptions. </dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The optional stareotype applied to vcard:Kindis not known and will be ignored. </dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class vcard:Kind has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
@@ -1037,6 +1011,14 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; dct:LinguisticSystem (+dct:language).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; dpv:Data (+dpv:hasData)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Dataset -&gt; dpv:Data (+dpv:hasData)is not known and
+               will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; dpv:Data (+dpv:hasData). Stereotypes
+               are discouraged in the current practice with some exceptions. </dd>
+         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; foaf:Document (+dcat:landingPage)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1089,6 +1071,14 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
                define and describe all the relations.</dd>
          </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; prov:Activity (+prov:wasGeneratedBy)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Dataset -&gt; prov:Activity (+prov:wasGeneratedBy)is not
+               known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; prov:Activity (+prov:wasGeneratedBy).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; skos:Concept (+dcat:theme)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1137,6 +1127,14 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; dct:Standard (+dct:conformsTo).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; prov:Attribution (+prov:qualifiedAttribution)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Dataset -&gt; prov:Attribution (+prov:qualifiedAttribution)is
+               not known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; prov:Attribution (+prov:qualifiedAttribution).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; foaf:Agent (+dct:publisher)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1161,6 +1159,14 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; dct:Frequency (+dct:accrualPeriodicity).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Dataset -&gt; eli:LegalResource (+dcatap:applicablelegislation)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Dataset -&gt; eli:LegalResource (+dcatap:applicablelegislation)is
+               not known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Dataset -&gt; eli:LegalResource (+dcatap:applicablelegislation).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:DatasetSeries -&gt; foaf:Agent (+dct:publisher)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1169,17 +1175,13 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:DatasetSeries -&gt; foaf:Agent (+dct:publisher).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:DatasetSeries -&gt; dct:PeriodOfTime (+dct:temporal)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The connector is missing a description. It is recommended                      to
-               define and describe all the relations.</dd>
-         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dcat:DataService (+dcat:accessService)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of dcat:Distribution -&gt; dcat:DataService (+dcat:accessService) has
-               no multiplicity. Cardinality must be provided for each role.</dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; dcat:DataService (+dcat:accessService)is
+               not known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dcat:DataService (+dcat:accessService).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:MediaType (+dcat:packageFormat)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
@@ -1187,6 +1189,14 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; dct:MediaType (+dcat:packageFormat)is
                not known and will be ignored. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dct:MediaType (+dcat:packageFormat).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; odrl:Policy (+odrl:hasPolicy)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; odrl:Policy (+odrl:hasPolicy)is not
+               known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; odrl:Policy (+odrl:hasPolicy).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:Standard (+dct:conformsTo)</h2>
@@ -1229,6 +1239,14 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dct:MediaType (+dcat:mediaType).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; eli:LegalResource (+dcatap:applicablelegislation)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; eli:LegalResource (+dcatap:applicablelegislation)is
+               not known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; eli:LegalResource (+dcatap:applicablelegislation).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:RightsStatement (+dct:rights)</h2>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#">
             <dt> Unmet association conventions </dt>
@@ -1253,6 +1271,22 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language)is
                not known and will be ignored. </dd>
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dct:LinguisticSystem (+dct:language).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:MediaTypeOrExtent (+dct:format)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; dct:MediaTypeOrExtent (+dct:format)is
+               not known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dct:MediaTypeOrExtent (+dct:format).
+               Stereotypes are discouraged in the current practice with some exceptions. </dd>
+         </dl>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:MediaType (+dcat:compressFormat)</h2>
+         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dt> Unmet association conventions </dt>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The stereotype applied to dcat:Distribution -&gt; dct:MediaType (+dcat:compressFormat)is
+               not known and will be ignored. </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The true stareotype is applied to dcat:Distribution -&gt; dct:MediaType (+dcat:compressFormat).
                Stereotypes are discouraged in the current practice with some exceptions. </dd>
          </dl>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#">dcat:Distribution -&gt; dct:LicenseDocument (+dct:license)</h2>
@@ -1528,17 +1562,6 @@
                   (dcat:DatasetSeries -&gt; dct:Location (+dct:spatial)) </li>
             </ul>
          </dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:temporal">
-            <dt>dct:temporal</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts, the meaning given by the definition
-            is expected to be the same. In this case, multiple definitions are found: 
-            <ul>
-               <li>A temporal period that the Dataset covers. (dcat:Dataset -&gt; dct:PeriodOfTime (+dct:temporal))
-                  </li>
-               <li>... (dcat:DatasetSeries -&gt; dct:PeriodOfTime (+dct:temporal)) </li>
-            </ul>
-         </dd>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-dct:type">
             <dt>dct:type</dt>
          </dl>
@@ -1652,6 +1675,15 @@
                      </li>
                </ul>
             </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute dct:issued has different datatypes in reuse contexts.When a property
+               is reused in multiple contexts, the data-type is expected to be the same.In this case,
+               multiple data-types are found: 
+               <ul>
+                  <li>xsd:dateTime (dcat:Dataset) </li>
+                  <li>TemporalLiteral (dcat:DatasetSeries) </li>
+                  <li>xsd:dateTime (dcat:Distribution) </li>
+               </ul>
+            </dd>
          </dl>
          <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="attribute-dct:modified-usage">
             <dt>dct:modified</dt>
@@ -1665,6 +1697,15 @@
                      </li>
                   <li>The most recent date on which the Distribution was changed or modified. (dcat:Distribution)
                      </li>
+               </ul>
+            </dd>
+            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute dct:modified has different datatypes in reuse contexts.When a property
+               is reused in multiple contexts, the data-type is expected to be the same.In this case,
+               multiple data-types are found: 
+               <ul>
+                  <li>xsd:dateTime (dcat:Dataset) </li>
+                  <li>TemporalLiteral (dcat:DatasetSeries) </li>
+                  <li>xsd:dateTime (dcat:Distribution) </li>
                </ul>
             </dd>
          </dl>
