@@ -2,8 +2,7 @@ import json
 from types import SimpleNamespace
 import pytest
 from rdflib import Graph, Namespace
-from tests import DEFAULT_RDF_FORMAT, TEST_DATA_FOLDER
-from tests.unit.shacl import FULL_SHAPES_FILE
+from tests import DEFAULT_RDF_FORMAT, TEST_DATA_FOLDER, FULL_SHAPES_FILE
 
 
 @pytest.fixture(scope="session")

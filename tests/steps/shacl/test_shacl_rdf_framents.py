@@ -1,7 +1,8 @@
 from types import SimpleNamespace
 from pyshacl import validate
 from rdflib import Graph
-from tests.unit.shacl import TEST_DATA_FOLDER, DEFAULT_RDF_FORMAT
+from tests import DEFAULT_RDF_FORMAT
+from tests.steps.shacl import TEST_DATA_FOLDER
 
 from pytest_bdd import given, scenarios, then, when, parsers
 
