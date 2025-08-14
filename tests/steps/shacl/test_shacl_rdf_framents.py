@@ -1,3 +1,4 @@
+from pathlib import Path
 from types import SimpleNamespace
 from pyshacl import validate
 from rdflib import Graph
@@ -6,8 +7,13 @@ from tests.steps.shacl import TEST_DATA_FOLDER
 
 from pytest_bdd import given, scenarios, then, when, parsers
 
-
-scenarios("../../features/shacl/shacl_rdf_fragments.feature")
+FEATURE_FILE = (
+    Path(__file__).parent.parent.parent
+    / "features"
+    / "shacl"
+    / "shacl_rdf_fragments.feature"
+)
+scenarios(str(FEATURE_FILE))
 
 
 @given(
