@@ -14,14 +14,6 @@ else
     }
 endif
 
-BUILD_PRINT = \e[1;34m
-END_BUILD_PRINT = \e[0m
-
-ICON_DONE = [✔]
-ICON_ERROR = [x]
-ICON_WARNING = [!]
-ICON_PROGRESS = [-]
-
 TEST_DIR = tests
 
 #-----------------------------------------------------------------------------
