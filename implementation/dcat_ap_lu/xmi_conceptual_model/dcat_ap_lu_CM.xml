@@ -8,7 +8,7 @@
 		</XMI.documentation>
 	</XMI.header>
 	<XMI.content>
-		<UML:Model name="EA Model" xmi.id="MX_EAID_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1">
+		<UML:Model name="EA  Model" xmi.id="MX_EAID_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="Domain Model" xmi.id="EAPK_DC5B300A_29F1_42d1_AD2A_C842F3D71BE1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
@@ -71,7 +71,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="25"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Document"/>
@@ -81,7 +81,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="14"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={044E90C6-6D46-4727-AB85-C867F843F71F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={1FAA03D8-7B97-48f9-BFBE-F9EE7D494D48}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:landingPage"/>
 							</UML:ModelElement.taggedValue>
@@ -119,7 +119,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="33"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Document"/>
@@ -128,7 +128,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="14"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={926893E7-2956-44fc-8CE5-234AC7BE271C}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={66D8214F-E3A6-4677-9057-35E47BA114FC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+foaf:page"/>
 							</UML:ModelElement.taggedValue>
@@ -166,7 +166,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="31"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Document"/>
@@ -175,7 +175,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="14"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A5A7CFEB-6A7E-49bc-80B2-79DA078D54A7}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};FQName=SysML1.1::optional;@ENDSTEREO;$DES;$CLT={BAF1F56A-ECFF-4f1a-A92B-9EE21B6C695B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+foaf:page"/>
 							</UML:ModelElement.taggedValue>
@@ -268,7 +268,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="21"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="adms:Identifier"/>
@@ -278,7 +278,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="16"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={31C2F678-AB7B-4aab-94C8-D4F976E92464}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={4E5F9B50-F431-474d-BF1D-69EE52148295}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="mt" value="adms:identifier"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+adms:identifier"/>
@@ -341,7 +341,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="41"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:MediaType"/>
@@ -350,7 +350,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="19"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2BF25ACB-FE69-46fc-B0FD-C4D31409472D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={2479E901-0E23-4e8d-A3E6-FC32072143B8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dcat:packageFormat"/>
 							</UML:ModelElement.taggedValue>
@@ -388,7 +388,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="27"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:MediaType"/>
@@ -397,7 +397,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="19"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B59F2653-A913-45bd-B92F-3CE6F6748042}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={A20A70FB-E433-45d8-B685-8A988B3CEC5D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dcat:mediaType"/>
 							</UML:ModelElement.taggedValue>
@@ -435,7 +435,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="52"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:MediaType"/>
@@ -445,7 +445,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="19"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={046B3850-6B44-480a-A55B-1C327726E4DF}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={F8A87022-98E2-4e47-B8AE-4B8A2B14F70F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dcat:compressFormat"/>
 							</UML:ModelElement.taggedValue>
@@ -506,7 +506,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«recommended»"/>
+								<UML:TaggedValue tag="conditional" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="49"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dpv:Data"/>
@@ -516,7 +516,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="35"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C5B7CE1F-53BF-406b-A160-DCF5F6210199}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={1DA111B4-52B3-4199-9AFA-B520C4A57DFD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dpv:hasData"/>
 							</UML:ModelElement.taggedValue>
@@ -615,7 +615,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="43"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="prov:Attribution"/>
@@ -625,7 +625,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="34"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={16AB51A8-15B3-4310-8FD0-083AB6DC0BC7}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={D3AFA773-522C-4e46-872D-6C0FA244493C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+prov:qualifiedAttribution"/>
 							</UML:ModelElement.taggedValue>
@@ -760,7 +760,7 @@
 								<UML:TaggedValue tag="stereotype" value="mandatory"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «mandatory»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«mandatoryÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="16"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:CatalogRecord"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:Resource"/>
@@ -770,7 +770,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="28"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3162049A-B0E7-4dd5-AD42-09FC837E472B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=mandatory;GUID={6912CD3A-872D-4cea-AD81-720624DBDBAC};@ENDSTEREO;$DES;$CLT={5FB7D505-56F6-41c5-BF08-1EE040D2DE57}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«mandatory»"/>
+								<UML:TaggedValue tag="mb" value="Â«mandatoryÂ»"/>
 								<UML:TaggedValue tag="rb" value="1..1"/>
 								<UML:TaggedValue tag="rt" value="+foaf:primaryTopic"/>
 							</UML:ModelElement.taggedValue>
@@ -968,7 +968,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="22"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:Location"/>
@@ -977,7 +977,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="18"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={03EFCE56-D659-4b1a-8DA1-685C357531D5}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={96258166-33FC-4b04-AA2B-729B056A24DE}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:spatial"/>
 							</UML:ModelElement.taggedValue>
@@ -1015,7 +1015,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«recommended»"/>
+								<UML:TaggedValue tag="conditional" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="48"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:DatasetSeries"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:Location"/>
@@ -1025,7 +1025,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="18"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B35BE1A2-8783-4ff6-A7C6-B56A4B8C34AE}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={E76A4FBE-B699-4cdb-AB27-38B9811CF506}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:spatial"/>
 							</UML:ModelElement.taggedValue>
@@ -1086,7 +1086,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="34"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:Standard"/>
@@ -1095,7 +1095,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="26"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8252BF83-C8D6-4698-8235-0425F7EBE673}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={3CB722E0-2A1B-4e73-BFFB-E9F83F92A398}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:conformsTo"/>
 							</UML:ModelElement.taggedValue>
@@ -1133,7 +1133,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="17"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:Standard"/>
@@ -1143,7 +1143,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="26"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8A4F2F45-8EA6-4b8c-B1B1-81B93CFE2F98}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={CFDDE0C0-74CB-47b4-A3EE-BFA1CAB17E2F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:conformsTo"/>
 							</UML:ModelElement.taggedValue>
@@ -1205,7 +1205,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="54"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="prov:Activity"/>
@@ -1215,7 +1215,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="39"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A73400A1-DB5D-47cd-A03A-2701C21C0A4F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={7E5CBF10-24F4-4f67-B8D9-E398AEFE5C1F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+prov:wasGeneratedBy"/>
 							</UML:ModelElement.taggedValue>
@@ -1275,7 +1275,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="14"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:LinguisticSystem"/>
@@ -1284,7 +1284,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="17"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EEF2AB57-5A4F-471a-8E16-1FEA4F6CC5E6}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={190AF645-C37B-489d-9F80-8E3ACF981117}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:language"/>
 							</UML:ModelElement.taggedValue>
@@ -1322,7 +1322,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="35"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:LinguisticSystem"/>
@@ -1331,7 +1331,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="17"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F29CB1CF-949E-4471-8520-5F738BA874FD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={AB06793A-75D2-4fdd-9F04-14E94B27526A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:language"/>
 							</UML:ModelElement.taggedValue>
@@ -1518,7 +1518,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«recommended»"/>
+								<UML:TaggedValue tag="conditional" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="38"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:DatasetSeries"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Agent"/>
@@ -1528,7 +1528,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="2"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9BDE8C1B-5BE3-4503-9293-6C8B97DA587D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={06C80A37-DB76-4405-81DD-8FFE3E3866D3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:publisher"/>
 							</UML:ModelElement.taggedValue>
@@ -1566,7 +1566,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="37"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:DatasetSeries"/>
@@ -1576,7 +1576,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="29"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={41DD9BA9-AC35-4626-A4B5-12C876DC1A0F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={32C9A4D3-5F8D-4fd9-9BDE-A232C5BEE63D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:inSeries"/>
 							</UML:ModelElement.taggedValue>
@@ -1655,7 +1655,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="57"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:DatasetSeries"/>
 								<UML:TaggedValue tag="ea_targetName" value="eli:LegalResource"/>
@@ -1665,7 +1665,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="36"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ED0DF898-4A5E-46ab-B72A-9F42F685A1A5}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={AA27F2CA-B4A9-489c-8ABB-3DEF8F3D4B7A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcatap:applicablelegislation"/>
 							</UML:ModelElement.taggedValue>
@@ -1726,7 +1726,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="51"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="eli:LegalResource"/>
@@ -1736,7 +1736,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="36"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AEE6FA1B-35B4-4570-9AA4-8E4263B148F2}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={A3AEB985-983F-478b-A68B-981A4D7A97A9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcatap:applicablelegislation"/>
 							</UML:ModelElement.taggedValue>
@@ -1774,7 +1774,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="50"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="eli:LegalResource"/>
@@ -1784,7 +1784,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="36"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E36D2DAD-E961-43a0-8B27-4AB7A5CECE8A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={EE000E49-EA61-40a2-A93A-9919A90171C9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcatap:applicablelegislation"/>
 							</UML:ModelElement.taggedValue>
@@ -1845,7 +1845,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="45"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:Relationship"/>
@@ -1854,7 +1854,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="21"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B3BA4A49-DE75-4e26-B77F-B1813D459E9D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={3F449638-B1B0-4fb0-B539-11C950FE58D2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="mt" value="prov:qualifiedRelation"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:qualifiedRelation"/>
@@ -2297,7 +2297,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="29"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:Dataset"/>
@@ -2306,7 +2306,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="11"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B136C2AE-ABA4-4607-B5B6-115E629D017E}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={08968CE7-DEC0-4fb5-A4A8-D083A10A4EC1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:hasVersion"/>
 							</UML:ModelElement.taggedValue>
@@ -2344,7 +2344,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="44"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:Distribution"/>
@@ -2353,7 +2353,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="12"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FAA1D655-C2DC-4c99-AA4A-495A9A22072B}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={0A47C698-D38F-4361-981A-D99507B8203A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+adms:sample"/>
 							</UML:ModelElement.taggedValue>
@@ -2391,7 +2391,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="4"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:Distribution"/>
@@ -2401,7 +2401,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="12"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9DF2E505-8962-4208-B868-392574548A6E}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;@ENDSTEREO;$DES;$CLT={12D2E7EA-4517-4f27-BD0B-C19590D7F903}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:distribution"/>
 							</UML:ModelElement.taggedValue>
@@ -2439,7 +2439,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="3"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="skos:Concept"/>
@@ -2448,7 +2448,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="10"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E4475778-4474-4c82-B96F-345067AFAF75}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={139D2448-F2CE-4dae-99C8-CF9915409B45}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:type"/>
 							</UML:ModelElement.taggedValue>
@@ -2486,7 +2486,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="1"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:RightsStatement"/>
@@ -2495,7 +2495,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="25"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={09A5F727-D923-47cf-90D4-289995A0DD40}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={162405D9-3C69-411f-B625-B0AA7D90F8CF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:accessRights"/>
 							</UML:ModelElement.taggedValue>
@@ -2532,7 +2532,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="39"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:ProvenanceStatement"/>
@@ -2541,7 +2541,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="42"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7615C030-17AC-4b3e-A34B-6B8E00CA064D}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={241A0488-0FA1-4c18-853E-2403D4AB46B9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:provenance"/>
 							</UML:ModelElement.taggedValue>
@@ -2579,7 +2579,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="2"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:Dataset"/>
@@ -2588,7 +2588,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="11"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={34222C0F-F688-4861-94D6-7A7ADAD19F9E}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={3EE5EC81-3102-46a2-BBAF-48952ACA70C5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:source"/>
 							</UML:ModelElement.taggedValue>
@@ -2626,7 +2626,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="5"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="skos:Concept"/>
@@ -2635,7 +2635,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="10"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={093AD95F-D13B-4882-A985-3D9812ABAA7F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={7EF5E447-ECFE-446d-A6B7-57DA71BBDE2D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:theme"/>
 							</UML:ModelElement.taggedValue>
@@ -2672,7 +2672,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="26"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:DataService"/>
@@ -2682,7 +2682,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="5"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={51FDC2BB-05DD-4d8b-9639-86224C57ECDA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={7F2B3DFD-7E66-4b7a-9CC3-177296CE0BA5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:servesDataset"/>
 							</UML:ModelElement.taggedValue>
@@ -2719,7 +2719,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="24"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:PeriodOfTime"/>
@@ -2728,7 +2728,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="20"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={61C66E90-C360-4e2d-82DC-F80651466DCB}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={A8051298-BB13-4ffb-A8FA-1AD8C0F53A3B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:temporal"/>
 							</UML:ModelElement.taggedValue>
@@ -2766,7 +2766,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="46"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Agent"/>
@@ -2775,7 +2775,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="2"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9B37B03C-F9E9-456e-958E-2F1B7703E790}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={B9516A6B-4219-4a42-ACFF-E32791013224}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:creator"/>
 							</UML:ModelElement.taggedValue>
@@ -2813,7 +2813,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="13"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Agent"/>
@@ -2822,7 +2822,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="2"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E8FB1963-1561-498e-8B21-9BDAD8A07C5A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={D78C068E-955F-49ce-BAD5-C746A0F82F04}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:publisher"/>
 							</UML:ModelElement.taggedValue>
@@ -2860,7 +2860,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="9"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="vcard:Kind"/>
@@ -2869,7 +2869,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="11"/>
 								<UML:TaggedValue tag="ea_targetID" value="27"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1B22CF9E-0B0F-498d-975C-36EF1D2E7811}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;@ENDSTEREO;$DES;$CLT={E005BC05-82C8-4927-ACB1-C02D09866AFA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:contactPoint"/>
 							</UML:ModelElement.taggedValue>
@@ -2906,7 +2906,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="23"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Dataset"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:Frequency"/>
@@ -2916,7 +2916,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="15"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2EBE1CF3-6242-4ede-897F-1ACE515A4C42}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={E790B201-35E0-486c-A713-69FE4B6F159F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:accrualPeriodicity"/>
 							</UML:ModelElement.taggedValue>
@@ -2978,7 +2978,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="32"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="spdx:Checksum"/>
@@ -2987,7 +2987,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="3"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7725434D-08B0-4aa6-A89F-C36F1276D12A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={64A4543E-B011-4288-AFC3-BCC3D4A255E1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+spdx:checksum"/>
 							</UML:ModelElement.taggedValue>
@@ -3047,7 +3047,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="6"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:DataService"/>
@@ -3057,7 +3057,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="5"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={41BF69A2-5983-401d-801A-523E77231A16}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={239FCB69-E9BD-4955-A036-BE1E97AD348D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:accessService"/>
 							</UML:ModelElement.taggedValue>
@@ -3094,7 +3094,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="7"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Catalog"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:DataService"/>
@@ -3104,7 +3104,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="5"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={9767542A-4E42-487e-B8B2-4052C9F9BBEA}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={6FADFFF2-995D-4e5d-AE3D-4E175BCCD657}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:service"/>
 							</UML:ModelElement.taggedValue>
@@ -3640,7 +3640,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="53"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="odrl:Policy"/>
@@ -3650,7 +3650,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="38"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B6D76375-AF00-46ef-A10E-7E58B410323C}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={338F4C46-88B3-4093-BBA3-528F0C031210}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+odrl:hasPolicy"/>
 							</UML:ModelElement.taggedValue>
@@ -3688,7 +3688,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="40"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="skos:Concept"/>
@@ -3697,7 +3697,7 @@
 								<UML:TaggedValue tag="ea_sourceID" value="12"/>
 								<UML:TaggedValue tag="ea_targetID" value="10"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DA13E707-29EE-4e82-918C-C7A6B984CDFD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={4DE2801C-646F-45d5-A292-BAE7331004C1}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dcatap:availability"/>
 							</UML:ModelElement.taggedValue>
@@ -3735,7 +3735,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="19"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:RightsStatement"/>
@@ -3745,7 +3745,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="25"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={36FF9E9F-A9C4-4548-A793-81AFD0694EC3}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={A457B56C-6BCE-4dac-AC8D-34F5944F56BF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:rights"/>
 							</UML:ModelElement.taggedValue>
@@ -3782,7 +3782,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «optional»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="20"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="skos:Concept"/>
@@ -3792,7 +3792,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="10"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F32731D1-0055-48bb-BA24-B07040712200}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={A9D79CFB-364F-47ed-9BD0-4E2E6588D4EF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+adms:status"/>
 							</UML:ModelElement.taggedValue>
@@ -3829,7 +3829,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="55"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:MediaTypeOrExtent"/>
@@ -3839,7 +3839,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="40"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D3FE6428-B21A-4a8b-BCDE-A6A9706CFD34}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={B31A10BE-2B3B-4299-9157-7AF4A917372F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:format"/>
 							</UML:ModelElement.taggedValue>
@@ -3877,7 +3877,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="18"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Distribution"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:LicenseDocument"/>
@@ -3887,7 +3887,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="13"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FC1A11AC-185F-43e9-8A5B-C5C6BF8A36FC}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;@ENDSTEREO;$DES;$CLT={FACDCD7B-6F67-4e2b-A8E9-70A00DE6A6B7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:license"/>
 							</UML:ModelElement.taggedValue>
@@ -3996,7 +3996,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="28"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dct:LicenseDocument"/>
 								<UML:TaggedValue tag="ea_targetName" value="skos:Concept"/>
@@ -4006,7 +4006,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="10"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A3AFA128-6970-4c55-A628-F6162F93C492}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={2ECBDFF6-1A48-40d9-A342-7D7155F9479B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dct:type"/>
 							</UML:ModelElement.taggedValue>
@@ -4043,7 +4043,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="10"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Catalog"/>
 								<UML:TaggedValue tag="ea_targetName" value="dct:LicenseDocument"/>
@@ -4053,7 +4053,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="13"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1371174D-A9B5-4c23-940D-15DAE466CB34}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={918A4DA7-8A99-4679-95F7-F6625090FB0E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:license"/>
 							</UML:ModelElement.taggedValue>
@@ -4180,7 +4180,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="15"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Catalog"/>
 								<UML:TaggedValue tag="ea_targetName" value="dcat:CatalogRecord"/>
@@ -4190,7 +4190,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="37"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C54E09FF-7E00-4195-B81E-31EE0E4168C8}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={D31A70FF-6505-43bb-A8A5-5C62C1F5B1BC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..*"/>
 								<UML:TaggedValue tag="rt" value="+dcat:record"/>
 							</UML:ModelElement.taggedValue>
@@ -4282,7 +4282,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="  «recommended»"/>
+								<UML:TaggedValue tag="conditional" value="  Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="8"/>
 								<UML:TaggedValue tag="ea_sourceName" value="foaf:Agent"/>
 								<UML:TaggedValue tag="ea_targetName" value="skos:Concept"/>
@@ -4292,7 +4292,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="10"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1D9076B2-7716-49f1-B9E0-6F3954F7CF0F}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;@ENDSTEREO;$DES;$CLT={493FF8DB-14F8-43fd-9343-87B3A994E701}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:type"/>
 							</UML:ModelElement.taggedValue>
@@ -4407,7 +4407,7 @@
 								<UML:TaggedValue tag="stereotype" value="recommended"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«recommended»"/>
+								<UML:TaggedValue tag="conditional" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="11"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Catalog"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Agent"/>
@@ -4417,7 +4417,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="2"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D8A742BD-67C9-4b84-B822-C37E7FE83C77}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=recommended;GUID={F23E0D78-D06A-44d9-9611-ECBD5ECF24EC};@ENDSTEREO;$DES;$CLT={5CF5013D-BAF8-4e48-A98E-AA493A191899}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«recommended»"/>
+								<UML:TaggedValue tag="mb" value="Â«recommendedÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:publisher"/>
 							</UML:ModelElement.taggedValue>
@@ -4453,7 +4453,7 @@
 								<UML:TaggedValue tag="stereotype" value="optional"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value="«optional»"/>
+								<UML:TaggedValue tag="conditional" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="ea_localid" value="12"/>
 								<UML:TaggedValue tag="ea_sourceName" value="dcat:Catalog"/>
 								<UML:TaggedValue tag="ea_targetName" value="foaf:Agent"/>
@@ -4463,7 +4463,7 @@
 								<UML:TaggedValue tag="ea_targetID" value="2"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={64B3B602-FDC8-4f2a-B42F-1CACF9EDC21C}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=optional;GUID={FEFF073B-2D21-4389-8415-50D2FC3A58EB};@ENDSTEREO;$DES;$CLT={C057EE2F-F05B-4c0c-BE73-3C7F8EFFA971}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value="«optional»"/>
+								<UML:TaggedValue tag="mb" value="Â«optionalÂ»"/>
 								<UML:TaggedValue tag="rb" value="0..1"/>
 								<UML:TaggedValue tag="rt" value="+dct:creator"/>
 							</UML:ModelElement.taggedValue>
