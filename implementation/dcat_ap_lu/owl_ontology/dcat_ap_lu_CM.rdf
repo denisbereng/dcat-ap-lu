@@ -49,7 +49,7 @@
     <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
     <dcterms:license>The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N94800031af12453cafc755d4f0abfec1">
+  <rdf:Description rdf:nodeID="N99f5703a8a9b4be9b9ad7550dffbde9c">
     <rdf:type rdf:resource="file:///home/runner/work/dcat-ap-lu/dcat-ap-lu/implementation/dcat_ap_lu/owl_ontology/p"/>
   </rdf:Description>
 </rdf:RDF>
