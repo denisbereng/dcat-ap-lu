@@ -4,8 +4,23 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">g Year Month</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#TemporalLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#TemporalLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Temporal Literal</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/ontology#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">string</skos:prefLabel>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#core">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
@@ -34,13 +49,13 @@
     <rdfs:label xml:lang="en">This artefact provides the definitions for the DCAT-AP-LU.         This artefact excludes the restrictions.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.</rdfs:label>
     <dcterms:description xml:lang="en">This artefact provides the definitions for the DCAT-AP-LU.         This artefact excludes the restrictions.         DCAT-AP-LU is a Luxembourg-specific extension of the DCAT-AP profile used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe. It was created as part of the national implementation of the Data Governance Act (DGA) to support the creation of a single national dataset catalogue for all public sector data. The DCAT-AP-LU reuses large parts of the DCAT-AP-v3.0 standard, with a set of minor adaptations to support specific requirements for Luxembourg.</dcterms:description>
     <dcterms:publisher>http://publications.europa.eu/resource/authority/corporate-body/PUBL</dcterms:publisher>
-    <rdfs:comment>This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-22</rdfs:comment>
+    <rdfs:comment>This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-24</rdfs:comment>
     <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
     <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about"/>
     <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
     <rdfs:seeAlso rdf:resource="https://docs.ted.europa.eu/EPO/latest/index.html"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-22</dcterms:issued>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-22</dcterms:created>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-24</dcterms:issued>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-24</dcterms:created>
     <owl:versionInfo>3.1.0</owl:versionInfo>
     <owl:incompatibleWith>2.1.0</owl:incompatibleWith>
     <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#core-3.1.0"/>
@@ -49,7 +64,47 @@
     <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
     <dcterms:license>The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0655508cfdc54acc8d92e69dd263968f">
-    <rdf:type rdf:resource="file:///home/runner/work/dcat-ap-lu/dcat-ap-lu/implementation/dcat_ap_lu/owl_ontology/p"/>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">date Time</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#TemporalLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#duration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">duration</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Resource</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Plain Literal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Literal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">date</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#TemporalLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/time#Instant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Instant</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">decimal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">integer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">g Year</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://data.europa.eu/a4g/ontology#TemporalLiteral"/>
   </rdf:Description>
 </rdf:RDF>

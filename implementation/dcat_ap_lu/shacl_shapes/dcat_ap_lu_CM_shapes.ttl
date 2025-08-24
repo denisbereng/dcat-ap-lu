@@ -11,22 +11,90 @@
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+core-shape:TemporalLiteral a sh:NodeShape ;
+    rdfs:label "Temporal Literal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass :TemporalLiteral .
+
+core-shape:rdf-PlainLiteral a sh:NodeShape ;
+    rdfs:label "Plain Literal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass rdf:PlainLiteral .
+
+core-shape:rdfs-Literal a sh:NodeShape ;
+    rdfs:label "Literal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass rdfs:Literal .
+
+core-shape:rdfs-Resource a sh:NodeShape ;
+    rdfs:label "Resource" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass rdfs:Resource .
+
+core-shape:time-Instant a sh:NodeShape ;
+    rdfs:label "Instant" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass time:Instant .
+
+core-shape:xsd-date a sh:NodeShape ;
+    rdfs:label "date" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:date .
+
+core-shape:xsd-dateTime a sh:NodeShape ;
+    rdfs:label "date Time" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:dateTime .
+
+core-shape:xsd-decimal a sh:NodeShape ;
+    rdfs:label "decimal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:decimal .
+
+core-shape:xsd-duration a sh:NodeShape ;
+    rdfs:label "duration" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:duration .
+
+core-shape:xsd-gYear a sh:NodeShape ;
+    rdfs:label "g Year" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:gYear .
+
+core-shape:xsd-gYearMonth a sh:NodeShape ;
+    rdfs:label "g Year Month" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:gYearMonth .
+
+core-shape:xsd-integer a sh:NodeShape ;
+    rdfs:label "integer" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:integer .
+
+core-shape:xsd-string a sh:NodeShape ;
+    rdfs:label "string" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:string .
+
 core-shape:core-shape a owl:Ontology ;
     rdfs:label "This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:created "2025-08-22"^^xsd:date ;
+    dcterms:created "2025-08-24"^^xsd:date ;
     dcterms:description "This artefact provides the generic datashape specifications for the DCAT-AP-LU.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:issued "2025-08-22"^^xsd:date ;
+    dcterms:issued "2025-08-24"^^xsd:date ;
     dcterms:license "The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated." ;
     dcterms:publisher "http://publications.europa.eu/resource/authority/corporate-body/PUBL" ;
     dcterms:title "DCAT-AP-LU shapes"@en ;
     vann:preferredNamespacePrefix "epo" ;
     vann:preferredNamespaceUri "http://data.europa.eu/a4g/ontology#" ;
-    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-22" ;
+    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-24" ;
     rdfs:seeAlso <https://docs.ted.europa.eu/EPO/latest/index.html>,
         <https://github.com/eprocurementontology/eprocurementontology>,
         <https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about>,
@@ -59,6 +127,4 @@ core-shape:core-shape a owl:Ontology ;
     owl:priorVersion "http://data.europa.eu/a4g/data-shape#core-shape-3.0.1" ;
     owl:versionIRI core-shape:core-shape-3.1.0 ;
     owl:versionInfo "3.1.0" .
-
-[] a <file:///home/runner/work/dcat-ap-lu/dcat-ap-lu/implementation/dcat_ap_lu/shacl_shapes/p> .
 

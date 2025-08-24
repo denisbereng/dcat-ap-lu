@@ -4,6 +4,7 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sh="http://www.w3.org/ns/shacl#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
   <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#core-shape">
@@ -36,13 +37,13 @@
     <rdfs:label xml:lang="en">This artefact provides the generic datashape specifications for the eProcurement Ontology Core.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.</rdfs:label>
     <dcterms:publisher>http://publications.europa.eu/resource/authority/corporate-body/PUBL</dcterms:publisher>
     <dcterms:description xml:lang="en">This artefact provides the generic datashape specifications for the DCAT-AP-LU.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.</dcterms:description>
-    <rdfs:comment>This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-22</rdfs:comment>
+    <rdfs:comment>This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-24</rdfs:comment>
     <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
     <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about"/>
     <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
     <rdfs:seeAlso rdf:resource="https://docs.ted.europa.eu/EPO/latest/index.html"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-22</dcterms:issued>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-22</dcterms:created>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-24</dcterms:issued>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-24</dcterms:created>
     <owl:versionInfo>3.1.0</owl:versionInfo>
     <owl:incompatibleWith>2.1.0</owl:incompatibleWith>
     <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape-3.1.0"/>
@@ -51,7 +52,82 @@
     <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
     <dcterms:license>The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne97060e985474fb4b9df9e2387f43133">
-    <rdf:type rdf:resource="file:///home/runner/work/dcat-ap-lu/dcat-ap-lu/implementation/dcat_ap_lu/shacl_shapes/p"/>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-duration">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:label>duration</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#time-Instant">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    <rdfs:label>Instant</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#rdf-PlainLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    <rdfs:label>Plain Literal</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-decimal">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:label>decimal</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-gYear">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdfs:label>g Year</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-date">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:label>date</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-integer">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:label>integer</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#TemporalLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://data.europa.eu/a4g/ontology#TemporalLiteral"/>
+    <rdfs:label>Temporal Literal</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-gYearMonth">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdfs:label>g Year Month</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-dateTime">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label>date Time</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#rdfs-Literal">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:label>Literal</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#rdfs-Resource">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:label>Resource</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/data-shape#xsd-string">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>string</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/a4g/data-shape#core-shape"/>
   </rdf:Description>
 </rdf:RDF>

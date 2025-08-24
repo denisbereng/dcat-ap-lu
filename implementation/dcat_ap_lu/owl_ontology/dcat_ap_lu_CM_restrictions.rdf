@@ -36,13 +36,13 @@
     <dcterms:publisher>http://publications.europa.eu/resource/authority/corporate-body/PUBL</dcterms:publisher>
     <dcterms:description xml:lang="en">This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.         This artefact excludes the definitions of concepts.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.</dcterms:description>
     <rdfs:comment>This version is automatically generated from dcat_ap_lu_CM.xml on 
-                2025-08-22</rdfs:comment>
+                2025-08-24</rdfs:comment>
     <rdfs:seeAlso rdf:resource="https://github.com/eprocurementontology/eprocurementontology"/>
     <rdfs:seeAlso rdf:resource="https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about"/>
     <rdfs:seeAlso rdf:resource="https://op.europa.eu/en/web/eu-vocabularies/e-procurement"/>
     <rdfs:seeAlso rdf:resource="https://docs.ted.europa.eu/EPO/latest/index.html"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-22</dcterms:issued>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-22</dcterms:created>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-24</dcterms:issued>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-24</dcterms:created>
     <owl:versionInfo>3.1.0</owl:versionInfo>
     <owl:incompatibleWith>2.1.0</owl:incompatibleWith>
     <owl:versionIRI rdf:resource="http://data.europa.eu/a4g/ontology#core-restriction-3.1.0"/>
@@ -51,7 +51,24 @@
     <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
     <dcterms:license>The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncdd8e2ec83714e0985b53f83d9b0c235">
-    <rdf:type rdf:resource="file:///home/runner/work/dcat-ap-lu/dcat-ap-lu/implementation/dcat_ap_lu/owl_ontology/p"/>
+  <rdf:Description rdf:nodeID="N2fec4ccd5ee245109618b2fcd87bc41b">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:rest rdf:nodeID="Nc7fa99cdf71a4a939474992f07a6598f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc7fa99cdf71a4a939474992f07a6598f">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:rest rdf:nodeID="N441fab5a1d434f66b5a55c7e86fcf56f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3520083d1ed243f79755e276ef7998d6">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N441fab5a1d434f66b5a55c7e86fcf56f">
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:rest rdf:nodeID="N3520083d1ed243f79755e276ef7998d6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3cc0b7be74624292aeff327ba27d53de">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N2fec4ccd5ee245109618b2fcd87bc41b"/>
   </rdf:Description>
 </rdf:RDF>
