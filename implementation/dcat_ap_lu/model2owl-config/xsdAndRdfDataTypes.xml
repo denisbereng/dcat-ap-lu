@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<datatypes xmlns="http://publications.europa.eu/ns/">
+<datatypes xmlns="https://mindig_lu.gitlab.io/DCAT-AP-LU/">
     <datatype namespace="xsd" qname="xsd:anyURI"/>
     <datatype namespace="xsd" qname="xsd:base64Binary"/>
     <datatype namespace="xsd" qname="xsd:boolean"/>
@@ -37,6 +37,10 @@
     <datatype namespace="rdf" qname="rdf:langString"/>
     
     <datatype namespace="rdf" qname="rdf:PlainLiteral"/>
+    <datatype namespace="xsd" qname="xsd:duration"/>
+    <datatype namespace="rdfs" qname="rdfs:Resource"/>
+    <datatype namespace="rdfs" qname="rdfs:Literal"/>
+    <datatype namespace="time" qname="time:Instant"/>
 
     
 </datatypes>
