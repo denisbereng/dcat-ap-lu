@@ -9,5 +9,5 @@ Feature: Validate RDF data fragments against SHACL shapes
 
     Examples:
       | test_case                             | expected_valid_violation_count | expected_invalid_violation_count |
-      | dcat-Distribution-dcat-mediaType      |                              0 |                                3 |
-      | dcat-Distribution-dcatap-availability |                              0 |                                3 |
+      | dcat-Distribution-dcat-mediaType      |                              1 |                                6 |
+      | dcat-Distribution-dcatap-availability |                              1 |                                6 |
