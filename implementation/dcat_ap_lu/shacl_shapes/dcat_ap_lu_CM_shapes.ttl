@@ -15,6 +15,7 @@
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -23,6 +24,11 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+core-shape:TemporalLiteral a sh:NodeShape ;
+    rdfs:label "Temporal Literal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass :TemporalLiteral .
 
 core-shape:adms-Identifier a sh:NodeShape ;
     rdfs:label "Identifier" ;
@@ -256,6 +262,21 @@ core-shape:prov-Attribution a sh:NodeShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:targetClass prov:Attribution .
 
+core-shape:rdf-PlainLiteral a sh:NodeShape ;
+    rdfs:label "Plain Literal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass rdf:PlainLiteral .
+
+core-shape:rdfs-Literal a sh:NodeShape ;
+    rdfs:label "Literal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass rdfs:Literal .
+
+core-shape:rdfs-Resource a sh:NodeShape ;
+    rdfs:label "Resource" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass rdfs:Resource .
+
 core-shape:skos-Concept a sh:NodeShape ;
     rdfs:label "Concept" ;
     rdfs:isDefinedBy core-shape:core-shape ;
@@ -268,11 +289,56 @@ core-shape:spdx-Checksum a sh:NodeShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:targetClass spdx:Checksum .
 
+core-shape:time-Instant a sh:NodeShape ;
+    rdfs:label "Instant" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass time:Instant .
+
 core-shape:vcard-Kind a sh:NodeShape ;
     rdfs:label "Kind" ;
     rdfs:comment "A description following the vCard specification, e.g. to provide telephone number and e-mail address for a contact point." ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:targetClass vcard:Kind .
+
+core-shape:xsd-date a sh:NodeShape ;
+    rdfs:label "date" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:date .
+
+core-shape:xsd-dateTime a sh:NodeShape ;
+    rdfs:label "date Time" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:dateTime .
+
+core-shape:xsd-decimal a sh:NodeShape ;
+    rdfs:label "decimal" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:decimal .
+
+core-shape:xsd-duration a sh:NodeShape ;
+    rdfs:label "duration" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:duration .
+
+core-shape:xsd-gYear a sh:NodeShape ;
+    rdfs:label "g Year" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:gYear .
+
+core-shape:xsd-gYearMonth a sh:NodeShape ;
+    rdfs:label "g Year Month" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:gYearMonth .
+
+core-shape:xsd-integer a sh:NodeShape ;
+    rdfs:label "integer" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:integer .
+
+core-shape:xsd-string a sh:NodeShape ;
+    rdfs:label "string" ;
+    rdfs:isDefinedBy core-shape:core-shape ;
+    sh:targetClass xsd:string .
 
 core-shape:dcat-Catalog-dcat-record a sh:PropertyShape ;
     sh:class dcat:CatalogRecord ;
@@ -331,6 +397,7 @@ core-shape:dcat-Dataset-adms-sample a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-adms-versionNotes a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "A description of the differences between this version and a previous version of the Dataset." ;
     sh:name "version Notes" ;
     sh:path adms:versionNotes .
@@ -365,6 +432,7 @@ core-shape:dcat-Dataset-dcat-inSeries a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dcat-keyword a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "A keyword or tag describing the Dataset." ;
     sh:name "keyword" ;
     sh:path dcat:keyword .
@@ -399,6 +467,7 @@ core-shape:dcat-Dataset-dcat-spatialResolutionInMeters a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dcat-temporalResolution a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class xsd:duration ;
     sh:description "The minimum time period resolvable in the dataset." ;
     sh:maxCount 1 ;
     sh:name "temporal Resolution" ;
@@ -451,6 +520,7 @@ core-shape:dcat-Dataset-dct-creator a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-description a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "A free-text account of the Dataset." ;
     sh:minCount 1 ;
     sh:name "description" ;
@@ -458,6 +528,7 @@ core-shape:dcat-Dataset-dct-description a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-identifier a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "The main identifier for the Dataset, e.g. the URI or other unique identifier in the context of the Catalogue. Usage Note: The use of persistent dereferenceable URIs is mandatory in this profile." ;
     sh:minCount 1 ;
     sh:name "identifier" ;
@@ -465,6 +536,7 @@ core-shape:dcat-Dataset-dct-identifier a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-isReferencedBy a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Resource ;
     sh:description "A related resource, such as a publication, that references, cites, or otherwise points to the dataset." ;
     sh:name "is Referenced By" ;
     sh:path dcterms:isReferencedBy .
@@ -509,6 +581,7 @@ core-shape:dcat-Dataset-dct-publisher a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-relation a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Resource ;
     sh:description "A related resource." ;
     sh:name "relation" ;
     sh:path dcterms:relation .
@@ -536,6 +609,7 @@ core-shape:dcat-Dataset-dct-temporal a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-dct-title a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "A name given to the Dataset" ;
     sh:minCount 1 ;
     sh:name "title" ;
@@ -565,6 +639,7 @@ core-shape:dcat-Dataset-foaf-page a sh:PropertyShape ;
 
 core-shape:dcat-Dataset-owl-versionInfo a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:maxCount 1 ;
     sh:name "version Info" ;
     sh:path owl:versionInfo .
@@ -628,6 +703,7 @@ core-shape:dcat-Distribution-dcat-accessService a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dcat-accessURL a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Resource ;
     sh:description "A URL that gives access to a Distribution of the Dataset." ;
     sh:minCount 1 ;
     sh:name "access URL" ;
@@ -651,6 +727,7 @@ core-shape:dcat-Distribution-dcat-compressFormat a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dcat-downloadURL a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Resource ;
     sh:description "A URL that is a direct link to a downloadable file in a given format." ;
     sh:name "download URL" ;
     sh:path dcat:downloadURL .
@@ -680,6 +757,7 @@ core-shape:dcat-Distribution-dcat-spatialResolutionInMeters a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dcat-temporalResolution a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class xsd:duration ;
     sh:description "The minimum time period resolvable in the dataset distribution." ;
     sh:name "temporal Resolution" ;
     sh:path dcat:temporalResolution .
@@ -708,6 +786,7 @@ core-shape:dcat-Distribution-dct-conformsTo a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dct-description a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "A free-text account of the Distribution." ;
     sh:name "description" ;
     sh:path dcterms:description .
@@ -761,6 +840,7 @@ core-shape:dcat-Distribution-dct-rights a sh:PropertyShape ;
 
 core-shape:dcat-Distribution-dct-title a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:description "A name given to the Distribution." ;
     sh:name "title" ;
     sh:path dcterms:title .
@@ -818,12 +898,14 @@ core-shape:dct-PeriodOfTime-dcat-startDate a sh:PropertyShape ;
 
 core-shape:dct-PeriodOfTime-time-hasBeginning a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class time:Instant ;
     sh:maxCount 1 ;
     sh:name "has Beginning" ;
     sh:path time:hasBeginning .
 
 core-shape:dct-PeriodOfTime-time-hasEnd a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class time:Instant ;
     sh:maxCount 1 ;
     sh:name "has End" ;
     sh:path time:hasEnd .
@@ -837,6 +919,7 @@ core-shape:foaf-Agent-dct-type a sh:PropertyShape ;
 
 core-shape:skos-Concept-skos-prefLabel a sh:PropertyShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
+    sh:class rdfs:Literal ;
     sh:minCount 1 ;
     sh:name "pref Label" ;
     sh:path skos:prefLabel .
