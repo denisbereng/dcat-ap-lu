@@ -9,7 +9,7 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> Mar 22, 2020</xd:p>
+            <xd:p><xd:b>Created on:</xd:b> Aug 25, 2025</xd:p>
             <xd:p><xd:b>Author:</xd:b> lps</xd:p>
             <xd:p>This module defines project level variables and parameters</xd:p>
         </xd:desc>
@@ -31,8 +31,8 @@
     <!-- Ontology base URI, configure as necessary. Do not use a trailing local delimiter
         like in the namespace definition-->
     <!--<xsl:variable name="base-uri" select="'http://publications.europa.eu/ontology/ePO'"/>-->
-    <xsl:variable name="base-ontology-uri" select="'http://data.europa.eu/a4g/ontology'"/>
-    <xsl:variable name="base-shape-uri" select="'http://data.europa.eu/a4g/data-shape'"/>
+    <xsl:variable name="base-ontology-uri" select="'https://mindig_lu.gitlab.io/DCAT-AP-LU'"/>
+    <xsl:variable name="base-shape-uri" select="'https://mindig_lu.gitlab.io/DCAT-AP-LU'"/>
     <xsl:variable name="base-restriction-uri" select="$base-ontology-uri"/>
     <!--    Shapes Module URI-->
     <xsl:variable name="shapeArtefactURI"
@@ -106,11 +106,11 @@
     <!-- This variable control if Object and Realisation are generated -->
     <xsl:variable name="generateObjectsAndRealisations" select="fn:false()"/>
 <!--    Set of variables for convention report-->
-    <xsl:variable name="conventionReportCopyrightText" select="'Publications Office of the European Union, 2023'"/>
-    <xsl:variable name="conventionReportAuthor" select="'Publications Office of the European Union'"/>
+    <xsl:variable name="conventionReportCopyrightText" select="'Ministère de la Digitalisation and Luxembourg National Data Service, 2025'"/>
+    <xsl:variable name="conventionReportAuthor" select="'Ministère de la Digitalisation and Luxembourg National Data Service'"/>
     <xsl:variable name="conventionReportAuthorLocation" select="'Luxembourg'"/>
-    <xsl:variable name="conventionReportAuthorWebsite" select="'https://op.europa.eu'"/>
-    <xsl:variable name="conventionReportUMLModelName" select="'eProcurement'"/>
+    <xsl:variable name="conventionReportAuthorWebsite" select="'https://mindigital.gouvernement.lu/'"/>
+    <xsl:variable name="conventionReportUMLModelName" select="'DCAT-AP-LU'"/>
     <!-- URIs list of UML versions supported by model2owl -->
     <xsl:variable name="supportedUmlVersions"
         select="('http://www.omg.org/spec/UML/20131001',
@@ -179,34 +179,29 @@
     <!--    rdfs:seeAlso -->
     <xsl:variable name="seeAlsoResources"
         select="
-            ('https://github.com/eprocurementontology/eprocurementontology',
-            'https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about', 'https://op.europa.eu/en/web/eu-vocabularies/e-procurement',
-            'https://docs.ted.europa.eu/EPO/latest/index.html')"/>
+            ('https://mindig_lu.gitlab.io/DCAT-AP-LU/')"/>
     <!--    dct:issued-->
     <xsl:variable name="issuedDate" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
     <!--    dct:created-->
     <xsl:variable name="createdDate" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
     <!--    owl:incompatibleWith -->
-    <xsl:variable name="incompatibleWith" select="'2.1.0'"/>
+    <xsl:variable name="incompatibleWith" select="''"/>
     <!--    owl:versionInfo -->
-    <xsl:variable name="versionInfo" select="'3.1.0'"/>
+    <xsl:variable name="versionInfo" select="'1'"/>
     <!--    bibo:status-->
     <xsl:variable name="ontologyStatus" select="'Semantic Specification Realease'"/>
     <!--    owl:priorVersion -->
-    <xsl:variable name="priorVersion" select="'3.0.1'"/>
+    <xsl:variable name="priorVersion" select="''"/>
     <!--    vann:preferredNamespaceUri -->
-    <xsl:variable name="preferredNamespaceUri" select="'http://data.europa.eu/a4g/ontology#'"/>
+    <xsl:variable name="preferredNamespaceUri" select="'https://mindig_lu.gitlab.io/DCAT-AP-LU/#'"/>
     <!--    vann:preferredNamespacePrefix -->
-    <xsl:variable name="preferredNamespacePrefix" select="'epo'"/>
+    <xsl:variable name="preferredNamespacePrefix" select="'dal'"/>
 
 <!--    dct:license-->
-    <xsl:variable name="licenseLiteral" select="'The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents 
-        (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the 
-        CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided 
-        that appropriate credit is given and any changes are indicated.'"/>
+    <xsl:variable name="licenseLiteral" select="'Copyright 2025 Ministère de la Digitalisation, Luxembourg. All material in this repository is published under the license CC-BY 4.0, unless explicitly otherwise mentioned. '"/>
 
     <!--    dct:publisher-->
-    <xsl:variable name="publisher" select="'http://publications.europa.eu/resource/authority/corporate-body/PUBL'"/>
+    <xsl:variable name="publisher" select="'https://mindig_lu.gitlab.io/DCAT-AP-LU'"/>
     
             <!-- _______________________________________________________________________   -->
     <!--                            RESPEC SECTION                               -->
@@ -215,7 +210,7 @@
     <xsl:variable name="githubURL" select="'https://github.com/meaningfy-ws/dcat-ap-lu'"/>
     <xsl:variable name="respecDescription" select="$ontologyDescriptionCore"/>
     <xsl:variable name="feedbackURL" select="fn:concat($githubURL, '/issues')"/>
-    <xsl:variable name="authors" select="('Maria Keet', 'Jana Ahmad')"/>
-    <xsl:variable name="editors" select="('Editor One', 'Editor Two')"/>
+    <xsl:variable name="authors" select="('Jana Ahmad', 'Maria Keet')"/>
+    <xsl:variable name="editors" select="('Jana Ahmad', 'Maria Keet', 'Danielle Welter', 'Carolina Cisterna', 'Marilyn Marx')"/>
 
 </xsl:stylesheet>
