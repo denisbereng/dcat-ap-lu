@@ -15,7 +15,7 @@ else
 endif
 
 TEST_DIR = tests
-TEST_DATA_DIR = tests/test_data
+TEST_DATA_DIR = tests/test_data/shacl
 REPORT_DIR = reports
 SCRIPT_DIR = scripts
 XMI_FILE = implementation/dcat_ap_lu/xmi_conceptual_model/dcat_ap_lu_CM.xml
@@ -27,6 +27,12 @@ UML_SCRIPT = $(SCRIPT_DIR)/extract_uml_entities.py
 EXTRACT_SCRIPT = $(SCRIPT_DIR)/extract_entity_usage.py
 COVERAGE_SCRIPT = $(SCRIPT_DIR)/check_entity_coverage.py
 COVERAGE_REPORT = coverage_overall
+
+REFERENCE_DATA_FOLDERS = $(TEST_DATA_DIR)/dcat-ap-dummy-example-1 \
+	$(TEST_DATA_DIR)/dcat-ap-dummy-example-2 \
+	$(TEST_DATA_DIR)/dcat-ap-dummy-example-3 \
+	$(TEST_DATA_DIR)/dcat-ap-full-dummy \
+	$(TEST_DATA_DIR)/dcat-ap-lu_dummy
 
 DATA_ENTITIES_TXT = $(REPORT_DIR)/$(DATA_USAGE)/txt
 DATA_ENTITIES_CSV = $(REPORT_DIR)/$(DATA_USAGE)/csv
@@ -72,7 +78,7 @@ test-report:
 	@ echo "Generating test report..."
 	@ uv run pytest --html=report.html --self-contained-html $(TEST_DIR)
 
-coverage_report:
+coverage-report:
 	@ echo "Generating coverage reports..."
 	@ mkdir -p $(DATA_ENTITIES_TXT)
 	@ mkdir -p $(DATA_ENTITIES_CSV)
@@ -92,3 +98,22 @@ coverage_report:
 	@ uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_COULD) $(TEST_DATA_DIR) > $(DATA_ARGS_COULD)
 	@ uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_COULD) --shacl $(SHACL_FILE) > $(SHACL_ARGS_COULD)
 	@ uv run python $(COVERAGE_SCRIPT) $(SHACL_ENTITIES_TXT)/$(SHACL_USAGE)_could.txt $(DATA_ENTITIES_TXT)/$(DATA_USAGE)_could.txt $(COVERAGE_ARGS_COULD)
+
+# for generating reports based on specific test data folders
+coverage-report-by-data:
+	@echo "Generating reports for each test data folder..."
+	@for folder in $(REFERENCE_DATA_FOLDERS); do \
+		name=$$(basename $$folder); \
+		output_dir=$(REPORT_DIR)/coverage_by_data/$$name; \
+		echo "Processing $$folder..."; \
+		mkdir -p $$output_dir/{shacl,data}/txt $$output_dir/{shacl,data,coverage}/csv $$output_dir/{shacl,data,coverage}/json; \
+		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) $$folder > $$output_dir/data/txt/$(DATA_USAGE)_must.txt; \
+		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) --shacl $(SHACL_FILE) > $$output_dir/shacl/txt/$(SHACL_USAGE)_must.txt; \
+		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_must.txt $$output_dir/data/txt/$(DATA_USAGE)_must.txt --csv $$output_dir/coverage/csv/coverage_$$name_must.csv --json $$output_dir/coverage/json/coverage_$$name_must.json --label MUST; \
+		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_SHOULD) $$folder > $$output_dir/data/txt/$(DATA_USAGE)_should.txt; \
+		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_SHOULD) --shacl $(SHACL_FILE) > $$output_dir/shacl/txt/$(SHACL_USAGE)_should.txt; \
+		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_should.txt $$output_dir/data/txt/$(DATA_USAGE)_should.txt --csv $$output_dir/coverage/csv/coverage_$$name_should.csv --json $$output_dir/coverage/json/coverage_$$name_should.json --label SHOULD; \
+		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_COULD) $$folder > $$output_dir/data/txt/$(DATA_USAGE)_could.txt; \
+		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_COULD) --shacl $(SHACL_FILE) > $$output_dir/shacl/txt/$(SHACL_USAGE)_could.txt; \
+		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_could.txt $$output_dir/data/txt/$(DATA_USAGE)_could.txt --csv $$output_dir/coverage/csv/coverage_$$name_could.csv --json $$output_dir/coverage/json/coverage_$$name_could.json --label COULD; \
+	done

@@ -1,0 +1,6 @@
+dcat:Distribution dcat:accessURL
+dcat:Dataset dct:description
+dcat:Dataset dct:identifier
+dcat:Dataset dct:title
+dcat:CatalogRecord foaf:primaryTopic
+skos:Concept skos:prefLabel

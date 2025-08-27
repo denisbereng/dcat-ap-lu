@@ -1,0 +1,3 @@
+dcat:Distribution dcat:mediaType
+dcat:Distribution dcat:packageFormat
+dcat:Distribution dcatap:availability
