@@ -1,3 +1,13 @@
+adms:sample
+dcat:Dataset adms:identifier
+dcat:Distribution adms:status
+dcat:Dataset adms:versionNotes
+dcat:Distribution dcat:byteSize
+dcat:Distribution dcat:compressFormat
+dcat:Distribution dcat:downloadURL
+dcat:Dataset dcat:hasVersion
 dcat:Distribution dcat:mediaType
 dcat:Distribution dcat:packageFormat
-dcat:Distribution dcatap:availability
+dcat:Dataset dcat:spatialResolutionInMeters
+dcat:Dataset foaf:page
+dcat:Distribution spdx:checksum

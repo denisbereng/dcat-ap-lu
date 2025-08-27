@@ -31,8 +31,6 @@
       "dcat:Dataset prov:qualifiedAttribution",
       "dcat:Dataset prov:wasGeneratedBy",
       "dcat:DatasetSeries dcatap:applicablelegislation",
-      "dcat:DatasetSeries dct:issued",
-      "dcat:DatasetSeries dct:modified",
       "dcat:Distribution adms:status",
       "dcat:Distribution dcat:accessService",
       "dcat:Distribution dcat:byteSize",
@@ -57,10 +55,19 @@
       "dct:PeriodOfTime time:hasEnd"
     ],
     "used": [
+      "dcat:Dataset adms:identifier",
+      "dcat:Dataset adms:versionNotes",
+      "dcat:Dataset dcat:hasVersion",
+      "dcat:Dataset dcat:spatialResolutionInMeters",
+      "dcat:Dataset foaf:page",
+      "dcat:Distribution adms:status",
+      "dcat:Distribution dcat:byteSize",
+      "dcat:Distribution dcat:compressFormat",
+      "dcat:Distribution dcat:downloadURL",
       "dcat:Distribution dcat:mediaType",
       "dcat:Distribution dcat:packageFormat",
-      "dcat:Distribution dcatap:availability"
+      "dcat:Distribution spdx:checksum"
     ],
-    "coverage_percent": 5.56
+    "coverage_percent": 23.08
   }
 }

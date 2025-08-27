@@ -2,20 +2,24 @@
   "classes": [],
   "properties": [
     {
+      "name": "dcat:contactPoint",
+      "parent": "dcat:Dataset"
+    },
+    {
       "name": "dcat:distribution",
       "parent": "dcat:Dataset"
     },
     {
-      "name": "dct:publisher",
-      "parent": "dcat:Catalog"
+      "name": "dcat:inSeries",
+      "parent": "dcat:Dataset"
     },
     {
-      "name": "dct:publisher",
-      "parent": "dcat:DatasetSeries"
+      "name": "dcat:keyword",
+      "parent": "dcat:Dataset"
     },
     {
-      "name": "dct:spatial",
-      "parent": "dcat:DatasetSeries"
+      "name": "dcat:theme",
+      "parent": "dcat:Dataset"
     }
   ]
 }

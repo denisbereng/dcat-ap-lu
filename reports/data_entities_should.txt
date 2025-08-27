@@ -1,4 +1,5 @@
+dcat:Dataset dcat:contactPoint
 dcat:Dataset dcat:distribution
-dcat:Catalog dct:publisher
-dcat:DatasetSeries dct:publisher
-dcat:DatasetSeries dct:spatial
+dcat:Dataset dcat:inSeries
+dcat:Dataset dcat:keyword
+dcat:Dataset dcat:theme

@@ -6,30 +6,6 @@
       "parent": "dcat:Distribution"
     },
     {
-      "name": "dct:description",
-      "parent": "dcat:Dataset"
-    },
-    {
-      "name": "dct:description",
-      "parent": "dcat:DatasetSeries"
-    },
-    {
-      "name": "dct:identifier",
-      "parent": "dcat:Dataset"
-    },
-    {
-      "name": "dct:title",
-      "parent": "dcat:Dataset"
-    },
-    {
-      "name": "dct:title",
-      "parent": "dcat:DatasetSeries"
-    },
-    {
-      "name": "foaf:name",
-      "parent": "foaf:Agent"
-    },
-    {
       "name": "foaf:primaryTopic",
       "parent": "dcat:CatalogRecord"
     },

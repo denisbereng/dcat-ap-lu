@@ -18,18 +18,17 @@
       "dcat:Distribution dct:format",
       "dcat:Distribution dct:license",
       "dct:LicenseDocument dct:type",
-      "dct:Location dcat:bbox",
-      "dct:Location dcat:centroid",
       "dct:PeriodOfTime dcat:endDate",
       "dct:PeriodOfTime dcat:startDate",
       "foaf:Agent dct:type"
     ],
     "used": [
-      "dcat:Catalog dct:publisher",
+      "dcat:Dataset dcat:contactPoint",
       "dcat:Dataset dcat:distribution",
-      "dcat:DatasetSeries dct:publisher",
-      "dcat:DatasetSeries dct:spatial"
+      "dcat:Dataset dcat:inSeries",
+      "dcat:Dataset dcat:keyword",
+      "dcat:Dataset dcat:theme"
     ],
-    "coverage_percent": 18.18
+    "coverage_percent": 25.0
   }
 }

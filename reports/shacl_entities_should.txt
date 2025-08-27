@@ -1,5 +1,3 @@
-dct:Location dcat:bbox
-dct:Location dcat:centroid
 dcat:Dataset dcat:contactPoint
 dcat:Dataset dcat:distribution
 dct:PeriodOfTime dcat:endDate

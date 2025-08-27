@@ -127,10 +127,6 @@
     },
     {
       "name": "dct:issued",
-      "parent": "dcat:DatasetSeries"
-    },
-    {
-      "name": "dct:issued",
       "parent": "dcat:Distribution"
     },
     {
@@ -148,10 +144,6 @@
     {
       "name": "dct:modified",
       "parent": "dcat:Dataset"
-    },
-    {
-      "name": "dct:modified",
-      "parent": "dcat:DatasetSeries"
     },
     {
       "name": "dct:modified",

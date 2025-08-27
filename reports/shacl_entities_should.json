@@ -2,14 +2,6 @@
   "classes": [],
   "properties": [
     {
-      "name": "dcat:bbox",
-      "parent": "dct:Location"
-    },
-    {
-      "name": "dcat:centroid",
-      "parent": "dct:Location"
-    },
-    {
       "name": "dcat:contactPoint",
       "parent": "dcat:Dataset"
     },

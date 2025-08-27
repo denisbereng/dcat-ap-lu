@@ -30,13 +30,11 @@ property,dct:creator,dcat:Catalog
 property,dct:creator,dcat:Dataset
 property,dct:isReferencedBy,dcat:Dataset
 property,dct:issued,dcat:Dataset
-property,dct:issued,dcat:DatasetSeries
 property,dct:issued,dcat:Distribution
 property,dct:language,dcat:Dataset
 property,dct:language,dcat:Distribution
 property,dct:license,dcat:Catalog
 property,dct:modified,dcat:Dataset
-property,dct:modified,dcat:DatasetSeries
 property,dct:modified,dcat:Distribution
 property,dct:provenance,dcat:Dataset
 property,dct:relation,dcat:Dataset

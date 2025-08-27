@@ -29,13 +29,11 @@ dcat:Catalog dct:creator
 dcat:Dataset dct:creator
 dcat:Dataset dct:isReferencedBy
 dcat:Dataset dct:issued
-dcat:DatasetSeries dct:issued
 dcat:Distribution dct:issued
 dcat:Dataset dct:language
 dcat:Distribution dct:language
 dcat:Catalog dct:license
 dcat:Dataset dct:modified
-dcat:DatasetSeries dct:modified
 dcat:Distribution dct:modified
 dcat:Dataset dct:provenance
 dcat:Dataset dct:relation

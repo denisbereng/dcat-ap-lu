@@ -1,6 +1,4 @@
 type,name,parent
-property,dcat:bbox,dct:Location
-property,dcat:centroid,dct:Location
 property,dcat:contactPoint,dcat:Dataset
 property,dcat:distribution,dcat:Dataset
 property,dcat:endDate,dct:PeriodOfTime
