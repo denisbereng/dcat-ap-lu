@@ -1,3 +1,0 @@
-type,name,parent
-property,dcat:accessURL,dcat:Distribution
-property,skos:prefLabel,skos:Concept
