@@ -9,7 +9,7 @@
 
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> Aug 25, 2025</xd:p>
+            <xd:p><xd:b>Created on:</xd:b> Aug 28, 2025</xd:p>
             <xd:p><xd:b>Author:</xd:b> lps</xd:p>
             <xd:p>This module defines project level variables and parameters</xd:p>
         </xd:desc>
@@ -210,7 +210,7 @@
     <xsl:variable name="githubURL" select="'https://github.com/meaningfy-ws/dcat-ap-lu'"/>
     <xsl:variable name="respecDescription" select="$ontologyDescriptionCore"/>
     <xsl:variable name="feedbackURL" select="fn:concat($githubURL, '/issues')"/>
-    <xsl:variable name="authors" select="('Jana Ahmad', 'Maria Keet')"/>
-    <xsl:variable name="editors" select="('Jana Ahmad', 'Maria Keet', 'Danielle Welter', 'Carolina Cisterna', 'Marilyn Marx')"/>
+    <xsl:variable name="authors" select="('Denis Bérenger', 'Danielle Welter', 'Marilyn Marx')"/>
+    <xsl:variable name="editors" select="('Danielle Welter', 'Carolina Cisterna', 'Marilyn Marx')"/>
 
 </xsl:stylesheet>
