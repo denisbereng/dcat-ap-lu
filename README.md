@@ -13,7 +13,7 @@ This repository hosts the **DCAT‑AP‑LU specification** and associated artifa
 - **ReSpec Documentation:** [dcat-ap-lu ReSpec Documentation](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/respec_report/dcat_ap_lu_respec.html)
 - **Conventions Report:** [dcat-ap-lu Conventions Report](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/conventions_report/dcat_ap_lu_CM_convention_report.html)
 - **Lightweight test setup for SHACL rule validation:**  [dcat-ap-lu SHACL Validation](https://github.com/meaningfy-ws/dcat-ap-lu/tree/main/tests/test_data/shacl)
-- **SRDF/Turtle example files:** for testing  [dcat-ap-lu Sample data]()
+- **RDF/Turtle example files:** for testing  [dcat-ap-lu Sample data]()
 -  **Fingerprint & coverage reports** for the example data  [dcat-ap-lu coverage reprts]()
 ##  Validation & Coverage Instructions (TBA)
 
