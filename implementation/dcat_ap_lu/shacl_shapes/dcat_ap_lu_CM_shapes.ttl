@@ -191,8 +191,7 @@ core-res:dct-PeriodOfTime a sh:NodeShape ;
 
 core-res:dct-ProvenanceStatement a sh:NodeShape ;
     rdfs:label "Provenance Statement" ;
-    rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.",
-        "Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation." ;
+    rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation." ;
     rdfs:isDefinedBy core-res:core-shape ;
     sh:targetClass dcterms:ProvenanceStatement .
 
