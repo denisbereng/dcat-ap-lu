@@ -194,10 +194,6 @@ A <strong>Data Portal</strong> is a Web-based system that contains a data catalo
             <thead><tr><th>Prefix</th><th>Namespace IRI</th></tr></thead>
             <tbody>
             
-                <tr><td><code>xsd</code></td><td><code>http://www.w3.org/2001/XMLSchema#</code></td></tr>
-            
-                <tr><td><code>dal</code></td><td><code>https://mindig_lu.gitlab.io/DCAT-AP-LU/#</code></td></tr>
-            
                 <tr><td><code>adms</code></td><td><code>http://www.w3.org/ns/adms#</code></td></tr>
             
                 <tr><td><code>dcat</code></td><td><code>http://www.w3.org/ns/dcat#</code></td></tr>
@@ -224,13 +220,9 @@ A <strong>Data Portal</strong> is a Web-based system that contains a data catalo
             
                 <tr><td><code>locn</code></td><td><code>http://www.w3.org/ns/locn#</code></td></tr>
             
-                <tr><td><code>rdf</code></td><td><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></td></tr>
-            
-                <tr><td><code>rdfs</code></td><td><code>http://www.w3.org/2000/01/rdf-schema#</code></td></tr>
+                <tr><td><code>owl</code></td><td><code>http://www.w3.org/2002/07/owl#</code></td></tr>
             
                 <tr><td><code>time</code></td><td><code>http://www.w3.org/2006/time#</code></td></tr>
-            
-                <tr><td><code>owl</code></td><td><code>http://www.w3.org/2002/07/owl#</code></td></tr>
             
             </tbody>
         </table>
@@ -4197,49 +4189,6 @@ The main entities are those that form the core of the Application Profile.
                     Definition
                 </dt>
                 <dd>
-                    Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.
-                </dd>
-                
-                    <dt>
-                        Usage Note
-                    </dt>
-                    <dd>
-                        Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.
-                    </dd>
-                
-                
-                    <dt>
-                        Properties
-                    </dt>
-                    
-                    <dd>
-                        This specification does not impose any additional requirements to properties for this entity.
-                    </dd>
-                
-            </dl>
-        </div>
-        
-    </div>
-</section>
-
-
-
-
-
-   
-        <section>
-            <h3 id="Provenancestatement">
-                <a href="http://purl.org/dc/terms/ProvenanceStatement"
-                   data-toggle="tooltip"
-                   data-content="http://purl.org/dc/terms/ProvenanceStatement"
-                   data-placement="right">Provenance statement</a>
-
-            </h3>
-            <dl>
-                <dt>
-                    Definition
-                </dt>
-                <dd>
                     A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation.
                 </dd>
                 
@@ -4373,13 +4322,6 @@ The main entities are those that form the core of the Application Profile.
                     </dd>
                 
                 
-                    <dt>
-                        Subclass of
-                        <dt>
-                            <dd> <a href="">Concept</a>
-                                
-                        </dd>
-                    
                     <dt>
                         Properties
                     </dt>
@@ -4944,232 +4886,6 @@ The main entities are those that form the core of the Application Profile.
 
 </section>
 
-
-        <section>
-        <h2>
-            Datatypes
-        </h2>
-
-	The following datatypes are used within this specification.
-
-	<table class="data-table simple" id="table-mandatory-classes">
-	    <thead>
-		<tr class="data-table__header">
-			<!--
-		    <th class="data-table__header-title--sortable">
-		    </th>
-			-->
-		    <th class="data-table__header-title--sortable data-table__header-title--sortable-active">
-			Class
-		    </th>
-		    <th class="data-table__header-title--sortable">
-			Definition
-		    </th>
-		</tr>
-	    </thead>
-	    <tbody class="supertype">
-            
-		<tr>
-
-		<td>
-                
-                    <div id="dal%3ATemporalLiteral">
-                        <a href="https://mindig_lu.gitlab.io/DCAT-AP-LU/#TemporalLiteral"
-                           data-toggle="tooltip"
-                           data-content="https://mindig_lu.gitlab.io/DCAT-AP-LU/#TemporalLiteral"
-                           data-placement="right">dal:TemporalLiteral</a>
-                    </div>
-                
-		</td><td>
-                    rdfs:Literal encoded using the relevant [ISO8601] Date and Time compliant string and typed using the appropriate XML Schema datatype (xsd:gYear, xsd:gYearMonth, xsd:date, or xsd:dateTime).
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="rdf%3APlainLiteral">
-                        <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"
-                           data-placement="right">rdf:PlainLiteral</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="rdfs%3ALiteral">
-                        <a href="http://www.w3.org/2000/01/rdf-schema#Literal"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2000/01/rdf-schema#Literal"
-                           data-placement="right">rdfs:Literal</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="rdfs%3AResource">
-                        <a href="http://www.w3.org/2000/01/rdf-schema#Resource"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2000/01/rdf-schema#Resource"
-                           data-placement="right">rdfs:Resource</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="time%3AInstant">
-                        <a href="http://www.w3.org/2006/time#Instant"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2006/time#Instant"
-                           data-placement="right">time:Instant</a>
-                    </div>
-                
-		</td><td>
-                    A temporal entity with zero extent or duration.
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3Adate">
-                        <a href="http://www.w3.org/2001/XMLSchema#date"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#date"
-                           data-placement="right">xsd:date</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3AdateTime">
-                        <a href="http://www.w3.org/2001/XMLSchema#dateTime"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#dateTime"
-                           data-placement="right">xsd:dateTime</a>
-                    </div>
-                
-		</td><td>
-                    Object with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property.
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3Adecimal">
-                        <a href="http://www.w3.org/2001/XMLSchema#decimal"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#decimal"
-                           data-placement="right">xsd:decimal</a>
-                    </div>
-                
-		</td><td>
-                    Decimal represents a subset of the real numbers, which can be represented by decimal numerals. The &#183;value space&#183; of decimal is the set of numbers that can be obtained by multiplying an integer by a non-positive power of ten, i.e., expressible as i &#215; 10^-n where i and n are integers and n &gt;= 0.
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3Aduration">
-                        <a href="http://www.w3.org/2001/XMLSchema#duration"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#duration"
-                           data-placement="right">xsd:duration</a>
-                    </div>
-                
-		</td><td>
-                    Duration represents a duration of time. The &#183;value space&#183; of duration is a six-dimensional space where the coordinates designate the Gregorian year, month, day, hour, minute, and second components defined in &#167; 5.5.3.2 of [ISO8601], respectively.
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3AgYear">
-                        <a href="http://www.w3.org/2001/XMLSchema#gYear"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#gYear"
-                           data-placement="right">xsd:gYear</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3AgYearMonth">
-                        <a href="http://www.w3.org/2001/XMLSchema#gYearMonth"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#gYearMonth"
-                           data-placement="right">xsd:gYearMonth</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3Ainteger">
-                        <a href="http://www.w3.org/2001/XMLSchema#integer"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#integer"
-                           data-placement="right">xsd:integer</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3AnonNegativeInteger">
-                        <a href="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
-                           data-placement="right">xsd:nonNegativeInteger</a>
-                    </div>
-                
-		</td><td>
-                    Number derived from integer by setting the value of minInclusive to be 0.
-		</td></tr>
-		<tr>
-
-		<td>
-                
-                    <div id="xsd%3Astring">
-                        <a href="http://www.w3.org/2001/XMLSchema#string"
-                           data-toggle="tooltip"
-                           data-content="http://www.w3.org/2001/XMLSchema#string"
-                           data-placement="right">xsd:string</a>
-                    </div>
-                
-		</td><td>
-                    
-		</td></tr>
-            </tbody>
-	</table>
-
-
-</section>
 
 </body>
 
