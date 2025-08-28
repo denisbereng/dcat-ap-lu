@@ -109,11 +109,11 @@ coverage-report-by-data:
 		mkdir -p $$output_dir/{shacl,data}/txt $$output_dir/{shacl,data,coverage}/csv $$output_dir/{shacl,data,coverage}/json; \
 		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) $$folder > $$output_dir/data/txt/$(DATA_USAGE)_must.txt; \
 		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) --shacl $(SHACL_FILE) > $$output_dir/shacl/txt/$(SHACL_USAGE)_must.txt; \
-		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_must.txt $$output_dir/data/txt/$(DATA_USAGE)_must.txt --csv $$output_dir/coverage/csv/coverage_$$name_must.csv --json $$output_dir/coverage/json/coverage_$$name_must.json --label MUST; \
+		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_must.txt $$output_dir/data/txt/$(DATA_USAGE)_must.txt --csv $$output_dir/coverage/csv/coverage_$${name}_must.csv --json $$output_dir/coverage/json/coverage_$${name}_must.json --label MUST; \
 		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_SHOULD) $$folder > $$output_dir/data/txt/$(DATA_USAGE)_should.txt; \
 		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_SHOULD) --shacl $(SHACL_FILE) > $$output_dir/shacl/txt/$(SHACL_USAGE)_should.txt; \
-		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_should.txt $$output_dir/data/txt/$(DATA_USAGE)_should.txt --csv $$output_dir/coverage/csv/coverage_$$name_should.csv --json $$output_dir/coverage/json/coverage_$$name_should.json --label SHOULD; \
+		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_should.txt $$output_dir/data/txt/$(DATA_USAGE)_should.txt --csv $$output_dir/coverage/csv/coverage_$${name}_should.csv --json $$output_dir/coverage/json/coverage_$${name}_should.json --label SHOULD; \
 		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_COULD) $$folder > $$output_dir/data/txt/$(DATA_USAGE)_could.txt; \
 		uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_COULD) --shacl $(SHACL_FILE) > $$output_dir/shacl/txt/$(SHACL_USAGE)_could.txt; \
-		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_could.txt $$output_dir/data/txt/$(DATA_USAGE)_could.txt --csv $$output_dir/coverage/csv/coverage_$$name_could.csv --json $$output_dir/coverage/json/coverage_$$name_could.json --label COULD; \
+		uv run python $(COVERAGE_SCRIPT) $$output_dir/shacl/txt/$(SHACL_USAGE)_could.txt $$output_dir/data/txt/$(DATA_USAGE)_could.txt --csv $$output_dir/coverage/csv/coverage_$${name}_could.csv --json $$output_dir/coverage/json/coverage_$${name}_could.json --label COULD; \
 	done
