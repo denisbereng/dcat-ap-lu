@@ -1,0 +1,10 @@
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex:      <http://example.org/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+
+# INVALID 2: Non-literal title
+ex:distribution2 a dcat:Distribution ;
+    dcat:accessURL <http://example.org/download/dataset-0012> ;
+    dcterms:title ex:SomeOtherResource .

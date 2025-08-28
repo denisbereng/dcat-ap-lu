@@ -1,0 +1,19 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:   <http://example.org/> .
+
+ex:dataset1 a dcat:Dataset ;
+    dct:identifier "dataset-001" ;
+    dct:title "Dataset with valid temporal coverage" ;
+    dct:description "Describes historical events." ;
+    dcat:distribution ex:dist-1 ;
+    dct:temporal ex:period1 .
+
+ex:period1 a dct:PeriodOfTime ;
+    dcat:startDate "2023-01-01T00:00:00"^^xsd:dateTime  ;
+    dcat:endDate "2023-01-01T00:00:00"^^xsd:dateTime .
+
+ex:dist-1 a dcat:Distribution ;
+     dcat:accessURL <http://example.org/download/dataset-001> .
+
