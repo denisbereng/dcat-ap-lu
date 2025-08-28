@@ -6,89 +6,27 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  <rdf:Description rdf:nodeID="N5666194cddcd48c282629e124e13563b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/license"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N152ec47d17b44804a680b238e06b20a9">
+  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6d762eabf98d41e1ac8a33a2f577b68c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/primaryTopic"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N184b9ea7b3c34310b4e503f54e238644">
     <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="Nf95a8fa5e0014dae816bc6e64c00c2d1"/>
+    <rdf:rest rdf:nodeID="N0ba4bf2cd4d3417d9292fecc4ba12a4c"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc09e432ba42147eaa6c3beecc517bf83">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N06f29c5818514bbe85362a6540947d4c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6134a1c9db7e4a309f07c802aa26d8ce">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
+  <rdf:Description rdf:about="https://w3id.org/dpv#hasData">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#Distribution">
-    <rdfs:subClassOf rdf:nodeID="N5eae7109b45c4174bac38551e8aeda51"/>
-    <rdfs:subClassOf rdf:nodeID="N0884cbabd6214eb39c0452a9361bba82"/>
-    <rdfs:subClassOf rdf:nodeID="Nc2a9f6a60c4244f3b2773029aa53fd40"/>
-    <rdfs:subClassOf rdf:nodeID="N7360e4c8d0e346b69a7c81f7e39a6d37"/>
-    <rdfs:subClassOf rdf:nodeID="N8b3d9eb07bf24f0b82029517ece5e7df"/>
-    <rdfs:subClassOf rdf:nodeID="Ndfb07287ca1b414e8fd1690440650266"/>
-    <rdfs:subClassOf rdf:nodeID="N53f8d4c3b78e468a847c2bb5119b2198"/>
-    <rdfs:subClassOf rdf:nodeID="Ncac13d49553e4cdfb6f16b77dde3eab3"/>
-    <rdfs:subClassOf rdf:nodeID="Nb5099238e5c148beb6b4647bb0c82353"/>
-    <rdfs:subClassOf rdf:nodeID="N3c1dda2948f947668ee465ec5122bfe1"/>
-    <rdfs:subClassOf rdf:nodeID="N9b154abf61454a30a0bca3b627236520"/>
-    <rdfs:subClassOf rdf:nodeID="N84bc74080abe457f8d569d6cf5058ecf"/>
-    <rdfs:subClassOf rdf:nodeID="Naa33b5a22ec34608bfa51758b2b82d50"/>
-    <rdfs:subClassOf rdf:nodeID="N939ad0d52a724f88acb118a86cbd1925"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#byteSize">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessService">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
-    <rdfs:domain rdf:nodeID="N8cc3e7a9da944f788a9cdcf84317bd9e"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#Catalog">
-    <rdfs:subClassOf rdf:nodeID="N9f12d7f02ecf4c1c988b875f7aff7f85"/>
-    <rdfs:subClassOf rdf:nodeID="Na6e6dc95e62c465596ae99d5da646294"/>
-    <rdfs:subClassOf rdf:nodeID="Nf169170160b34e6099dd4b68f0c48a67"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd23a36baf52b42a1991ecf25482063e5">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedRelation">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Relationship"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc2a9f6a60c4244f3b2773029aa53fd40">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/issued"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3ed9cde596384eeb9a18b2b0ef0c1678">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N1ecac67d3709404c9f5760a2004b32dc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#hasVersion">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2710bcdcb10f4db9b33deb20b4a43171">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/locn#geometry"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+    <rdfs:range rdf:resource="https://w3id.org/dpv#Data"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://mindig_lu.gitlab.io/DCAT-AP-LU#core-restriction">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -118,10 +56,10 @@
     <dcterms:publisher>https://mindig_lu.gitlab.io/DCAT-AP-LU</dcterms:publisher>
     <dcterms:description xml:lang="en">This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.         This artefact excludes the definitions of concepts.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.</dcterms:description>
     <rdfs:comment>This version is automatically generated from dcat_ap_lu_CM.xml on 
-                2025-08-25</rdfs:comment>
+                2025-08-28</rdfs:comment>
     <rdfs:seeAlso rdf:resource="https://mindig_lu.gitlab.io/DCAT-AP-LU/"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-25</dcterms:issued>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-25</dcterms:created>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-28</dcterms:issued>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-08-28</dcterms:created>
     <owl:versionInfo>1</owl:versionInfo>
     <owl:incompatibleWith></owl:incompatibleWith>
     <owl:versionIRI rdf:resource="https://mindig_lu.gitlab.io/DCAT-AP-LU#core-restriction-1"/>
@@ -130,664 +68,706 @@
     <vann:preferredNamespacePrefix>dal</vann:preferredNamespacePrefix>
     <dcterms:license>Copyright 2025 Ministère de la Digitalisation, Luxembourg. All material in this repository is published under the license CC-BY 4.0, unless explicitly otherwise mentioned. </dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1347fdb0751b4051bd3e76b96098732f">
+  <rdf:Description rdf:nodeID="N1d4704fdab9249248fb5104abb3c3973">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46399728eac943c296088683bcabdbbd">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#spatialResolutionInMeters"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N7ac94dca9932491ab1a64eb51a4446b3">
+  <rdf:Description rdf:nodeID="N89ff84779cbb4f359d32c7eb7d7a9db6">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/accessRights"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hasBeginning"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/page">
-    <rdfs:domain rdf:nodeID="Ne4c78c3b2e2643f1a5a21e35de0cc862"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  <rdf:Description rdf:nodeID="N00f9bddd1a7248a6ad4862978ddc661c">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N9594a56bdc0f4bd288900e6374ff5eab"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/dpv#hasData">
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdfs:domain rdf:nodeID="N7c946a072a2747ada9efed4a8ff0c27b"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb25261fb2807491292632fd47a91322b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
+    <rdfs:domain rdf:nodeID="N901ae046c2f04fbaacaf43afbc8ed7a7"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#CatalogRecord">
+    <rdfs:subClassOf rdf:nodeID="N6d762eabf98d41e1ac8a33a2f577b68c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/temporal">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="https://w3id.org/dpv#Data"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b71a6550c4a4d13afd554319183dbf4">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://spdx.org/rdf/terms#checksum">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://spdx.org/rdf/terms#Checksum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N15fccf10256c4387b7ee132445b78a04">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N95bf1351a2b34546a695a2fff87317ee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#startDate">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime">
+    <rdfs:subClassOf rdf:nodeID="N90138674ceba44ed8aa966ab9b5bff98"/>
+    <rdfs:subClassOf rdf:nodeID="N38d0a3f837724c0282daa8a3fc58d29a"/>
+    <rdfs:subClassOf rdf:nodeID="N89ff84779cbb4f359d32c7eb7d7a9db6"/>
+    <rdfs:subClassOf rdf:nodeID="N340af6375f0b405f8512a4837990e491"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/applicablelegislation">
+    <rdfs:domain rdf:nodeID="N62b45d5cdaba48a2abed4f90ecb81e3f"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba26b08f942047a28f6eb63937d4879a">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N332a6dc9c0ba4eb4a796c912922be639"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57c27c3e05594441ad6578059008308e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/description"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne9bd26d8ecd1469795b0febf92c4b082">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne26442b8949a4f25ac0d641b0ccda862">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/creator"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc7301ed331f24d84954d3300c16775a7">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="Nfcd95c822a264c0b80398dd46d3b685a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#Distribution">
+    <rdfs:subClassOf rdf:nodeID="N316f52abf6fb48c6ada121b085b31f60"/>
+    <rdfs:subClassOf rdf:nodeID="N88e084dc875141769b8086431005ccba"/>
+    <rdfs:subClassOf rdf:nodeID="N503382efbfaf4c469b5fe690e3ec222d"/>
+    <rdfs:subClassOf rdf:nodeID="Nf176634d3e224469a5f2d45585d28737"/>
+    <rdfs:subClassOf rdf:nodeID="Nb5974f7ffc524ce2a651dac60340ff91"/>
+    <rdfs:subClassOf rdf:nodeID="Nb9483a11b1834bfb821e50d08e62f5f5"/>
+    <rdfs:subClassOf rdf:nodeID="N1af22957690f4e9db2c12d23d5969171"/>
+    <rdfs:subClassOf rdf:nodeID="Nabe900e6cdea43728ea4a84d5e4412d6"/>
+    <rdfs:subClassOf rdf:nodeID="N40f613be170a4b31b2d94ca48d8c8c26"/>
+    <rdfs:subClassOf rdf:nodeID="N2cdeb4c5f49c48fb888514a0dc30f0f1"/>
+    <rdfs:subClassOf rdf:nodeID="Ncf2c6ec687e545419c5d42efe71c6c7d"/>
+    <rdfs:subClassOf rdf:nodeID="Na6b9fde4250e4ce0be2db8570a56b73a"/>
+    <rdfs:subClassOf rdf:nodeID="Nb1bb96ab3c9c4b09b467e238d6513ba6"/>
+    <rdfs:subClassOf rdf:nodeID="N5666194cddcd48c282629e124e13563b"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf90a83146fc74afe855a92d0073baff1">
+    <rdf:first rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+    <rdf:rest rdf:nodeID="Na81c7069bb46434b9313a71c0ae3db81"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/primaryTopic">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Resource"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N4a8ead480a8d4bb994ef15b10d20aa72">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N76401b5fe39c4144a90579f9bc18abce"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Naa33b5a22ec34608bfa51758b2b82d50">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#compressFormat"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#byteSize">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N53f8d4c3b78e468a847c2bb5119b2198">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/r5r/availability"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na6e6dc95e62c465596ae99d5da646294">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/license"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N27d8a62f6d40483c9502a638accc306a">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N0e83419f02fb43138ceb48dec373bbe8"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd2c12cbbd5b34733bad0d5c22505447b">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Nf4f9ba28ec3940688b8f6aca52d0821a"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/modified">
-    <rdfs:domain rdf:nodeID="Nc09e432ba42147eaa6c3beecc517bf83"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8dcbded08f3d466093504015418591f5">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N27d8a62f6d40483c9502a638accc306a"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf4f9ba28ec3940688b8f6aca52d0821a">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-    <rdf:rest rdf:nodeID="Nbc7eba9395f84233b4877dc27d3404e2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7a1afd10aff34a16bb97007e07eee3da">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf169170160b34e6099dd4b68f0c48a67">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/creator"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N45d3ed322bc6487db79cb5274fc62e09">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#temporalResolution"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncac13d49553e4cdfb6f16b77dde3eab3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://spdx.org/rdf/terms#checksum"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N939ad0d52a724f88acb118a86cbd1925">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/license"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb5099238e5c148beb6b4647bb0c82353">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#mediaType"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#service">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#status">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N64bc7c4d02834dca8366c82ecf959d39">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N6ec77594dcfe454c939b20c3ce7240ba"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0e9b29062bc04b5986125721ea0e4aef">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N186be702475d40aba01b54c1062e11cc"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8cc3e7a9da944f788a9cdcf84317bd9e">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Nea8e912f808d4dfc85df92707ad2065d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N163b186769af477f8f4a2b8a1c39a46c">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N6134a1c9db7e4a309f07c802aa26d8ce"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/relation">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N92cb4dafb8a74661b23ed48c5ffdfcae">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
-    <rdf:rest rdf:nodeID="N0d8264fca49545db9370e17877bebe1e"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N932c3defe74440ea882c8cc2c059327d">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N51421623d0b94c669a5c88ee06b2f0cf">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1638606df5c04bc7b923e469599e69b0">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/issued"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf4e2fd0438d047ed87ddc58a885777c8">
-    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-    <rdf:rest rdf:nodeID="N0fcfb57fb8bc48e6881074b1574df900"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#spatialResolutionInMeters">
-    <rdfs:domain rdf:nodeID="N875b581cceee47c0b410a80a75dab214"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3b5d71bb40374c37b1864178bf19c639">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N163b186769af477f8f4a2b8a1c39a46c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N093d173727a34478965444d38e0b8630">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N112f91b82d1d488691930f03d859117c"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#identifier">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/odrl/2/hasPolicy">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAttribution">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc215b6643251416899055ff287baac9f">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/modified"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd0c1cf681e054de8a75592581ea0f1f0">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/creator"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#servesDataset">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
-    <rdfs:domain rdf:nodeID="Nd2c12cbbd5b34733bad0d5c22505447b"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nad4786ac485d48e190c83ce6e93b6081">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#CatalogRecord">
-    <rdfs:subClassOf rdf:nodeID="N264fd52afdea4e7081950a6063a73de9"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc6c1973a3f5a4efc9b95bea6f525eaaa">
-    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1ecac67d3709404c9f5760a2004b32dc">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N84ca633b50ce47059ee4464e00fb4bee"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#Dataset">
-    <rdfs:subClassOf rdf:nodeID="N6446bf7258224f6ca3582759563d0707"/>
-    <rdfs:subClassOf rdf:nodeID="N9ad2a661bcb94689ba96b8433956992f"/>
-    <rdfs:subClassOf rdf:nodeID="N9d9c6d1663ff46139b0a7968cf5d13d7"/>
-    <rdfs:subClassOf rdf:nodeID="Nb056de333fec4a6aba9eada9e5b47e92"/>
-    <rdfs:subClassOf rdf:nodeID="N1638606df5c04bc7b923e469599e69b0"/>
-    <rdfs:subClassOf rdf:nodeID="Nc215b6643251416899055ff287baac9f"/>
-    <rdfs:subClassOf rdf:nodeID="N45d3ed322bc6487db79cb5274fc62e09"/>
-    <rdfs:subClassOf rdf:nodeID="N1347fdb0751b4051bd3e76b96098732f"/>
-    <rdfs:subClassOf rdf:nodeID="N5d7abac85e174023afa31d4ddfac5eb9"/>
-    <rdfs:subClassOf rdf:nodeID="N7ac94dca9932491ab1a64eb51a4446b3"/>
-    <rdfs:subClassOf rdf:nodeID="Nd0c1cf681e054de8a75592581ea0f1f0"/>
-    <rdfs:subClassOf rdf:nodeID="N16ec3cdd351b44c9a919db7b3fd66740"/>
-    <rdfs:subClassOf rdf:nodeID="Nf97685e24ef7483299fd304ea13ce303"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N06f29c5818514bbe85362a6540947d4c">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N8acc97cfaf7847729ef49e1f52b19e2e"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N34ae1c46a51b40178fb66b23c4d03116">
+  <rdf:Description rdf:nodeID="Nfcd95c822a264c0b80398dd46d3b685a">
     <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5d7abac85e174023afa31d4ddfac5eb9">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfb85510dc56044e4bf7a33eb6a8ec7f6">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="Ne7aa1cd254d044dfbaaff3398d8bfd08"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#landingPage">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#endDate">
-    <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/locn#geometry">
-    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/locn#Geometry"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5eae7109b45c4174bac38551e8aeda51">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#accessURL"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nea8e912f808d4dfc85df92707ad2065d">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="Nf5b3273dadb54cf2a747f3e531a5a3c2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ndfb07287ca1b414e8fd1690440650266">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/odrl/2/hasPolicy"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2e50a0b29d1e404e805ce71078806bf8">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N18410c1e9b2f48ff91298ce209ca6046"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N84ca633b50ce47059ee4464e00fb4bee">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf97685e24ef7483299fd304ea13ce303">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/accrualPeriodicity"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9f12d7f02ecf4c1c988b875f7aff7f85">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
-    <rdfs:domain rdf:nodeID="N8dcbded08f3d466093504015418591f5"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N128dac41556443aaaf5d4f09976725bc">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="Nd23a36baf52b42a1991ecf25482063e5"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
-    <rdfs:domain rdf:nodeID="N5fd305509b3b4fb19cb5f9ccd31c96d5"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N62a5526978f84f9ca035ee9ba47f489d">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N128dac41556443aaaf5d4f09976725bc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
-    <rdfs:domain rdf:nodeID="N76189360c02446578276d26dcb4ea65f"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0fcfb57fb8bc48e6881074b1574df900">
-    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    <rdf:rest rdf:nodeID="N2f21a15439104d3081590d406a788f36"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb056de333fec4a6aba9eada9e5b47e92">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#versionInfo"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/Frequency"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nca16edc88afc473687bab25ed4ddcfa2">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N7539fe7e3b5747da988c11d34948befb"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#qualifiedRelation">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Relationship"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/identifier">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#sample">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7360e4c8d0e346b69a7c81f7e39a6d37">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/modified"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#inSeries">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/r5r/applicablelegislation">
-    <rdfs:domain rdf:nodeID="N4a8ead480a8d4bb994ef15b10d20aa72"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/eli/ontology#LegalResource"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N18410c1e9b2f48ff91298ce209ca6046">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/rights">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N14ab9bb55df745a49e25523707b838c7">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N92cb4dafb8a74661b23ed48c5ffdfcae"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3c1dda2948f947668ee465ec5122bfe1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/rights"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9b154abf61454a30a0bca3b627236520">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/adms#status"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
-    <rdfs:domain rdf:nodeID="N3b5d71bb40374c37b1864178bf19c639"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/Standard"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0e859132249e4eadb50acb79d09fc1af">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbc7eba9395f84233b4877dc27d3404e2">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#record">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N76189360c02446578276d26dcb4ea65f">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N0e9b29062bc04b5986125721ea0e4aef"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/adms#versionNotes">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6446bf7258224f6ca3582759563d0707">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/identifier"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd080aecf81774946a8c124c97aa7ce8a">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#endDate"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N264fd52afdea4e7081950a6063a73de9">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/primaryTopic"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#compressFormat">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N84bc74080abe457f8d569d6cf5058ecf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/format"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
-    <rdfs:domain rdf:nodeID="N7887d13958384c0d96ca174d19b84ff9"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N76401b5fe39c4144a90579f9bc18abce">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N0bf0945c36d240859944cf1a23356201"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N875b581cceee47c0b410a80a75dab214">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Nca16edc88afc473687bab25ed4ddcfa2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0884cbabd6214eb39c0452a9361bba82">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#byteSize"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nba43d65d16a94bc2bd95c8ab547e8f99">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-    <rdf:rest rdf:nodeID="Nfb85510dc56044e4bf7a33eb6a8ec7f6"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#startDate">
-    <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#packageFormat">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
-    <rdfs:domain rdf:nodeID="N62a5526978f84f9ca035ee9ba47f489d"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N16ec3cdd351b44c9a919db7b3fd66740">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5f53fcdc9036436e928e9ae99540e2ab">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
-    <rdf:rest rdf:nodeID="N51421623d0b94c669a5c88ee06b2f0cf"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2006/time#hasBeginning">
-    <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne7aa1cd254d044dfbaaff3398d8bfd08">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0e83419f02fb43138ceb48dec373bbe8">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6ec77594dcfe454c939b20c3ce7240ba">
-    <rdf:first rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
-    <rdf:rest rdf:nodeID="N932bd116aedc4cb59a924a5df4360fc2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/spatial">
-    <rdfs:domain rdf:nodeID="N093d173727a34478965444d38e0b8630"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/Location"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2f21a15439104d3081590d406a788f36">
-    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
-    <rdf:rest rdf:nodeID="Nc6c1973a3f5a4efc9b95bea6f525eaaa"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
-    <rdfs:subClassOf rdf:nodeID="N2710bcdcb10f4db9b33deb20b4a43171"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9ad2a661bcb94689ba96b8433956992f">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/dc/terms/description"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
-    <rdfs:domain rdf:nodeID="N403cb5673bd74fc493282b0210fb3c09"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne4c78c3b2e2643f1a5a21e35de0cc862">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N2e50a0b29d1e404e805ce71078806bf8"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf5b3273dadb54cf2a747f3e531a5a3c2">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ned8be0d0cfef4418b17bed20ab9526b9">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime">
-    <rdfs:subClassOf rdf:nodeID="Nd080aecf81774946a8c124c97aa7ce8a"/>
-    <rdfs:subClassOf rdf:nodeID="N5844c4277098427d8b329b371457b245"/>
-    <rdfs:subClassOf rdf:nodeID="N44c21f545750423099c7b0234ec58627"/>
-    <rdfs:subClassOf rdf:nodeID="N652f3a301e7441e88e68b867913f4ef6"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5844c4277098427d8b329b371457b245">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#startDate"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#mediaType">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N403cb5673bd74fc493282b0210fb3c09">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Nba43d65d16a94bc2bd95c8ab547e8f99"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/source">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-    <rdfs:subClassOf rdf:nodeID="Nad4786ac485d48e190c83ce6e93b6081"/>
+  <rdf:Description rdf:about="http://www.w3.org/ns/locn#geometry">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/locn#Geometry"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N186be702475d40aba01b54c1062e11cc">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N652f3a301e7441e88e68b867913f4ef6">
+  <rdf:Description rdf:nodeID="Nce9829789cc0489988355b30ebd5dc55">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hasEnd"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/identifier"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N159255bf18a141ce9453f0007ed60fd4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc35ad1a48fd746188693bf898240d74a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N62b45d5cdaba48a2abed4f90ecb81e3f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N20676f9922a74c48b526e5959c4142f6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc73059589404448d8bdbafa5f09437fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb09b7f689f5c48c4ab3678bb55306a6b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/language">
+    <rdfs:domain rdf:nodeID="N306a0ad807534a98a3dee53c9e3085e4"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc33df8c9d5de4eedb2749bcb57b55f7a">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="Nf90a83146fc74afe855a92d0073baff1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedRelation">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7106467aadce41ef9a9e68f4de38da41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#spatialResolutionInMeters"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0d8264fca49545db9370e17877bebe1e">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="N0e859132249e4eadb50acb79d09fc1af"/>
+  <rdf:Description rdf:nodeID="Ncf2c6ec687e545419c5d42efe71c6c7d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/adms#status"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N5fd305509b3b4fb19cb5f9ccd31c96d5">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#Dataset">
+    <rdfs:subClassOf rdf:nodeID="Nce9829789cc0489988355b30ebd5dc55"/>
+    <rdfs:subClassOf rdf:nodeID="N57c27c3e05594441ad6578059008308e"/>
+    <rdfs:subClassOf rdf:nodeID="N4e6201ec55dc4d90855df0652a7a9345"/>
+    <rdfs:subClassOf rdf:nodeID="N0d38d316c4984f71ac63c73625ad5018"/>
+    <rdfs:subClassOf rdf:nodeID="N7265416cb53740b2ba1d06198601ec31"/>
+    <rdfs:subClassOf rdf:nodeID="N79bf5046207c4c21bc7ca949af5a2c85"/>
+    <rdfs:subClassOf rdf:nodeID="Nf30ecc29ab7a4e57b7932c5404dab6ff"/>
+    <rdfs:subClassOf rdf:nodeID="N7106467aadce41ef9a9e68f4de38da41"/>
+    <rdfs:subClassOf rdf:nodeID="Nb25261fb2807491292632fd47a91322b"/>
+    <rdfs:subClassOf rdf:nodeID="N84b623b0b3424adab269b16ecf4b8ca4"/>
+    <rdfs:subClassOf rdf:nodeID="Nf1d93661b28e4046b90a4ff51af45714"/>
+    <rdfs:subClassOf rdf:nodeID="N46399728eac943c296088683bcabdbbd"/>
+    <rdfs:subClassOf rdf:nodeID="Nfd2116fd390d40caab0fe4e686cae57a"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N5f53fcdc9036436e928e9ae99540e2ab"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N7539fe7e3b5747da988c11d34948befb">
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+    <rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2cdeb4c5f49c48fb888514a0dc30f0f1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/rights"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69b983f0d11f41a696a18feeea6e7015">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <rdf:rest rdf:nodeID="N8ccdcb6d0d9547b693d2c09be50d0626"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAttribution">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1d93661b28e4046b90a4ff51af45714">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/creator"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd2116fd390d40caab0fe4e686cae57a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/accrualPeriodicity"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa522d79e7894343829ac25027d06307">
     <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
-    <rdfs:domain rdf:nodeID="N52416fb226be46a793543abafd65a14c"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdf:Description rdf:nodeID="N3714fa0b53d14ec3af4aa327d67606bc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0bf0945c36d240859944cf1a23356201">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
-    <rdf:rest rdf:nodeID="N34ae1c46a51b40178fb66b23c4d03116"/>
+  <rdf:Description rdf:nodeID="N7265416cb53740b2ba1d06198601ec31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/issued"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/spatial">
+    <rdfs:domain rdf:nodeID="Nc73059589404448d8bdbafa5f09437fa"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/Location"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-    <rdfs:subClassOf rdf:nodeID="N7a1afd10aff34a16bb97007e07eee3da"/>
+    <rdfs:subClassOf rdf:nodeID="Na76d4249a0a24b1a837bfed961f58efe"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/provenance">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#Catalog">
+    <rdfs:subClassOf rdf:nodeID="N3236fc15a86c4ff98e2dc3e46512599d"/>
+    <rdfs:subClassOf rdf:nodeID="N490c04a410474f53bec3d0c6bc31fa75"/>
+    <rdfs:subClassOf rdf:nodeID="Ne26442b8949a4f25ac0d641b0ccda862"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#record">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#CatalogRecord"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na6b9fde4250e4ce0be2db8570a56b73a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/format"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#identifier">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/ProvenanceStatement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/adms#Identifier"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf95a8fa5e0014dae816bc6e64c00c2d1">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  <rdf:Description rdf:nodeID="N20676f9922a74c48b526e5959c4142f6">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="Naa68c3e6cfa446159553d9e70575456a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38d0a3f837724c0282daa8a3fc58d29a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#startDate"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7c2638625cc434eb037ef4f6d133837">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N2039bb517ddf4e668f89ca50d2087bae"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/isReferencedBy">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N44c21f545750423099c7b0234ec58627">
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#endDate">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na76d4249a0a24b1a837bfed961f58efe">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hasBeginning"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/type"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N8b3d9eb07bf24f0b82029517ece5e7df">
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/page">
+    <rdfs:domain rdf:nodeID="N28569a2ae8b04a668034e42c6be7d590"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf886a8e8228f4e1f8bc2d0ab272ceda8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nf3b03f542a1d4fc6b294f3d6a1fe16bf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d83087af86f4d528313f89665f0dd97">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e949ea99f7a4111a9ad275d5128828b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N61d4ac1e19004d32a8c8292e5d22e92d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40f613be170a4b31b2d94ca48d8c8c26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#mediaType"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/type">
+    <rdfs:domain rdf:nodeID="N33401402319746b68a139d28dc077faa"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf30ecc29ab7a4e57b7932c5404dab6ff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#temporalResolution"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1af22957690f4e9db2c12d23d5969171">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/r5r/availability"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N28569a2ae8b04a668034e42c6be7d590">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc7301ed331f24d84954d3300c16775a7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9594a56bdc0f4bd288900e6374ff5eab">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/rights">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessService">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5974f7ffc524ce2a651dac60340ff91">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#packageFormat"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/format">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na81c7069bb46434b9313a71c0ae3db81">
+    <rdf:first rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2006/time#hasEnd">
     <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
     <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/dc/terms/temporal">
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#sample">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdfs:range rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N9d9c6d1663ff46139b0a7968cf5d13d7">
+  <rdf:Description rdf:nodeID="N03bd0b8ca6f545168bd1d2a392f2f3f1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N184b9ea7b3c34310b4e503f54e238644"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N00845e8a8a0847d98f0910060530f2b2">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbed41c9b23cf43e9b3e4192d0394f8a6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Na7c2638625cc434eb037ef4f6d133837"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84b623b0b3424adab269b16ecf4b8ca4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/accessRights"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdfs:domain rdf:nodeID="Nbed41c9b23cf43e9b3e4192d0394f8a6"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N316f52abf6fb48c6ada121b085b31f60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#accessURL"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#service">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N83f659711af6416498fdc8985033578d">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="Naa522d79e7894343829ac25027d06307"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#accessURL">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#inSeries">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#contactPoint">
+    <rdfs:domain rdf:nodeID="N159255bf18a141ce9453f0007ed60fd4"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/odrl/2/hasPolicy">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/odrl/2/Policy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2006/time#hasBeginning">
+    <rdfs:domain rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe830057a80a40f7b5b565c5ca78c0ac">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N1d4704fdab9249248fb5104abb3c3973"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N56c4e25c672a426397af39e8953ef387">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N332a6dc9c0ba4eb4a796c912922be639">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdfs:domain rdf:nodeID="N734cb05e3eb64eac9694af29ae2115ec"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdfs:domain rdf:nodeID="N03bd0b8ca6f545168bd1d2a392f2f3f1"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N490c04a410474f53bec3d0c6bc31fa75">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/license"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2039bb517ddf4e668f89ca50d2087bae">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#servesDataset">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#keyword">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nabe900e6cdea43728ea4a84d5e4412d6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://spdx.org/rdf/terms#checksum"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7327b5877aaa457891f472e8c7828bc8">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#mediaType">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb8618e3d7e06428792489c4ce4213a31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#distribution">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8ccdcb6d0d9547b693d2c09be50d0626">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57fdae3a24ab4b60819e8363f6e3587d">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa68c3e6cfa446159553d9e70575456a">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
+    <rdf:rest rdf:nodeID="N7d83087af86f4d528313f89665f0dd97"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3b03f542a1d4fc6b294f3d6a1fe16bf">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N57fdae3a24ab4b60819e8363f6e3587d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3236fc15a86c4ff98e2dc3e46512599d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb1bb96ab3c9c4b09b467e238d6513ba6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#compressFormat"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N306a0ad807534a98a3dee53c9e3085e4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N83f659711af6416498fdc8985033578d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#packageFormat">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#downloadURL">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ba4bf2cd4d3417d9292fecc4ba12a4c">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf176634d3e224469a5f2d45585d28737">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/modified"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79bf5046207c4c21bc7ca949af5a2c85">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/modified"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6e51029dd6054ed1a5082d79163479a5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N90a833a2cac145be9012c13ca41741fb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#qualifiedRelation">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Relationship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#temporalResolution">
+    <rdfs:domain rdf:nodeID="N068eb81fd2b8458fb8e1086e0817aa0e"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61d4ac1e19004d32a8c8292e5d22e92d">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DataService"/>
+    <rdf:rest rdf:nodeID="N49489eef14fb43008b9577346a33ef96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/r5r/availability">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7f99e6d80694f96bafd1d81ddee4588">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb4df73083f694522b6408eba58602721"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6fec664fc8364e83aacb499b925dbe9f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/locn#geometry"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#theme">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#hasVersion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N503382efbfaf4c469b5fe690e3ec222d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/dc/terms/issued"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90a833a2cac145be9012c13ca41741fb">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N56c4e25c672a426397af39e8953ef387"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33401402319746b68a139d28dc077faa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc33df8c9d5de4eedb2749bcb57b55f7a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#landingPage">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/Location">
+    <rdfs:subClassOf rdf:nodeID="N6fec664fc8364e83aacb499b925dbe9f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N95bf1351a2b34546a695a2fff87317ee">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <rdf:rest rdf:nodeID="Ne9bd26d8ecd1469795b0febf92c4b082"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/Frequency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/relation">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#status">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N734cb05e3eb64eac9694af29ae2115ec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N69b983f0d11f41a696a18feeea6e7015"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/adms#versionNotes">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90138674ceba44ed8aa966ab9b5bff98">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#endDate"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#compressFormat">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88e084dc875141769b8086431005ccba">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/dcat#byteSize"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c946a072a2747ada9efed4a8ff0c27b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nbe830057a80a40f7b5b565c5ca78c0ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N340af6375f0b405f8512a4837990e491">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/2006/time#hasEnd"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0d38d316c4984f71ac63c73625ad5018">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#versionInfo"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4547d5fc74ee42028ecf3de73cb2e7c0">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N8b71a6550c4a4d13afd554319183dbf4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#spatialResolutionInMeters">
+    <rdfs:domain rdf:nodeID="N6e51029dd6054ed1a5082d79163479a5"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N901ae046c2f04fbaacaf43afbc8ed7a7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N4547d5fc74ee42028ecf3de73cb2e7c0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35e4ccb882084eebae0ea7e60402edf4">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#DatasetSeries"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+    <rdfs:domain rdf:nodeID="Na7f99e6d80694f96bafd1d81ddee4588"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb09b7f689f5c48c4ab3678bb55306a6b">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N7327b5877aaa457891f472e8c7828bc8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4df73083f694522b6408eba58602721">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+    <rdf:rest rdf:nodeID="N00f9bddd1a7248a6ad4862978ddc661c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc35ad1a48fd746188693bf898240d74a">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N35e4ccb882084eebae0ea7e60402edf4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49489eef14fb43008b9577346a33ef96">
+    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdf:rest rdf:nodeID="N00845e8a8a0847d98f0910060530f2b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/conformsTo">
+    <rdfs:domain rdf:nodeID="Nf886a8e8228f4e1f8bc2d0ab272ceda8"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/Standard"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4e6201ec55dc4d90855df0652a7a9345">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
     <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://spdx.org/rdf/terms#checksum">
-    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdfs:range rdf:resource="http://spdx.org/rdf/terms#Checksum"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8acc97cfaf7847729ef49e1f52b19e2e">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/accessRights">
     <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
     <rdfs:range rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N52416fb226be46a793543abafd65a14c">
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdfs:domain rdf:nodeID="N15fccf10256c4387b7ee132445b78a04"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N068eb81fd2b8458fb8e1086e0817aa0e">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N64bc7c4d02834dca8366c82ecf959d39"/>
+    <owl:unionOf rdf:nodeID="Nba26b08f942047a28f6eb63937d4879a"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N932bd116aedc4cb59a924a5df4360fc2">
-    <rdf:first rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdfs:subClassOf rdf:nodeID="Nb8618e3d7e06428792489c4ce4213a31"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.w3.org/ns/dcat#temporalResolution">
-    <rdfs:domain rdf:nodeID="N3ed9cde596384eeb9a18b2b0ef0c1678"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/provenance">
+    <rdfs:domain rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <rdfs:range rdf:resource="http://purl.org/dc/terms/ProvenanceStatement"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb9483a11b1834bfb821e50d08e62f5f5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/odrl/2/hasPolicy"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/ns/dcat#DatasetSeries">
-    <rdfs:subClassOf rdf:nodeID="N932c3defe74440ea882c8cc2c059327d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0356ba826574426d94cc9b688a0793e3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Nf4e2fd0438d047ed87ddc58a885777c8"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N112f91b82d1d488691930f03d859117c">
-    <rdf:first rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <rdf:rest rdf:nodeID="Ned8be0d0cfef4418b17bed20ab9526b9"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7887d13958384c0d96ca174d19b84ff9">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N152ec47d17b44804a680b238e06b20a9"/>
+    <rdfs:subClassOf rdf:nodeID="N3714fa0b53d14ec3af4aa327d67606bc"/>
   </rdf:Description>
 </rdf:RDF>

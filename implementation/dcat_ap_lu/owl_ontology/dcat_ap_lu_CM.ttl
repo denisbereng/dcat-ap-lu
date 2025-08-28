@@ -165,41 +165,38 @@ spdx:checksum a owl:ObjectProperty ;
     skos:definition "A mechanism that can be used to verify that the contents of a distribution have not changed."@en ;
     skos:prefLabel "checksum"@en .
 
-rdf:PlainLiteral a owl:Class ;
+rdf:PlainLiteral a rdfs:Datatype ;
     skos:prefLabel "Plain Literal"@en .
 
-rdfs:Literal a owl:Class ;
+rdfs:Literal a rdfs:Datatype ;
     skos:prefLabel "Literal"@en .
 
-rdfs:Resource a owl:Class ;
+rdfs:Resource a rdfs:Datatype ;
     skos:prefLabel "Resource"@en .
 
-xsd:date a owl:Class ;
-    rdfs:subClassOf :TemporalLiteral ;
+xsd:date a rdfs:Datatype ;
     skos:prefLabel "date"@en .
 
-xsd:dateTime a owl:Class ;
-    rdfs:subClassOf :TemporalLiteral ;
+xsd:dateTime a rdfs:Datatype ;
+    skos:definition "Object with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property."@en ;
     skos:prefLabel "date Time"@en .
 
-xsd:decimal a owl:Class ;
+xsd:decimal a rdfs:Datatype ;
     skos:prefLabel "decimal"@en .
 
-xsd:duration a owl:Class ;
+xsd:duration a rdfs:Datatype ;
     skos:prefLabel "duration"@en .
 
-xsd:gYear a owl:Class ;
-    rdfs:subClassOf :TemporalLiteral ;
+xsd:gYear a rdfs:Datatype ;
     skos:prefLabel "g Year"@en .
 
-xsd:gYearMonth a owl:Class ;
-    rdfs:subClassOf :TemporalLiteral ;
+xsd:gYearMonth a rdfs:Datatype ;
     skos:prefLabel "g Year Month"@en .
 
-xsd:integer a owl:Class ;
+xsd:integer a rdfs:Datatype ;
     skos:prefLabel "integer"@en .
 
-xsd:string a owl:Class ;
+xsd:string a rdfs:Datatype ;
     skos:prefLabel "string"@en .
 
 owl:versionInfo a owl:DatatypeProperty ;
@@ -208,7 +205,8 @@ owl:versionInfo a owl:DatatypeProperty ;
 skos:prefLabel a owl:DatatypeProperty ;
     skos:prefLabel "pref Label"@en .
 
-time:Instant a owl:Class ;
+time:Instant a rdfs:Datatype ;
+    skos:definition "A temporal entity with zero extent or duration."@en ;
     skos:prefLabel "Instant"@en .
 
 time:hasBeginning a owl:DatatypeProperty ;
@@ -395,6 +393,11 @@ foaf:page a owl:ObjectProperty ;
 foaf:primaryTopic a owl:ObjectProperty ;
     skos:prefLabel "primary Topic"@en .
 
+:TemporalLiteral a rdfs:Datatype ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:definition "rdfs:Literal encoded using the relevant [ISO8601] Date and Time compliant string and typed using the appropriate XML Schema datatype (xsd:gYear, xsd:gYearMonth, xsd:date, or xsd:dateTime)."@en ;
+    skos:prefLabel "Temporal Literal"@en .
+
 <https://w3id.org/dpv#Data> a owl:Class ;
     rdfs:subClassOf skos:Concept ;
     skos:definition "A broad concept representing 'data' or 'information'"@en ;
@@ -409,15 +412,15 @@ skos:Concept a owl:Class ;
 
 core-res:core a owl:Ontology ;
     rdfs:label "This artefact provides the definitions for the DCAT-AP-LU.         This artefact excludes the restrictions.         The DCAT-AP-LU describes objects and concepts, with definitions, attributes and relationships which are used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe.         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency."@en ;
-    dcterms:created "2025-08-25"^^xsd:date ;
+    dcterms:created "2025-08-28"^^xsd:date ;
     dcterms:description "This artefact provides the definitions for the DCAT-AP-LU.         This artefact excludes the restrictions.         DCAT-AP-LU is a Luxembourg-specific extension of the DCAT-AP profile used for sharing information about Catalogues containing Datasets and Data Services descriptions in Europe. It was created as part of the national implementation of the Data Governance Act (DGA) to support the creation of a single national dataset catalogue for all public sector data. The DCAT-AP-LU reuses large parts of the DCAT-AP-v3.0 standard, with a set of minor adaptations to support specific requirements for Luxembourg."@en ;
-    dcterms:issued "2025-08-25"^^xsd:date ;
+    dcterms:issued "2025-08-28"^^xsd:date ;
     dcterms:license "Copyright 2025 Ministère de la Digitalisation, Luxembourg. All material in this repository is published under the license CC-BY 4.0, unless explicitly otherwise mentioned. " ;
     dcterms:publisher "https://mindig_lu.gitlab.io/DCAT-AP-LU" ;
     dcterms:title "DCAT-AP-LU"@en ;
     vann:preferredNamespacePrefix "dal" ;
     vann:preferredNamespaceUri "https://mindig_lu.gitlab.io/DCAT-AP-LU/#" ;
-    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-25" ;
+    rdfs:comment "This version is automatically generated from dcat_ap_lu_CM.xml on 2025-08-28" ;
     rdfs:seeAlso <https://mindig_lu.gitlab.io/DCAT-AP-LU/> ;
     owl:imports cv:,
         dcatap:,
@@ -447,8 +450,4 @@ core-res:core a owl:Ontology ;
 dcat:Resource a owl:Class ;
     skos:definition "Resource published or curated by a single agent."@en ;
     skos:prefLabel "Resource"@en .
-
-:TemporalLiteral a owl:Class ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "Temporal Literal"@en .
 
