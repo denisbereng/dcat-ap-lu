@@ -17,7 +17,7 @@ jobs:
 
       - name: get model2owl
         run: |
-          git clone --branch alt-saxon-source https://github.com/OP-TED/model2owl.git
+          git clone --branch develop-updated-deps https://github.com/OP-TED/model2owl.git
           pwd
 
       - name: get-saxon
@@ -214,7 +214,7 @@ jobs:
 
       - name: get model2owl
         run: |
-          git clone --branch alt-saxon-source https://github.com/OP-TED/model2owl.git
+          git clone --branch develop-updated-deps https://github.com/OP-TED/model2owl.git
           pwd
 
       - name: get-saxon
