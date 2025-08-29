@@ -1,0 +1,14 @@
+type,name,parent
+class,adms:sample,
+property,adms:identifier,dcat:Dataset
+property,adms:status,dcat:Distribution
+property,adms:versionNotes,dcat:Dataset
+property,dcat:byteSize,dcat:Distribution
+property,dcat:compressFormat,dcat:Distribution
+property,dcat:downloadURL,dcat:Distribution
+property,dcat:hasVersion,dcat:Dataset
+property,dcat:mediaType,dcat:Distribution
+property,dcat:packageFormat,dcat:Distribution
+property,dcat:spatialResolutionInMeters,dcat:Dataset
+property,foaf:page,dcat:Dataset
+property,spdx:checksum,dcat:Distribution

@@ -1,0 +1,6 @@
+type,name,parent
+property,dcat:contactPoint,dcat:Dataset
+property,dcat:distribution,dcat:Dataset
+property,dcat:inSeries,dcat:Dataset
+property,dcat:keyword,dcat:Dataset
+property,dcat:theme,dcat:Dataset

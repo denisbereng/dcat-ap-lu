@@ -1,0 +1,57 @@
+{
+  "classes": [
+    {
+      "name": "adms:sample"
+    }
+  ],
+  "properties": [
+    {
+      "name": "adms:identifier",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "adms:status",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "adms:versionNotes",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "dcat:byteSize",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "dcat:compressFormat",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "dcat:downloadURL",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "dcat:hasVersion",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "dcat:mediaType",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "dcat:packageFormat",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "dcat:spatialResolutionInMeters",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "foaf:page",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "spdx:checksum",
+      "parent": "dcat:Distribution"
+    }
+  ]
+}

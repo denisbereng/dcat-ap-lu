@@ -1,0 +1,8 @@
+dcat:Dataset dcat:distribution
+dcat:Dataset dcat:inSeries
+dcat:Distribution dct:description
+dcat:Distribution dct:license
+dcat:Catalog dct:publisher
+dcat:Dataset dct:publisher
+dcat:DatasetSeries dct:publisher
+dcat:DatasetSeries dct:spatial

@@ -1,0 +1,25 @@
+{
+  "classes": [],
+  "properties": [
+    {
+      "name": "dcat:contactPoint",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "dcat:distribution",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "dcat:inSeries",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "dcat:keyword",
+      "parent": "dcat:Dataset"
+    },
+    {
+      "name": "dcat:theme",
+      "parent": "dcat:Dataset"
+    }
+  ]
+}

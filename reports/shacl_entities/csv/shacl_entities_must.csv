@@ -1,0 +1,7 @@
+type,name,parent
+property,dcat:accessURL,dcat:Distribution
+property,dct:description,dcat:Dataset
+property,dct:identifier,dcat:Dataset
+property,dct:title,dcat:Dataset
+property,foaf:primaryTopic,dcat:CatalogRecord
+property,skos:prefLabel,skos:Concept

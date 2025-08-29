@@ -1,0 +1,17 @@
+{
+  "classes": [],
+  "properties": [
+    {
+      "name": "dcat:accessURL",
+      "parent": "dcat:Distribution"
+    },
+    {
+      "name": "foaf:primaryTopic",
+      "parent": "dcat:CatalogRecord"
+    },
+    {
+      "name": "skos:prefLabel",
+      "parent": "skos:Concept"
+    }
+  ]
+}

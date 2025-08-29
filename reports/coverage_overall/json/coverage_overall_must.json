@@ -1,0 +1,18 @@
+{
+  "must": {
+    "defined": [
+      "dcat:CatalogRecord foaf:primaryTopic",
+      "dcat:Dataset dct:description",
+      "dcat:Dataset dct:identifier",
+      "dcat:Dataset dct:title",
+      "dcat:Distribution dcat:accessURL",
+      "skos:Concept skos:prefLabel"
+    ],
+    "used": [
+      "dcat:CatalogRecord foaf:primaryTopic",
+      "dcat:Distribution dcat:accessURL",
+      "skos:Concept skos:prefLabel"
+    ],
+    "coverage_percent": 50.0
+  }
+}

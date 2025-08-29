@@ -1,0 +1,5 @@
+dcat:Dataset dcat:contactPoint
+dcat:Dataset dcat:distribution
+dcat:Dataset dcat:inSeries
+dcat:Dataset dcat:keyword
+dcat:Dataset dcat:theme

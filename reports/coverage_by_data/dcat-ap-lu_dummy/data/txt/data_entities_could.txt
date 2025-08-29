@@ -1,0 +1,5 @@
+dcat:Distribution dcat:compressFormat
+dcat:Distribution dcat:downloadURL
+dcat:Distribution dcat:mediaType
+dcat:Distribution dcat:packageFormat
+dcat:Dataset foaf:page

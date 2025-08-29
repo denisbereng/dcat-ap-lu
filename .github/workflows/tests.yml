@@ -26,7 +26,9 @@ jobs:
     - name: Run Tests
       run: |
         make test-report
-    - name: Upload report
+        make coverage-report
+        make coverage-report-by-data
+    - name: Upload reports
       uses: actions/upload-artifact@v4
       with:
         name: pytest-report
