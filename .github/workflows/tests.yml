@@ -19,10 +19,15 @@ jobs:
       uses: astral-sh/setup-uv@v6
       with:
         enable-cache: true
+    - name: Set up Apache Jena tools
+      uses: foooomio/setup-jena@v3
     - name: Update OS
       run: sudo apt-get update
     - name: Install dependencies
       run: make install
+    - name: Run RDF validation
+      run: |
+        make validate
     - name: Run SHACL rule tests
       run: |
         make test-report

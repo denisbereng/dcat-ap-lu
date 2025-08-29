@@ -19,6 +19,8 @@ TEST_DATA_DIR = tests/test_data/shacl
 REPORT_DIR = reports
 SCRIPT_DIR = scripts
 XMI_FILE = implementation/dcat_ap_lu/xmi_conceptual_model/dcat_ap_lu_CM.xml
+OWL_DIR =  implementation/dcat_ap_lu/owl_ontology
+SHACL_DIR = implementation/dcat_ap_lu/shacl_shapes
 SHACL_FILE = implementation/dcat_ap_lu/shacl_shapes/dcat_ap_lu_CM_shapes.ttl
 UML_USAGE = $(REPORT_DIR)/uml_entities
 DATA_USAGE = data_entities
@@ -27,6 +29,9 @@ UML_SCRIPT = $(SCRIPT_DIR)/extract_uml_entities.py
 EXTRACT_SCRIPT = $(SCRIPT_DIR)/extract_entity_usage.py
 COVERAGE_SCRIPT = $(SCRIPT_DIR)/check_entity_coverage.py
 COVERAGE_REPORT = coverage_overall
+
+JENA_TOOLS_DIR = $(shell test ! -z ${JENA_HOME} && echo ${JENA_HOME} || echo `pwd`/jena)
+JENA_TOOLS_RIOT = $(JENA_TOOLS_DIR)/bin/riot
 
 REFERENCE_DATA_FOLDERS = $(TEST_DATA_DIR)/dcat-ap-dummy-example-1 \
 	$(TEST_DATA_DIR)/dcat-ap-dummy-example-2 \
@@ -69,6 +74,22 @@ install: check-uv
 
 check-uv:
 	@ $(CHECK_UV)
+
+setup-jena-tools:
+	@ echo "Installing Apache Jena CLI tools locally"
+	@ curl "https://archive.apache.org/dist/jena/binaries/apache-jena-4.10.0.zip" -o jena.zip
+	@ unzip jena.zip
+	@ mv apache-jena-4.10.0 jena
+	@ echo "Done installing Jena tools, accessible at $(JENA_TOOLS_DIR)/bin"
+
+validate:
+	@ echo "Using $(JENA_TOOLS_RIOT)"
+	@ echo "Validating model2owl artefacts.."
+	@ $(JENA_TOOLS_RIOT) --validate $(SHACL_DIR)/*
+	@ $(JENA_TOOLS_RIOT) --validate $(OWL_DIR)/*
+	@ echo -n "Validating test data.."
+	@ $(JENA_TOOLS_RIOT) --validate $(TEST_DATA_DIR)/*/*
+	@ echo "Done validating RDF"
 
 test:
 	@ echo "Running tests..."
