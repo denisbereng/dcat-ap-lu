@@ -23,17 +23,21 @@ jobs:
       run: sudo apt-get update
     - name: Install dependencies
       run: make install
-    - name: Run SHACL Rule Tests
+    - name: Run SHACL rule tests
       run: |
         make test-report
-    - name: Run Test Data Coverage Tests
+    - name: Run test data coverage tests
       run: |
         make coverage-report
-    - name: Run Sample Data Coverage Tests
+    - name: Run sample data coverage tests
       run: |
         make coverage-report-by-data                
-    - name: Upload reports
+    - name: Upload test and coverage reports
       uses: actions/upload-artifact@v4
       with:
-        name: pytest-report
-        path: report.html
+        name: dcat-ap-lu-test-reports
+        path: |
+          pytest-report.html
+          reports/coverage_overall/json/coverage_overall_must.json
+          reports/coverage_overall/json/coverage_overall_should.json
+          reports/coverage_overall/json/coverage_overall_could.json

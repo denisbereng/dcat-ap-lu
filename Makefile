@@ -76,7 +76,7 @@ test:
 
 test-report:
 	@ echo "Generating test report..."
-	@ uv run pytest --html=report.html --self-contained-html $(TEST_DIR)
+	@ uv run pytest --html=pytest-report.html --self-contained-html $(TEST_DIR)
 
 extract-uml-entities:
 	@ uv run python $(UML_SCRIPT) $(XMI_FILE) --output $(UML_USAGE).csv
