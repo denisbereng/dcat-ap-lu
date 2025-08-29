@@ -78,7 +78,10 @@ test-report:
 	@ echo "Generating test report..."
 	@ uv run pytest --html=report.html --self-contained-html $(TEST_DIR)
 
-coverage-report:
+extract-uml-entities:
+	@ uv run python $(UML_SCRIPT) $(XMI_FILE) --output $(UML_USAGE).csv
+
+coverage-report: extract-uml-entities
 	@ echo "Generating coverage reports..."
 	@ mkdir -p $(DATA_ENTITIES_TXT)
 	@ mkdir -p $(DATA_ENTITIES_CSV)
@@ -88,7 +91,6 @@ coverage-report:
 	@ mkdir -p $(SHACL_ENTITIES_JSON)
 	@ mkdir -p $(COVERAGE_OVERALL_CSV)
 	@ mkdir -p $(COVERAGE_OVERALL_JSON)
-	@ uv run python $(UML_SCRIPT) $(XMI_FILE) --output $(UML_USAGE).csv
 	@ uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) $(TEST_DATA_DIR) > $(DATA_ARGS_MUST)
 	@ uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) --shacl $(SHACL_FILE) > $(SHACL_ARGS_MUST)
 	@ uv run python $(COVERAGE_SCRIPT) $(SHACL_ENTITIES_TXT)/$(SHACL_USAGE)_must.txt $(DATA_ENTITIES_TXT)/$(DATA_USAGE)_must.txt $(COVERAGE_ARGS_MUST)
@@ -100,7 +102,7 @@ coverage-report:
 	@ uv run python $(COVERAGE_SCRIPT) $(SHACL_ENTITIES_TXT)/$(SHACL_USAGE)_could.txt $(DATA_ENTITIES_TXT)/$(DATA_USAGE)_could.txt $(COVERAGE_ARGS_COULD)
 
 # for generating reports based on specific test data folders
-coverage-report-by-data:
+coverage-report-by-data: extract-uml-entities
 	@echo "Generating reports for each test data folder..."
 	@for folder in $(REFERENCE_DATA_FOLDERS); do \
 		name=$$(basename $$folder); \

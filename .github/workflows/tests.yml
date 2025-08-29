@@ -23,11 +23,15 @@ jobs:
       run: sudo apt-get update
     - name: Install dependencies
       run: make install
-    - name: Run Tests
+    - name: Run SHACL Rule Tests
       run: |
         make test-report
+    - name: Run Test Data Coverage Tests
+      run: |
         make coverage-report
-        make coverage-report-by-data
+    - name: Run Sample Data Coverage Tests
+      run: |
+        make coverage-report-by-data                
     - name: Upload reports
       uses: actions/upload-artifact@v4
       with:
