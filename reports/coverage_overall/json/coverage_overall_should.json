@@ -23,12 +23,26 @@
       "foaf:Agent dct:type"
     ],
     "used": [
+      "dcat:Catalog dct:publisher",
       "dcat:Dataset dcat:contactPoint",
       "dcat:Dataset dcat:distribution",
       "dcat:Dataset dcat:inSeries",
       "dcat:Dataset dcat:keyword",
-      "dcat:Dataset dcat:theme"
+      "dcat:Dataset dcat:theme",
+      "dcat:Dataset dct:publisher",
+      "dcat:Dataset dct:spatial",
+      "dcat:Dataset dct:temporal",
+      "dcat:Dataset dpv:hasData",
+      "dcat:DatasetSeries dct:publisher",
+      "dcat:DatasetSeries dct:spatial",
+      "dcat:Distribution dct:description",
+      "dcat:Distribution dct:format",
+      "dcat:Distribution dct:license",
+      "dct:LicenseDocument dct:type",
+      "dct:PeriodOfTime dcat:endDate",
+      "dct:PeriodOfTime dcat:startDate",
+      "foaf:Agent dct:type"
     ],
-    "coverage_percent": 25.0
+    "coverage_percent": 95.0
   }
 }

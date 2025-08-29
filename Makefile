@@ -19,6 +19,8 @@ TEST_DATA_DIR = tests/test_data/shacl
 REPORT_DIR = reports
 SCRIPT_DIR = scripts
 XMI_FILE = implementation/dcat_ap_lu/xmi_conceptual_model/dcat_ap_lu_CM.xml
+OWL_DIR =  implementation/dcat_ap_lu/owl_ontology
+SHACL_DIR = implementation/dcat_ap_lu/shacl_shapes
 SHACL_FILE = implementation/dcat_ap_lu/shacl_shapes/dcat_ap_lu_CM_shapes.ttl
 UML_USAGE = $(REPORT_DIR)/uml_entities
 DATA_USAGE = data_entities
@@ -27,6 +29,9 @@ UML_SCRIPT = $(SCRIPT_DIR)/extract_uml_entities.py
 EXTRACT_SCRIPT = $(SCRIPT_DIR)/extract_entity_usage.py
 COVERAGE_SCRIPT = $(SCRIPT_DIR)/check_entity_coverage.py
 COVERAGE_REPORT = coverage_overall
+
+JENA_TOOLS_DIR = $(shell test ! -z ${JENA_HOME} && echo ${JENA_HOME} || echo `pwd`/jena)
+JENA_TOOLS_RIOT = $(JENA_TOOLS_DIR)/bin/riot
 
 REFERENCE_DATA_FOLDERS = $(TEST_DATA_DIR)/dcat-ap-dummy-example-1 \
 	$(TEST_DATA_DIR)/dcat-ap-dummy-example-2 \
@@ -70,15 +75,34 @@ install: check-uv
 check-uv:
 	@ $(CHECK_UV)
 
+setup-jena-tools:
+	@ echo "Installing Apache Jena CLI tools locally"
+	@ curl "https://archive.apache.org/dist/jena/binaries/apache-jena-4.10.0.zip" -o jena.zip
+	@ unzip jena.zip
+	@ mv apache-jena-4.10.0 jena
+	@ echo "Done installing Jena tools, accessible at $(JENA_TOOLS_DIR)/bin"
+
+validate:
+	@ echo "Using $(JENA_TOOLS_RIOT)"
+	@ echo "Validating model2owl artefacts.."
+	@ $(JENA_TOOLS_RIOT) --validate $(SHACL_DIR)/*
+	@ $(JENA_TOOLS_RIOT) --validate $(OWL_DIR)/*
+	@ echo -n "Validating test data.."
+	@ $(JENA_TOOLS_RIOT) --validate $(TEST_DATA_DIR)/*/*
+	@ echo "Done validating RDF"
+
 test:
 	@ echo "Running tests..."
 	@ uv run pytest $(TEST_DIR)
 
 test-report:
 	@ echo "Generating test report..."
-	@ uv run pytest --html=report.html --self-contained-html $(TEST_DIR)
+	@ uv run pytest --html=pytest-report.html --self-contained-html $(TEST_DIR)
 
-coverage-report:
+extract-uml-entities:
+	@ uv run python $(UML_SCRIPT) $(XMI_FILE) --output $(UML_USAGE).csv
+
+coverage-report: extract-uml-entities
 	@ echo "Generating coverage reports..."
 	@ mkdir -p $(DATA_ENTITIES_TXT)
 	@ mkdir -p $(DATA_ENTITIES_CSV)
@@ -88,7 +112,6 @@ coverage-report:
 	@ mkdir -p $(SHACL_ENTITIES_JSON)
 	@ mkdir -p $(COVERAGE_OVERALL_CSV)
 	@ mkdir -p $(COVERAGE_OVERALL_JSON)
-	@ uv run python $(UML_SCRIPT) $(XMI_FILE) --output $(UML_USAGE).csv
 	@ uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) $(TEST_DATA_DIR) > $(DATA_ARGS_MUST)
 	@ uv run python $(EXTRACT_SCRIPT) $(EXTRACT_ARGS_MUST) --shacl $(SHACL_FILE) > $(SHACL_ARGS_MUST)
 	@ uv run python $(COVERAGE_SCRIPT) $(SHACL_ENTITIES_TXT)/$(SHACL_USAGE)_must.txt $(DATA_ENTITIES_TXT)/$(DATA_USAGE)_must.txt $(COVERAGE_ARGS_MUST)
@@ -100,7 +123,7 @@ coverage-report:
 	@ uv run python $(COVERAGE_SCRIPT) $(SHACL_ENTITIES_TXT)/$(SHACL_USAGE)_could.txt $(DATA_ENTITIES_TXT)/$(DATA_USAGE)_could.txt $(COVERAGE_ARGS_COULD)
 
 # for generating reports based on specific test data folders
-coverage-report-by-data:
+coverage-report-by-data: extract-uml-entities
 	@echo "Generating reports for each test data folder..."
 	@for folder in $(REFERENCE_DATA_FOLDERS); do \
 		name=$$(basename $$folder); \

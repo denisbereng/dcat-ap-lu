@@ -19,17 +19,30 @@ jobs:
       uses: astral-sh/setup-uv@v6
       with:
         enable-cache: true
+    - name: Set up Apache Jena tools
+      uses: foooomio/setup-jena@v3
     - name: Update OS
       run: sudo apt-get update
     - name: Install dependencies
       run: make install
-    - name: Run Tests
+    - name: Run RDF validation
+      run: |
+        make validate
+    - name: Run SHACL rule tests
       run: |
         make test-report
+    - name: Run test data coverage tests
+      run: |
         make coverage-report
-        make coverage-report-by-data
-    - name: Upload reports
+    - name: Run sample data coverage tests
+      run: |
+        make coverage-report-by-data                
+    - name: Upload test and coverage reports
       uses: actions/upload-artifact@v4
       with:
-        name: pytest-report
-        path: report.html
+        name: dcat-ap-lu-test-reports
+        path: |
+          pytest-report.html
+          reports/coverage_overall/json/coverage_overall_must.json
+          reports/coverage_overall/json/coverage_overall_should.json
+          reports/coverage_overall/json/coverage_overall_could.json

@@ -29,7 +29,7 @@ The coverage reports are generated using custom Python scripts that analyse the 
 
 The tests are run automatically on every push so that divergence from the model can be captured continuously, but this can be configured with the relevant GitHub CI workflow `.github/workflows/tests.yml` so as to run selectively, like on PRs only.
 
-_Note: Currently, due to a technicality, failures in the Gherkin tests fail the workflow, but failures in coverage report generation do not. Only the Gherkin tests produce a HTML report which is made available as an artefact of the workflow run. The coverage reports are produced as and when deemed necessary and commited directly to the repo._
+_Note: Currently, due to a technicality, failures in the Gherkin tests fail the workflow, but failures in coverage report generation do not. The Gherkin and overall coverage tests produce HTML & JSON reports which are made available as an artefact of the workflow run._
 
 ### Testing Environment
 
