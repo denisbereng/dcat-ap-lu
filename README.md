@@ -6,8 +6,8 @@
 
 This repository hosts the **DCAT‑AP‑LU specification** and associated artefacts, including:
 
-- **Ontology Core:** [dcat-ap-lu Ontology](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/owl_ontology/dcat_ap_lu_CM.ttl)
-- **Ontology Restrictions:** [dcat-ap-lu Restrictions](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/owl_ontology/dcat_ap_lu_CM_restrictions.ttl)
+- **DCAT-AP-LU vocabulary:** [dcat-ap-lu vocabulary in Turtle format](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/owl_ontology/dcat_ap_lu_CM.ttl)
+- **DCAT-AP-LU vocabulary and constraints:** [dcat-ap-lu vocabulary and constraints in Turtle format](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/owl_ontology/dcat_ap_lu_CM_restrictions.ttl)
 - **SHACL Shapes:** [dcat-ap-lu SHACL Shapes](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/shacl_shapes/dcat_ap_lu_CM_shapes.ttl)
 - **Glossary:** [dcat-ap-lu Glossary](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/glossary/dcat_ap_lu_CM_glossary.html)
 - **ReSpec Documentation:** [dcat-ap-lu ReSpec Documentation](https://github.com/meaningfy-ws/dcat-ap-lu/blob/main/implementation/dcat_ap_lu/respec_report/dcat_ap_lu_respec.html)
@@ -23,15 +23,19 @@ The test setup, based on Python, is responsible for:
 - **SHACL rule validation** using RDF data fragments against the DCAT-AP-LU profile
 - **Coverage reports** showing usage of profile elements among representative sample data
 
-The rule validation is based on the idea of behaviour-driven development (BDD), where data fragments serve as fixtures or examples and are tested with a single, naturally-described Gherkin scenario.
+The rule validation is done with [pytest-bdd](https://pytest-bdd.readthedocs.io/en/latest/#) based on the idea of [behaviour-driven development](https://cucumber.io/docs/bdd/) (BDD), where data fragments serve as fixtures or examples and are tested with a single, naturally-described [Gherkin](https://cucumber.io/docs/gherkin/reference) [scenario outline](https://pytest-bdd.readthedocs.io/en/latest/#scenario-outlines).
 
-The coverage reports are generated using custom Python scripts that analyse RDF data and produce reports in CSV, JSON and in some cases plain text.
+The coverage reports are generated using custom Python scripts that analyse the UML XMI, SHACL and RDF data and produce reports in CSV, JSON and in some cases plain text.
+
+The tests are run automatically on every push so that divergence from the model can be captured continuously, but this can be configured with the relevant GitHub CI workflow `.github/workflows/tests.yml` so as to run selectively, like on PRs only.
+
+_Note: Currently, due to a technicality, failures in the Gherkin tests fail the workflow, but failures in coverage report generation do not. Only the Gherkin tests produce a HTML report which is made available as an artefact of the workflow run. The coverage reports are produced as and when deemed necessary and commited directly to the repo._
 
 ### Testing Environment
 
-Python (at least version 3.9) should be installed from official sources, but [pyenv](https://github.com/pyenv/pyenv)[(-win)](https://github.com/pyenv-win/pyenv-win) and the `conda` tool (via a distribution like Anaconda) are good options as well.
+Python (at least version 3.9) should be installed from [official sources](https://www.python.org/downloads/), but [pyenv](https://github.com/pyenv/pyenv)[(-win)](https://github.com/pyenv-win/pyenv-win) and the [conda](https://docs.conda.io/projects/conda/en/latest/index.html) tool (if you don't mind all the data science baggage) are good options as well.
 
-The project uses the `uv` package manager which takes care of setting up a runtime environment. You may still prefer to create a local virtual environment beforehand which will isolate the installation from your system Python:
+The project uses the [uv](https://docs.astral.sh/uv/) package manager which takes care of setting up a runtime environment. You may still prefer to create a local virtual environment beforehand which will isolate the installation from your system Python:
 
 ```bash
 python -m venv .venv
@@ -45,27 +49,23 @@ this as the "interpreter runtime".
 
 ### Installation
 
-Installation is as simple as running `make`, which takes care of getting `uv` and installing prerequisite software/library dependencies.
+Installation is as simple as running Make, which defaults to `make install` and takes care of getting `uv` and installing prerequisite software/library dependencies.
 
-If you don't have Make, it (and other UNIX/Bash tools) may be accessible on Windows 11 via the built-in WinGet, [Chocolatey](https://chocolatey.org/install), and on Mac via [HomeBrew](https://brew.sh/).
-
-We provide a traditional `requirements.txt` so you may also do the installation via Pip:
-
-```bash
-pip install -r requirements.txt
+```bas
+make
 ```
 
-You may want/have to run `python -m pip install --upgrade` to upgrade Pip itself, so that you have up-to-date dependency resolution.
+If you don't have Make, it (and other UNIX/Bash tools) may be accessible on Windows 10+ via [Chocolatey](https://chocolatey.org/install) (the WinGet version may be problematic) and on Mac via [HomeBrew](https://brew.sh/).
+
+We provide a traditional `requirements.txt` so you may also do the installation via Pip, if you know what you're doing.
 
 ### Usage
 
 For manual testing of individual data files, you can use the `scripts/validation_runner.py` script. For example:
 
 ```bash
-python scripts/validation_runner.py -d tests/test_data/shacl/dcat-ap-lu_dummy/dcat-ap-lu_dummy.ttl
+python scripts/validation_runner.py -d tests/test_data/shacl/dcat-ap-lu_dummy/dcat-ap-lu_dummy.ttl # or only -h to see all options
 ```
-
-Run the script without arguments to see all available options.
 
 Run all SHACL automated rule validation tests with:
 
@@ -85,11 +85,11 @@ Produce coverage reports for a set of predefined sample dataset with:
 make coverage-report-by-data
 ```
 
-If you still find yourself without Make, you can run the commands directly (with or without `uv`). See the `Makefile` for details.
+If you still find yourself without Make, you can run the underlying commands directly (with or without `uv`). See the `Makefile` for details.
 
-The coverage reports are generated under the `reports/` folder. The `data_entities` and `shacl_entities` subfolders contain intermediate files that may be useful for debugging or further analysis. The `coverage_by_data` subfolder contains the reports for the predefined sample datasets (with their own `data` and `shacl` intermediates).
+The coverage reports are generated under the `reports/` folder. The `data_entities` and `shacl_entities` subfolders contain intermediate reports that may be useful for debugging or further analysis. The `coverage_by_data` subfolder contains the reports for the predefined sample datasets (with their own `data` and `shacl` intermediates).
 
-What you are interested in are the `coverage_overall.*` files (named according to a MoSCow qualifier, information about which is extracted and stored in the `uml_entities.csv` file) and the `coverage` subfolder per dataset under `coverage_by_data`.
+What you are interested in are the `coverage_overall.*` files (named according to a MoSCow qualifier, information about which is extracted from the model and stored in the `uml_entities.csv` file) and the `coverage` subfolder per dataset under `coverage_by_data`.
 
 ## Version
 
@@ -97,11 +97,12 @@ What you are interested in are the `coverage_overall.*` files (named according t
 
 ## Contact
 
-Maintained by **Meaningfy WS** for the **Ministère de la Digitalisation** and **LNDS**.  
+Maintained by **[Meaningfy](http://meaningfy.ws/)** for the **[Ministère de la Digitalisation](https://mindigital.gouvernement.lu/) (MinDig)** and **[Luxembourg National Data Service](https://lnds.lu/) (LNDS)**.
+
 For questions or clarifications, reach out to the editorial team via [email](mailto:hi@meaningfy.ws).
 
-_Note: If you have any questions or discover any bugs, please put them on [GitHub issues](https://github.com/meaningfy-ws/dcat-ap-lu/edit/main/README.md) and we will address them._
+_Note: If you have any questions or discover any bugs, please put them on the [issue tracker](https://github.com/meaningfy-ws/dcat-ap-lu/issuesd) and we will address them._
 
 ## License
 
-- The documents, such as reports and specifications, are licenced under a  **CC‑BY 4.0**  licence.
+The documents, such as reports and specifications, are licenced under a  **CC‑BY 4.0**  licence.
