@@ -1,7 +1,7 @@
 type,value,status
 MUST,dcat:CatalogRecord foaf:primaryTopic,used
+MUST,dcat:Dataset dct:description,used
+MUST,dcat:Dataset dct:identifier,used
+MUST,dcat:Dataset dct:title,used
 MUST,dcat:Distribution dcat:accessURL,used
 MUST,skos:Concept skos:prefLabel,used
-MUST,dcat:Dataset dct:description,unused
-MUST,dcat:Dataset dct:identifier,unused
-MUST,dcat:Dataset dct:title,unused

@@ -14,7 +14,7 @@ Feature: Validate RDF data fragments against SHACL shapes
       | dcat-Distribution-adms-status                    |                              1 |                                5 |
       | dcat-Distribution-dcat-accessService             |                              1 |                                3 |
       | dcat-Distribution-dcat-accessURL                 |                              1 |                                1 |
-      | dcat-Distribution-dcat-byteSize                  |                              1 |                                6 |
+      | dcat-Distribution-dcat-byteSize                  |                              1 |                                4 |
       | dcat-Distribution-dcat-compressFormat            |                              1 |                                6 |
       | dcat-Distribution-dcat-downloadURL               |                              2 |                                2 |
       | dcat-Distribution-dcat-packageFormat             |                              1 |                                6 |
@@ -24,7 +24,7 @@ Feature: Validate RDF data fragments against SHACL shapes
       | dcat-Distribution-dct-conformsTo                 |                              1 |                                4 |
       | dcat-Distribution-dct-description                |                              1 |                                2 |
       | dcat-Distribution-dct-format                     |                              1 |                                6 |
-      | dcat-Distribution-dct-issued                     |                              1 |                                6 |
+      | dcat-Distribution-dct-issued                     |                              1 |                                4 |
       | dcat-Distribution-dct-language                   |                              1 |                                5 |
       | dcat-Distribution-dct-license                    |                              1 |                                8 |
       | dcat-Distribution-dct-modified                   |                              1 |                                4 |

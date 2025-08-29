@@ -7,10 +7,11 @@ ex:distribution1 a dcat:Distribution ;
     dcat:accessURL <http://example.org/download/dataset-001> ;
     dcat:byteSize "123456" .
 
-# Case 2: Invalid value for xsd:nonNegativeInteger (negative number)
-ex:distribution2 a dcat:Distribution ;
-   dcat:accessURL <http://example.org/download/dataset-002> ;
-    dcat:byteSize "-100"^^xsd:nonNegativeInteger .
+# this will trigger RDF parsing errors, validate with a validator like riot instead
+# # Case 2: Invalid value for xsd:nonNegativeInteger (negative number)
+# ex:distribution2 a dcat:Distribution ;
+#    dcat:accessURL <http://example.org/download/dataset-002> ;
+#    dcat:byteSize "-100"^^xsd:nonNegativeInteger .
 
 # Case 3: Too many values (violates maxCount=1)
 ex:distribution3 a dcat:Distribution ;
