@@ -1,5 +1,6 @@
 # DCAT‑AP‑LU
 
+
 **DCAT‑AP‑LU** is the Luxembourg-specific Application Profile of the DCAT‑AP standard, aligned with the [SEMIC guidelines](https://semiceu.github.io/style-guide/1.0.0/index.html) and built upon [DCAT‑AP v3](https://www.w3.org/TR/vocab-dcat-3/).
 
 ## Overview
